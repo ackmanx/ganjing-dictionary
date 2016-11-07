@@ -5,7 +5,8 @@ const logger = require('morgan')
 const cookieParser = require('cookie-parser')
 const bodyParser = require('body-parser')
 
-const indexRoutes = require('./routes/index')
+const indexRoutes = require('./routes/indexRouter')
+const searchRoutes = require('./routes/searchRouter')
 
 const app = express()
 
@@ -23,6 +24,7 @@ app.use(express.static(path.join(__dirname, 'public')))
 app.use(favicon(path.join(__dirname, 'public', 'favicon.png')))
 
 app.use('/', indexRoutes)
+app.use('/search/', searchRoutes)
 
 /**
  * Error handlers
