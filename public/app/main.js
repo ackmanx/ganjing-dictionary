@@ -21,8 +21,10 @@ define(function (require) {
             }
         },
         view: (ctrl) =>
-            m('div',
-                m('input[type=text]', {
+            //todo: add diff components for results and search bar
+            m('div#searchBarContainer',
+                m('button.hsk', 'HSK 1'),
+                m('input[type=text]#searchBar', {
                     oninput: m.withAttr('value', ctrl.query),
                     onkeyup: event => {
                         if (event.keyCode == ESC)
@@ -32,6 +34,7 @@ define(function (require) {
                     },
                     value: ctrl.query()
                 }),
+                m('button.search', 'En'),
                 ctrl.results().map((result) => m('p',
                     m('div', result.simplified()),
                     m('div', result.pinyin()),
