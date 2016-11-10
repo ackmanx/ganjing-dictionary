@@ -81,7 +81,8 @@ function initializeDatabase() {
 // Add record to database
 //----------------//----------------//----------------//----------------//----------------
 function addToDatabase(line) {
-    if (line.includes('#')) return
+    //For some reason I get a line that is an empty string, even though the file has no such line
+    if (!line || line.startsWith('#')) return
 
     /*
      * Format:
