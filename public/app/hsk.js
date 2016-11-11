@@ -2,8 +2,8 @@ define(function (require) {
 
     const m = require('mithril')
 
-    const levels = [
-        'All HSK',
+    const LEVELS = [
+        'ALL THE WORDS!',
         'HSK 1',
         'HSK 2',
         'HSK 3',
@@ -14,9 +14,16 @@ define(function (require) {
 
     return {
         controller: function () {
-            this.currentLevel= m.prop('All HSK')
+            this.currentLevel = m.prop(0)
+            this.nextHskLevel = () => {
+                const nextLevel = this.currentLevel() + 1
+                this.currentLevel(nextLevel < LEVELS.length ? nextLevel : 0)
+            }
         },
         view: (ctrl) =>
-            m('button.hsk', ctrl.currentLevel())
+            m('button.hsk', {
+                    onclick: ctrl.nextHskLevel
+                },
+                LEVELS[ctrl.currentLevel()])
     }
 })
