@@ -1,16 +1,9 @@
 //----------------//----------------//----------------//----------------//----------------
-// Start up
+// Modules
 //----------------//----------------//----------------//----------------//----------------
 const fs = require('fs')
 const readline = require('readline')
 const dirty = require('dirty')
-
-//This will be deleted and re-created on script run don't we don't have to bother with updates
-const databasePath = '../resources/dictionary.db'
-const dictionaryPath = '../resources/cedict_1_0_ts_utf-8_mdbg.txt'
-
-//Word lists available free at http://www.hskhsk.com/word-lists.html
-const hskPath = '../resources/HSK Official 2012 L<#>.txt'
 
 //ID generator function globally scoped so it doesn't reset
 const id = (function* idMaker() {
@@ -20,16 +13,45 @@ const id = (function* idMaker() {
     }
 })()
 
+
+//----------------//----------------//----------------//----------------//----------------
+// Database Config
+//----------------//----------------//----------------//----------------//----------------
+//Global references to various DBs we'll create
+let giantEffingDB
+const hskDB = {}
+
+//These will be deleted and re-created on script run don't we don't have to bother with updates
+const giantEffingDatabasePath = '../resources/giantEffingDictionary.db'
+const hskDatabasePath = '../resources/hsk<#>.db'
+
+//Dictionary available free at http://www.mdbg.net/chindict/chindict.php?page=cc-cedict
+const dictionaryPath = '../resources/sourceLists/cedict_1_0_ts_utf-8_mdbg.txt'
+//Word lists available free at http://www.hskhsk.com/word-lists.html
+const hskSourceListPath = '../resources/sourceLists/HSK Official 2012 L<#>.txt'
+
+
+//----------------//----------------//----------------//----------------//----------------
+// Pre-validation
+//----------------//----------------//----------------//----------------//----------------
 if (!fs.existsSync(dictionaryPath)) {
     console.error(`${dictionaryPath} not found`)
     process.exit()
+}
+
+for (let level = 1; level <= 6; level++) {
+    let levelPath = hskSourceListPath.replace('<#>', level)
+    if (!fs.existsSync(levelPath)) {
+        console.error(`${levelPath} not found`)
+        process.exit()
+    }
 }
 
 
 //----------------//----------------//----------------//----------------//----------------
 // Main
 //----------------//----------------//----------------//----------------//----------------
-const db = initializeDatabase()
+initializeDatabase()
 const hsk = loadHSK()
 
 const inStream = fs.createReadStream(dictionaryPath)
@@ -50,9 +72,9 @@ function loadHSK() {
     const hsk = {}
 
     for (let level = 1; level <= 6; level++) {
-        let levelPath = hskPath.replace('<#>', level)
+        let levelPath = hskSourceListPath.replace('<#>', level)
         const characters = fs.readFileSync(levelPath, 'utf8')
-        hsk[`hsk${level}`] = characters.split('\r\n')
+        hsk[level] = characters.split('\r\n')
     }
 
     return hsk
@@ -60,25 +82,26 @@ function loadHSK() {
 
 
 //----------------//----------------//----------------//----------------//----------------
-// Create/connect to db file and set up error handling
+// Create/connect to dbs
 //----------------//----------------//----------------//----------------//----------------
 function initializeDatabase() {
-    fs.unlinkSync(databasePath)
+    if (fs.existsSync(giantEffingDatabasePath)) {
+        fs.unlinkSync(giantEffingDatabasePath)
+    }
+    giantEffingDB = dirty(giantEffingDatabasePath)
 
-    const db = dirty(databasePath).on('load', () =>
-        console.log('database created and loaded')
-    )
-
-    db.on('error', function (error) {
-        console.error(error)
-    })
-
-    return db
+    for (let level = 1; level <= 6; level++) {
+        let hskDBPath = hskDatabasePath.replace('<#>', level)
+        if (fs.existsSync(hskDBPath)) {
+            fs.unlinkSync(hskDBPath)
+        }
+        hskDB[level] = dirty(hskDBPath)
+    }
 }
 
 
 //----------------//----------------//----------------//----------------//----------------
-// Add record to database
+// Add record to database(s)
 //----------------//----------------//----------------//----------------//----------------
 function addToDatabase(line) {
     //For some reason I get a line that is an empty string, even though the file has no such line
@@ -89,20 +112,26 @@ function addToDatabase(line) {
      * Traditional Simplified [pin1 yin1] /English equivalent 1/equivalent 2/
      */
     const [chineseHalf, ...englishHalves] = line.split('/')
-    englishHalves.pop()
+    englishHalves.pop() //throw away the empty element from the split
 
     const simplified = chineseHalf.split(' ', 2)[1]
     const pinyin = chineseHalf.split('[')[1].replace('] ', '')
+
+    const hskLevel = determineHSK(simplified)
 
     const entry = {
         simplified: simplified,
         pinyin: pinyin,
         pinyinNoTone: pinyin.replace(/\d/g, ''),
         english: englishHalves,
-        hsk: determineHSK(simplified)
+        hsk: hskLevel
     }
 
-    db.set(id.next().value, entry)
+    giantEffingDB.set(id.next().value, entry)
+
+    if (hskLevel) {
+        hskDB[hskLevel].set(id.next().value, entry)
+    }
 }
 
 
