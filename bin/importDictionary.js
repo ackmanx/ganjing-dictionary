@@ -22,7 +22,7 @@ let giantEffingDB
 const hskDB = {}
 
 //These will be deleted and re-created on script run don't we don't have to bother with updates
-const giantEffingDatabasePath = '../resources/giantEffingDictionary.db'
+const giantEffingDatabasePath = '../resources/giantEffing.db'
 const hskDatabasePath = '../resources/hsk<#>.db'
 
 //Dictionary available free at http://www.mdbg.net/chindict/chindict.php?page=cc-cedict

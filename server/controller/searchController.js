@@ -4,9 +4,18 @@
 const globals = require('../../globals')
 const router = require('express').Router()
 const levenshtein = require('fast-levenshtein')
+const debug = require('debug')('Chinese:searchController')
 
-const giantEffingDB = require('dirty')(globals.db_paths.giantEffingDictionary)
-const hsk1DB = require('dirty')(globals.db_paths.hsk1Dictionary)
+const dirty = require('dirty')
+const giantEffingDB = dirty(globals.db_paths.giantEffing)
+const hskDB = {
+    1: dirty(globals.db_paths.hsk1),
+    2: dirty(globals.db_paths.hsk2),
+    3: dirty(globals.db_paths.hsk3),
+    4: dirty(globals.db_paths.hsk4),
+    5: dirty(globals.db_paths.hsk5),
+    6: dirty(globals.db_paths.hsk6)
+}
 
 
 //----------------//----------------//----------------//----------------//----------------
@@ -15,27 +24,34 @@ const hsk1DB = require('dirty')(globals.db_paths.hsk1Dictionary)
 router.get('/:query', function (req, res, next) {
     const query = req.params.query.toLowerCase()
     const results = []
+    debug('query... ' + query)
 
     giantEffingDB.forEach((id, entry) => {
-
-        if (entry.simplified == query) {
-            results.push(entry)
+        //todo: break into functions
+        if (entry.simplified.includes(query)) {
+            const distance = levenshtein.get(query, entry.simplified)
+            if (distance <= 4) {
+                entry.distance = distance
+                results.push(entry)
+            }
         }
         if (entry.pinyin.toLowerCase().includes(query)) {
-            results.push(entry)
+            const distance = levenshtein.get(query, entry.pinyinNoTone)
+            if (distance <= 10) {
+                entry.distance = distance
+                results.push(entry)
+            }
         }
-        if (entry.english.join('|||').toLowerCase().indexOf(query) !== -1) {
-            results.push(entry)
+        if (entry.english.join('|||').toLowerCase().includes(query)) {
+            const distance = levenshtein.get(query, entry.english.join('|||').toLowerCase())
+            if (distance <= 10) {
+                entry.distance = distance
+                results.push(entry)
+            }
         }
     })
 
-    results.forEach((entry) => {
-        const distance = levenshtein.get(query, entry.pinyinNoTone)
-        if (distance < 10) {
-            console.error(query, entry.pinyinNoTone, distance)
-        }
-    })
-    console.error('search results size', results.length) //todo: delete me
+    debug('search results size... ' + results.length)
 
     res.send(results)
 })
@@ -49,26 +65,9 @@ router.get('/hsk/:level/:query', function (req, res, next) {
     const query = req.params.query
     const results = []
 
-    hsk1DB.forEach((id, entry) => {
-
-        if (entry.simplified == query) {
-            results.push(entry)
-        }
-        if (entry.pinyin.toLowerCase().includes(query)) {
-            results.push(entry)
-        }
-        if (entry.english.join('|||').toLowerCase().indexOf(query) !== -1) {
-            results.push(entry)
-        }
+    hskDB[level].forEach((id, entry) => {
+        //todo: cap from above
     })
-
-    results.forEach((entry) => {
-        const distance = levenshtein.get(query, entry.pinyinNoTone)
-        if (distance < 10) {
-            console.error(query, entry.pinyinNoTone, distance)
-        }
-    })
-    console.error('search results size', results.length) //todo: delete me
 
     res.send(results)
 })
