@@ -1,4 +1,4 @@
-const globals = require('../globals')
+const globals = require('../../globals')
 const router = require('express').Router()
 const db = require('dirty')(globals.db_paths.giantEffingDictionary)
 const levenshtein = require('fast-levenshtein')

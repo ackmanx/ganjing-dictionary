@@ -5,8 +5,8 @@ const logger = require('morgan')
 const cookieParser = require('cookie-parser')
 const bodyParser = require('body-parser')
 
-const indexRoutes = require('./routes/indexRouter')
-const searchRoutes = require('./routes/searchRouter')
+const indexRoutes = require('./server/controller/indexRouter')
+const searchRoutes = require('./server/controller/searchRouter')
 
 const app = express()
 
