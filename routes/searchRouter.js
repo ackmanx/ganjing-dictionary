@@ -1,5 +1,6 @@
+const globals = require('../globals')
 const router = require('express').Router()
-const db = require('dirty')(`${__dirname}/../resources/dictionary.db`)
+const db = require('dirty')(globals.db_paths.giantEffingDictionary)
 const levenshtein = require('fast-levenshtein')
 
 router.get('/:query', function (req, res, next) {

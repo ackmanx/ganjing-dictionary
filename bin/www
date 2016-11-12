@@ -3,13 +3,19 @@
 /**
  * Module dependencies.
  */
-const app = require('../app')
-const debug = require('debug')('Chinese:server')
+const debug = require('debug')('Chinese:www')
 const http = require('http')
 const dirty = require('dirty')
 
-const db = dirty(`${__dirname}/../resources/dictionary.db`).on('load', () =>
-    console.log('database created and loaded')
+const app = require('../app')
+const globals = require('../globals')
+
+//----------------//----------------//----------------//----------------//----------------
+// Initial database load so it's available in memory for searches
+//----------------//----------------//----------------//----------------//----------------
+debug('Loading database...')
+const db = dirty(globals.db_paths.giantEffingDictionary).on('load', () =>
+    debug('Database loaded!')
 )
 
 db.on('error', function (error) {
