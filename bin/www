@@ -6,6 +6,15 @@
 const app = require('../app')
 const debug = require('debug')('Chinese:server')
 const http = require('http')
+const dirty = require('dirty')
+
+const db = dirty(`${__dirname}/../resources/dictionary.db`).on('load', () =>
+    console.log('database created and loaded')
+)
+
+db.on('error', function (error) {
+    console.error(error)
+})
 
 /**
  * Get port from environment and store in Express.

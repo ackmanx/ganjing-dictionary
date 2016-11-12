@@ -97,6 +97,7 @@ function addToDatabase(line) {
     const entry = {
         simplified: simplified,
         pinyin: pinyin,
+        pinyinNoTone: pinyin.replace(/\d/g, ''),
         english: englishHalves,
         hsk: determineHSK(simplified)
     }
