@@ -15,7 +15,7 @@ const indexController = require('./server/controller/indexController')
 const searchController = require('./server/controller/searchController')
 
 app.use('/', indexController)
-app.use('/search/', searchController)
+app.use('/search', searchController)
 
 
 //----------------//----------------//----------------//----------------//----------------
