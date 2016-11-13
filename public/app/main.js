@@ -9,13 +9,6 @@ define(function (require) {
     const searchButton = require('searchButton')
     const results = require('results')
 
-    const Entry = function (data) {
-        this.simplified = m.prop(data.simplified || '')
-        this.pinyin = m.prop(data.pinyin || '')
-        this.english = m.prop(data.english || [])
-        this.hsk = m.prop(data.hsk || '')
-    }
-
     const app = {
         controller: function () {
             this.results = m.prop([])
@@ -23,7 +16,7 @@ define(function (require) {
         view: (ctrl) =>
             m('div#searchBarContainer',
                 hskButton,
-                m(searchBox, {Entry: Entry, results: ctrl.results}),
+                m(searchBox, {results: ctrl.results}),
                 searchButton,
                 m(results, {results: ctrl.results})
             )

@@ -1,12 +1,13 @@
 define(function (require) {
 
     const m = require('mithril')
+    const Entry = require('Entry')
 
     return {
         controller: function (args) {
             this.query = m.prop('')
             this.performSearch = () => {
-                m.request({method: 'GET', url: `/search/${this.query()}`, type: args.Entry}).then(args.results)
+                Entry.search(this.query()).then(args.results)
             }
         },
         view: (ctrl) =>

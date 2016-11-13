@@ -42,12 +42,9 @@ router.get('/:query', function (req, res, next) {
                 results.push(entry)
             }
         }
-        if (entry.english.join('|||').toLowerCase().includes(query)) {
-            const distance = levenshtein.get(query, entry.english.join('|||').toLowerCase())
-            if (distance <= 10) {
-                entry.distance = distance
-                results.push(entry)
-            }
+        if (entry.english.join('|').toLowerCase().includes(query)) {
+            //todo: levenshtein doesn't play nice here because we are joining. need to loop through each english and make a decision
+            results.push(entry)
         }
     })
 
