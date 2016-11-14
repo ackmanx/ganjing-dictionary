@@ -3,13 +3,14 @@ define(function (require) {
     const m = require('mithril')
 
     const LEVELS = [
-        'ALL THE WORDS!',
+        '---',
         'HSK 1',
         'HSK 2',
         'HSK 3',
         'HSK 4',
         'HSK 5',
-        'HSK 6'
+        'HSK 6',
+        'ALL THE HSK!',
     ]
 
     return {

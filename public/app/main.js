@@ -14,11 +14,14 @@ define(function (require) {
             this.results = m.prop([])
         },
         view: (ctrl) =>
-            m('div#searchBarContainer',
-                hskButton,
-                m(searchBox, {results: ctrl.results}),
-                searchButton,
-                m(results, {results: ctrl.results})
+            m('div',
+                m('div.logo.hanzi', '干净'),
+                m('div.the-rest-of-the-app',
+                    hskButton,
+                    m(searchBox, {results: ctrl.results}),
+                    searchButton,
+                    m(results, {results: ctrl.results})
+                )
             )
     }
 

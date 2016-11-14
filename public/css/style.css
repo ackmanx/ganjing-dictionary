@@ -3,12 +3,6 @@
  ----------------------------------------------------------------------*/
 body {
     font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-    margin-top: 10px;
-}
-
-#searchBarContainer {
-    width: 100%;
-    text-align: center;
 }
 
 button {
@@ -17,6 +11,20 @@ button {
     vertical-align: middle;
     outline: none;
     border: 1px solid black;
+}
+
+.logo {
+    content: '';
+    padding-left: 10px;
+    font-size: 32px;
+}
+
+.hanzi {
+    font-family: Times, serif;
+}
+
+.the-rest-of-the-app {
+    margin-left: 10px;
 }
 
 
