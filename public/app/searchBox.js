@@ -5,21 +5,21 @@ define(function (require) {
 
     return {
         controller: function (args) {
-            this.query = args.query
+            this.am = args.am
             this.performSearch = () => {
-                Entry.search(this.query()).then(args.results)
+                Entry.search(this.am.query()).then(this.am.results)
             }
         },
         view: (ctrl) =>
             m('input[type=text]#searchBar', {
-                oninput: m.withAttr('value', ctrl.query),
+                oninput: m.withAttr('value', ctrl.am.query),
                 onkeyup: event => {
                     if (event.keyCode == ESC)
-                        ctrl.query('')
+                        ctrl.am.query('')
                     else if (event.keyCode == ENTER)
                         ctrl.performSearch()
                 },
-                value: ctrl.query()
+                value: ctrl.am.query()
             })
     }
 })

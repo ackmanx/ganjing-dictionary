@@ -1,5 +1,6 @@
 #Left Off
-Need to update hsk button handler to make request and update results
+Search bar and hsk button get out of sync
+    HSK uses current query, but if user searches with bar it doesn't use the hsk
 
 #Design Desires
 Minimalist but not bland

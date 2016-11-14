@@ -8,20 +8,20 @@ define(function (require) {
     const searchBox = require('searchBox')
     const searchButton = require('searchButton')
     const results = require('results')
+    const AppModel = require('AppModel')
 
     const app = {
         controller: function () {
-            this.results = m.prop([])
-            this.query = m.prop('')
+            this.am = new AppModel()
         },
         view: (ctrl) =>
             m('div',
                 m('div.logo.hanzi', '干净'),
                 m('div.the-rest-of-the-app',
-                    m(hskButton, {results: ctrl.results, query: ctrl.query}),
-                    m(searchBox, {results: ctrl.results, query: ctrl.query}),
+                    m(hskButton, {am: ctrl.am}),
+                    m(searchBox, {am: ctrl.am}),
                     searchButton,
-                    m(results, {results: ctrl.results})
+                    m(results, {am: ctrl.am})
                 )
             )
     }

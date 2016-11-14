@@ -10,12 +10,14 @@ define(function (require) {
         this.hsk = m.prop(data.hsk || '')
     }
 
-    Entry.search = function (query) {
-        return m.request({method: 'GET', url: `/search/${query}`, type: Entry})
-    }
-
-    Entry.hskSearch = function (level, query) {
-        return m.request({method: 'GET', url: `/search/hsk/${level}/${query}`, type: Entry})
+     Entry.search = function (query, level) {
+        query = query || 'no-op'
+        if (level) {
+            return m.request({method: 'GET', url: `/search/hsk/${level}/${query}`, type: Entry})
+        }
+        else {
+            return m.request({method: 'GET', url: `/search/${query}`, type: Entry})
+        }
     }
 
     return Entry

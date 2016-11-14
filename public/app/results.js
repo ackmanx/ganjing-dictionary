@@ -4,11 +4,11 @@ define(function (require) {
 
     return {
         controller: function (args) {
-
+            this.am = args.am
         },
-        view: (ctrl, args) =>
+        view: (ctrl) =>
             m('span',
-                args.results().map((result) => m('p',
+                ctrl.am.results().map((result) => m('p',
                     m('div', result.simplified()),
                     m('div', result.pinyin()),
                     m('div', result.hsk()),

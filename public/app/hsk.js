@@ -15,20 +15,16 @@ define(function (require) {
 
     return {
         controller: function (args) {
-            this.currentLevel = m.prop(0)
-            this.query = args.query
+            this.am = args.am
             this.nextHskLevel = () => {
-                this.currentLevel(this.currentLevel() + 1 < LEVELS.length ? this.currentLevel() + 1 : 0)
-                if (!this.currentLevel())
-                    Entry.search(this.query()).then(args.results)
-                else
-                    Entry.hskSearch(this.currentLevel(), this.query()).then(args.results)
+                this.am.hskLevel(this.am.hskLevel() + 1 < LEVELS.length ? this.am.hskLevel() + 1 : 0)
+                Entry.search(this.am.query(), this.am.hskLevel()).then(this.am.results)
             }
         },
         view: (ctrl) =>
             m('button.hsk', {
                     onclick: ctrl.nextHskLevel
                 },
-                LEVELS[ctrl.currentLevel()])
+                LEVELS[ctrl.am.hskLevel()])
     }
 })
