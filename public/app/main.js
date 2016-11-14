@@ -12,13 +12,14 @@ define(function (require) {
     const app = {
         controller: function () {
             this.results = m.prop([])
+            this.query = m.prop('')
         },
         view: (ctrl) =>
             m('div',
                 m('div.logo.hanzi', '干净'),
                 m('div.the-rest-of-the-app',
-                    hskButton,
-                    m(searchBox, {results: ctrl.results}),
+                    m(hskButton, {results: ctrl.results, query: ctrl.query}),
+                    m(searchBox, {results: ctrl.results, query: ctrl.query}),
                     searchButton,
                     m(results, {results: ctrl.results})
                 )

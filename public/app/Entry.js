@@ -14,6 +14,9 @@ define(function (require) {
         return m.request({method: 'GET', url: `/search/${query}`, type: Entry})
     }
 
-    return Entry
+    Entry.hskSearch = function (level, query) {
+        return m.request({method: 'GET', url: `/search/hsk/${level}/${query}`, type: Entry})
+    }
 
+    return Entry
 })

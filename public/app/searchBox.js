@@ -5,7 +5,7 @@ define(function (require) {
 
     return {
         controller: function (args) {
-            this.query = m.prop('')
+            this.query = args.query
             this.performSearch = () => {
                 Entry.search(this.query()).then(args.results)
             }
