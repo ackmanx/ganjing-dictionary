@@ -4,6 +4,7 @@
 const fs = require('fs')
 const readline = require('readline')
 const dirty = require('dirty')
+const concat = require('concat-files');
 
 //ID generator function globally scoped so it doesn't reset
 const id = (function* idMaker() {
@@ -62,7 +63,24 @@ const rl = readline.createInterface({
 console.log('starting processing of dictionary file')
 
 rl.on('line', line => addToDatabase(line))
-rl.on('close', () => console.log('finished processing dictionary'))
+rl.on('close', () => {
+    //Now that all databases are created, add up the HSK ones for an uber-HSK database
+    concat(
+        [
+            //input files
+            '../resources/hsk1.db',
+            '../resources/hsk2.db',
+            '../resources/hsk3.db',
+            '../resources/hsk4.db',
+            '../resources/hsk5.db',
+            '../resources/hsk6.db'
+        ],
+        //output file
+        '../resources/uber-hsk.db',
+        () => console.log('finished creating uber-hsk')
+    );
+    console.log('finished processing dictionary')
+})
 
 
 //----------------//----------------//----------------//----------------//----------------

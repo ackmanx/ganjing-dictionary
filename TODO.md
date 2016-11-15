@@ -9,3 +9,10 @@ Simple browse of HSK
 Search either chinese, pinyin, english or all
 
 Small logo bar on top?
+
+Need Node 6.9.1
+
+npm install
+
+Need environment variable, which can be confused in Run Configuration.
+    DEBUG=Chinese:*

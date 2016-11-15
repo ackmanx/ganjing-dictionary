@@ -7,13 +7,14 @@
     },
     "dependencies": {
         "body-parser": "~1.15.2",
+        "concat-files": "^0.1.0",
         "cookie-parser": "~1.4.3",
         "debug": "~2.2.0",
+        "dirty": "latest",
         "express": "~4.14.0",
+        "fast-levenshtein": "latest",
         "hbs": "~4.0.1",
         "morgan": "~1.7.0",
-        "serve-favicon": "~2.3.0",
-        "dirty": "latest",
-        "fast-levenshtein": "latest"
+        "serve-favicon": "~2.3.0"
     }
 }

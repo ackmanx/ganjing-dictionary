@@ -5,35 +5,17 @@ body {
     font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
-button {
-    width: 8%;
-    height: 40px;
-    vertical-align: middle;
-    outline: none;
-    border: 1px solid black;
-}
-
 .logo {
-    content: '';
     padding-left: 10px;
     font-size: 32px;
-}
-
-.hanzi {
-    font-family: Times, serif;
 }
 
 .the-rest-of-the-app {
     margin-left: 10px;
 }
 
-
-/* ----------------------------------------------------------------------
- * HSK
- ----------------------------------------------------------------------*/
-
-button.hsk {
-    margin-right: 5px;
+.hanzi {
+    font-family: Times, serif;
 }
 
 
@@ -52,8 +34,14 @@ button.hsk {
 
 
 /* ----------------------------------------------------------------------
+ * HSK
+ ----------------------------------------------------------------------*/
+
+
+
+
+
+/* ----------------------------------------------------------------------
  * Search Buttons
  ----------------------------------------------------------------------*/
-button.search {
-    margin-left: 5px;
-}
+

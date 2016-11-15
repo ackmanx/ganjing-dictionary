@@ -18,9 +18,9 @@ define(function (require) {
             m('div',
                 m('div.logo.hanzi', '干净'),
                 m('div.the-rest-of-the-app',
-                    m(hskButton, {am: ctrl.am}),
                     m(searchBox, {am: ctrl.am}),
                     searchButton,
+                    m(hskButton, {am: ctrl.am}),
                     m(results, {am: ctrl.am})
                 )
             )
