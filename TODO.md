@@ -1,18 +1,11 @@
 #Left Off
-Search bar and hsk button get out of sync
-    HSK uses current query, but if user searches with bar it doesn't use the hsk
+* Enable HSK only button
 
-#Design Desires
-Minimalist but not bland
-Simple HSK filtering of search term
-Simple browse of HSK
-Search either chinese, pinyin, english or all
+#Future Fun
+* Help text on initial page load
 
-Small logo bar on top?
-
-Need Node 6.9.1
-
-npm install
-
-Need environment variable, which can be confused in Run Configuration.
-    DEBUG=Chinese:*
+#Dev Setup
+* Need Node 6.9.1
+* npm install
+* Need environment variable, which can be confused in Run Configuration.
+  * DEBUG=Chinese:*

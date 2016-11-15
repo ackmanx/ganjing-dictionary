@@ -6,10 +6,13 @@ define(function (require) {
     return {
         controller: function (args) {
             this.am = args.am
+            this.hskSearch = () => {
+                Entry.search(this.am.query(), true).then(this.am.results)
+            }
         },
         view: (ctrl) =>
             m('button.hsk', {
-                    onclick: () => console.log('meh')
+                    onclick: ctrl.hskSearch
                 },
                 'shrug'
             )

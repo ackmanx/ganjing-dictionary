@@ -8,9 +8,7 @@ define(function (require) {
         },
         view: (ctrl) =>
             m('span',
-                m('button.search', '中文'),
-                m('button.search', 'Pinyin'),
-                m('button.search', 'En')
+                m('button.search', '中文')
             )
     }
 })

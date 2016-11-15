@@ -10,15 +10,12 @@ define(function (require) {
         this.hsk = m.prop(data.hsk || '')
     }
 
-     Entry.search = function (query, hskOnly) {
-         //Cheat to get no results instead of a 404 because I don't know to use Express
+    Entry.search = function (query, hskOnly) {
+        //Cheat to get no results instead of a 404 because I don't know to use Express
         query = query || 'no-op'
-        if (hskOnly) {
-            return m.request({method: 'GET', url: `/search/hsk/${query}`, type: Entry})
-        }
-        else {
-            return m.request({method: 'GET', url: `/search/${query}`, type: Entry})
-        }
+        const url = `/search/${query}?hskOnly=${hskOnly ? hskOnly : ''}`
+
+        return m.request({method: 'GET', url: url, type: Entry})
     }
 
     return Entry
