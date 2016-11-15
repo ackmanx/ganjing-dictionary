@@ -12,6 +12,7 @@ define(function (require) {
         },
         view: (ctrl) =>
             m('input[type=text]#searchBar', {
+                autofocus: true,
                 oninput: m.withAttr('value', ctrl.am.query),
                 onkeyup: event => {
                     if (event.keyCode == ESC)
