@@ -11,10 +11,14 @@ define(function (require) {
             }
         },
         view: (ctrl) =>
-            m('button.hsk', {
-                    onclick: ctrl.hskSearch
-                },
-                'shrug'
+            m('div',
+                m('label.switch', {
+                        onchange: ctrl.hskSearch
+                    },
+                    m('input[type=checkbox]'),
+                    m('div.slider')
+                ),
+                m('span', 'HSK Only')
             )
     }
 })
