@@ -7,8 +7,8 @@ define(function (require) {
         controller: function (args) {
             this.am = args.am
             this.hskSearch = () => {
-                const hskOnly = this.am.hskOnly(!this.am.hskOnly())
-                Entry.search(this.am.query(), hskOnly).then(this.am.results)
+                this.am.hskOnly(!this.am.hskOnly())
+                Entry.search(this.am).then(this.am.results)
             }
         },
         view: (ctrl) =>

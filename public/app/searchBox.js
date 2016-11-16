@@ -7,7 +7,7 @@ define(function (require) {
         controller: function (args) {
             this.am = args.am
             this.performSearch = () => {
-                Entry.search(this.am.query()).then(this.am.results)
+                Entry.search(this.am).then(this.am.results)
             }
         },
         view: (ctrl) =>

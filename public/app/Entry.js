@@ -10,12 +10,12 @@ define(function (require) {
         this.hsk = m.prop(data.hsk || '')
     }
 
-    Entry.search = function (query, hskOnly) {
+    Entry.search = function (appModel) {
         //Cheat to get no results instead of a 404 because I don't know to use Express
-        query = query || 'no-op'
-        const url = `/search/${query}?hskOnly=${hskOnly ? hskOnly : ''}`
+        const query = appModel.query() || 'no-op'
+        const hskOnly = appModel.hskOnly() || ''
 
-        return m.request({method: 'GET', url: url, type: Entry})
+        return m.request({method: 'GET', url: `/search/${query}?hskOnly=${hskOnly}`, type: Entry})
     }
 
     return Entry
