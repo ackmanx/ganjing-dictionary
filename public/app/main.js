@@ -15,12 +15,16 @@ define(function (require) {
             this.am = new AppModel()
         },
         view: (ctrl) =>
-            m('div',
-                m('div.logo.hanzi', '干净'),
-                m('div.the-rest-of-the-app',
-                    m(searchBox, {am: ctrl.am}),
-                    searchButton,
-                    m(hskButton, {am: ctrl.am}),
+            m('div#wrapper',
+                m('header',
+                    m('h1', '干净 gānjìng')
+                ),
+                m('main',
+                    m('div',
+                        m(searchBox, {am: ctrl.am}),
+                        searchButton,
+                        m(hskButton, {am: ctrl.am})
+                    ),
                     m(results, {am: ctrl.am})
                 )
             )
