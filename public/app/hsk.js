@@ -12,14 +12,14 @@ define(function (require) {
             }
         },
         view: (ctrl) =>
-            m('div',
-                m('label.switch', {
-                        onchange: ctrl.hskSearch
-                    },
-                    m('input[type=checkbox]'),
-                    m('div.slider')
-                ),
-                m('span', 'HSK Only')
+            m('label.switch', {
+                    onchange: ctrl.hskSearch
+                },
+                m('input[type=checkbox]'),
+                m('div.slider',
+                    m.trust('HSK &nbsp;'),
+                    m('span', 'Off')
+                )
             )
     }
 })

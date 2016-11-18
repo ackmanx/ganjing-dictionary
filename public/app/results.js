@@ -8,11 +8,11 @@ define(function (require) {
         },
         view: (ctrl) =>
             m('span',
-                ctrl.am.results().map((result) => m('p',
-                    m('div', result.simplified()),
-                    m('div', result.pinyin()),
-                    m('div', result.hsk()),
-                    result.english().map((it) => m('div', it))
+                ctrl.am.results().map((result) => m('div.listing',
+                    m('span', result.simplified()),
+                    m('span', result.pinyin()),
+                    m('span', result.hsk()),
+                    result.english().map((it) => m('span', it))
                 ))
             )
     }

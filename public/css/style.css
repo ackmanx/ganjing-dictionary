@@ -68,6 +68,12 @@ button:hover {
     transition: all 0.5s;
 }
 
+button:active {
+    background-color: rgb(25, 86, 145);
+    color: rgba(255, 255, 255, 1.00);
+    transition: all 0.5s;
+}
+
 .slider {
     color: rgba(255, 255, 255, 1.00);
     line-height: 52px;
