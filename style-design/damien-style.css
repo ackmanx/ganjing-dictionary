@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: rgba(244, 244, 244, 1.00);
+    font: 14px 'Open Sans', sans-serif;
+}
+
+#wrapper {
+    width: 1200px;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(100, 100, 100, 0.10);
+}
+
+header {
+    background-color: rgba(33, 150, 243, 1.00);
+    color: rgba(255, 255, 255, 1.00);
+    padding: 15px;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 300;
+    padding: 0px 20px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.40);
+}
+
+main {
+    background-color: rgba(255, 255, 255, 1.00);
+    padding: 15px 80px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+#searchBar {
+    border: 1px solid rgba(192, 192, 192, 0.80);
+    padding: 15px;
+    font-weight: 300;
+    font-size: 18px;
+    height: auto;
+    color: rgba(40, 40, 40, 1.00);
+    border-radius: 3px;
+    width: 795px;
+    outline: none;
+}
+
+button {
+    border: 1px solid rgba(192, 192, 192, 0.90);
+    padding: 15px 25px;
+    font-weight: 300;
+    font-size: 18px;
+    height: auto;
+    color: rgba(40, 40, 40, 1.00);
+    cursor: pointer;
+    background-color: rgba(241, 241, 241, 1.00);
+    transition: all 0.5s;
+    border-radius: 3px;
+    margin-left: 10px;
+    outline: none;
+}
+
+button:hover {
+    background-color: rgba(33, 150, 243, 1.00);
+    color: rgba(255, 255, 255, 1.00);
+    transition: all 0.5s;
+}
+
+.slider {
+    color: rgba(255, 255, 255, 1.00);
+    line-height: 52px;
+    padding: 0px 10px;
+    border-radius: 3px;
+    height: 53px;
+    width: 74px;
+    -webkit-margin-before: -1px; /* Why Chrome? https://www.youtube.com/watch?v=QiZNSzWIaLo */
+}
+
+.slider::before {
+    content: "HSK";
+    line-height: 43px;
+    color: rgba(21, 19, 19, 1.00);
+    padding: 0px 3px;
+    width: 35px;
+    height: 42px;
+    border-radius: 3px;
+    left: 7px;
+    margin-bottom: 2px;
+}
+
+label {
+    display: inline-block;
+}
+
+.switch {
+    height: 31px;
+    margin-left: 10px;
+}
+
+.switch span {
+    color: rgba(0, 0, 0, 1.00);
+}
+
+.listing {
+    margin: 20px 0px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.listing:first-child {
+    margin: 50px 0px 20px 0px;
+}
+
+.listing:last-child {
+    margin: 20px 0px 50px 0px;
+}
+
+.listing:nth-child(even) {
+    background-color: rgba(248, 248, 248, 1.00);
+}
+
+.listing span {
+    display: block;
+    color: rgba(62, 62, 62, 1.00);
+}
+
+/** changed from other css */
+@media only screen and (max-width: 1200px) {
+    #wrapper {
+        width: 900px;
+    }
+
+    main {
+        padding: 15px 20px;
+    }
+
+    #searchBar {
+        width: 615px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    #wrapper {
+        width: 100%;
+    }
+
+    #searchBar {
+        width: 35%;
+    }
+}
+	
