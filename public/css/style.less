@@ -60,53 +60,18 @@ button {
     border-radius: 3px;
     margin-left: 10px;
     outline: none;
-}
 
-button:hover {
-    background-color: rgba(33, 150, 243, 1.00);
-    color: rgba(255, 255, 255, 1.00);
-    transition: all 0.5s;
-}
+    &:hover {
+        background-color: rgba(33, 150, 243, 1.00);
+        color: rgba(255, 255, 255, 1.00);
+        transition: all 0.5s;
+    }
 
-button:active {
-    background-color: rgb(25, 86, 145);
-    color: rgba(255, 255, 255, 1.00);
-    transition: all 0.5s;
-}
-
-.slider {
-    color: rgba(255, 255, 255, 1.00);
-    line-height: 52px;
-    padding: 0px 10px;
-    border-radius: 3px;
-    height: 53px;
-    width: 74px;
-    -webkit-margin-before: -1px; /* Why Chrome? https://www.youtube.com/watch?v=QiZNSzWIaLo */
-}
-
-.slider::before {
-    content: "HSK";
-    line-height: 43px;
-    color: rgba(21, 19, 19, 1.00);
-    padding: 0px 3px;
-    width: 35px;
-    height: 42px;
-    border-radius: 3px;
-    left: 7px;
-    margin-bottom: 2px;
-}
-
-label {
-    display: inline-block;
-}
-
-.switch {
-    height: 31px;
-    margin-left: 10px;
-}
-
-.switch span {
-    color: rgba(0, 0, 0, 1.00);
+    &:active {
+        background-color: rgb(25, 86, 145);
+        color: rgba(255, 255, 255, 1.00);
+        transition: all 0.5s;
+    }
 }
 
 .listing {
