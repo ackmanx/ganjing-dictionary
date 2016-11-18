@@ -4,6 +4,7 @@ const favicon = require('serve-favicon')
 const logger = require('morgan')
 const cookieParser = require('cookie-parser')
 const bodyParser = require('body-parser')
+const expressLess = require('express-less')
 
 const app = express()
 
@@ -36,6 +37,8 @@ app.use(bodyParser.urlencoded({extended: false}))
 //Serve the public folder as static resource
 app.use(express.static(path.join(__dirname, 'public')))
 app.use(favicon(path.join(__dirname, 'public', 'favicon.png')))
+
+app.use('/css', expressLess(`${__dirname}/public/css`))
 
 
 //----------------//----------------//----------------//----------------//----------------
