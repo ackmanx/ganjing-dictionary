@@ -8,6 +8,7 @@ const expressLess = require('express-less')
 const dirty = require('dirty')
 const debug = require('debug')('Chinese:app')
 const fs = require('fs')
+const compression = require('compression')
 
 const globals = require('./globals')
 
@@ -62,6 +63,7 @@ app.set('view engine', 'hbs')
 //----------------//----------------//----------------//----------------//----------------
 app.use(logger('dev'))
 app.use(cookieParser())
+app.use(compression()) //enables gzip
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended: false}))
 
