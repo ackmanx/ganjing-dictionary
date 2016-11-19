@@ -36,7 +36,7 @@ app.use(bodyParser.urlencoded({extended: false}))
 
 //Serve the public folder as static resource
 app.use(express.static(path.join(__dirname, 'public')))
-app.use(favicon(path.join(__dirname, 'public', 'favicon.png')))
+app.use(favicon(path.join(__dirname, 'public', 'favicon-128.png')))
 
 app.use('/css', expressLess(`${__dirname}/public/css`))
 
