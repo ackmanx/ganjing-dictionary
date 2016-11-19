@@ -5,28 +5,8 @@
  */
 const debug = require('debug')('Chinese:www')
 const http = require('http')
-const dirty = require('dirty')
 
 const app = require('../app')
-const globals = require('../globals')
-
-//----------------//----------------//----------------//----------------//----------------
-// Initial database loads so they're available in memory for searches
-//----------------//----------------//----------------//----------------//----------------
-debug('Loading databases...')
-dirty(globals.db_paths.giantEffing).on('load', () =>
-    debug(`giant effing database loaded!`)
-).on('error', function (error) {
-    debug(error)
-})
-
-for (let level = 1; level <= 6; level++) {
-    dirty(globals.db_paths[`hsk${level}`]).on('load', () =>
-        debug(`hsk${level} database loaded!`)
-    ).on('error', function (error) {
-        debug(error)
-    })
-}
 
 
 /**

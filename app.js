@@ -5,8 +5,39 @@ const logger = require('morgan')
 const cookieParser = require('cookie-parser')
 const bodyParser = require('body-parser')
 const expressLess = require('express-less')
+const dirty = require('dirty')
+const debug = require('debug')('Chinese:app')
+const fs = require('fs')
+
+const globals = require('./globals')
 
 const app = express()
+
+
+//----------------//----------------//----------------//----------------//----------------
+// Initial database loads so they're available in memory for searches
+//----------------//----------------//----------------//----------------//----------------
+debug('Loading databases...')
+
+for (const key in globals.db_paths) {
+    const path = globals.db_paths[key]
+    if (!fs.existsSync(path)) {
+        debug(`${path} is not found. That's not good. You should fix that.`)
+    }
+}
+
+dirty(globals.db_paths.giantEffing).on('load', () =>
+    debug(`giant effing database loaded!`)
+).on('error', function (error) {
+    debug(error)
+})
+
+dirty(globals.db_paths.uberHsk).on('load', () =>
+    debug(`uber hsk database loaded!`)
+).on('error', function (error) {
+    debug(error)
+})
+
 
 
 //----------------//----------------//----------------//----------------//----------------
