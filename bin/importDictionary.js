@@ -140,7 +140,7 @@ function addToDatabase(line) {
     const entry = {
         simplified: simplified,
         pinyin: pinyin,
-        pinyinNoTone: pinyin.replace(/\d/g, ''),
+        pinyinNoTone: pinyin.replace(/\d/g, '').toLocaleLowerCase(),
         english: englishHalves,
         hsk: hskLevel
     }

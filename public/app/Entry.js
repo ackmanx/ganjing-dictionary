@@ -12,7 +12,7 @@ define(function (require) {
 
     Entry.search = function (appModel) {
         //Cheat to get no results instead of a 404 because I don't know to use Express
-        const query = appModel.query() || 'no-op'
+        const query = appModel.query() || 'XemptyX'
         const hskOnly = appModel.hskOnly() || ''
 
         return m.request({method: 'GET', url: `/search/${query}?hskOnly=${hskOnly}`, type: Entry})

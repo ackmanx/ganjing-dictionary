@@ -12,11 +12,18 @@ const uberHskDB = dirty(globals.db_paths.uberHsk)
 
 //------------------------------------------------------------------------------------------------------------
 router.get('/:query', function (req, res, next) {
-    const query = req.params.query.toLowerCase()
+    const query = req.params.query
     const hskOnly = req.query.hskOnly
     const results = []
 
-    if (hskOnly === 'true') {
+    //If query is not Chinese, check the length to avoid thousands and thousands and thousands of results
+    if (query === 'XemptyX' || /[a-zA-Z]/.test(query) && query.length === 1) {
+        debug(`Query ${query} is too short... skipping search`)
+        res.send(results)
+        return
+    }
+
+    if (hskOnly) {
         uberHskDB.forEach((id, entry) => {
             search(query, entry, results)
         })
@@ -34,23 +41,26 @@ router.get('/:query', function (req, res, next) {
 
 //------------------------------------------------------------------------------------------------------------
 function search(query, entry, results) {
-    //todo: break into functions
+    query = query.toLowerCase()
+
+    /*
+     * Cannot do levenshtein as the conditional because 'ab' and 'cd' would be a 2, which appears relevent even though it is not
+     */
     if (entry.simplified.includes(query)) {
         const distance = levenshtein.get(query, entry.simplified)
-        if (distance <= 4) {
+        if (distance <= 10) {
             entry.distance = distance
             results.push(entry)
         }
     }
-    if (entry.pinyin.toLowerCase().includes(query)) {
+    else if (entry.pinyinNoTone.includes(query)) {
         const distance = levenshtein.get(query, entry.pinyinNoTone)
         if (distance <= 10) {
             entry.distance = distance
             results.push(entry)
         }
     }
-    if (entry.english.join('|').toLowerCase().includes(query)) {
-        //todo: levenshtein doesn't play nice here because we are joining. need to loop through each english and make a decision
+    else if (entry.english.join('|').toLowerCase().includes(query)) {
         results.push(entry)
     }
 }
