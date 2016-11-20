@@ -1,6 +1,9 @@
 #Left Off
 * Allow whitelisted 1 letter words
 * Sort results by relevance
+    * Ascending order by distance
+    * Ascending order by HSK
+* Style results into columns
 
 #Future Fun
 * Levenshtein for english
@@ -10,9 +13,12 @@
 * Mobile should defocus search input on search so the keyboard goes away
 * HSK css animation stalls with large result sets
     * It appears that the animation waits for the response to come back, by then it's too late and it just jumps instead
-* About page with credits and contact (if I feel like putting that in there)
+* About page
+    * Credits
+    * Contact
+    * Total searches count
 * Google Analytics for shits and giggles
-* Highlight search hitss
+* Highlight search hits
 
 #Dev Setup
 * Need Node 6.9.1

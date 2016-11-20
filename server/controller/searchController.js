@@ -10,6 +10,7 @@ const dirty = require('dirty')
 const giantEffingDB = dirty(globals.db_paths.giantEffing)
 const uberHskDB = dirty(globals.db_paths.uberHsk)
 
+
 //------------------------------------------------------------------------------------------------------------
 router.get('/:query', function (req, res, next) {
     const query = req.params.query
@@ -39,6 +40,7 @@ router.get('/:query', function (req, res, next) {
     res.send(results)
 })
 
+
 //------------------------------------------------------------------------------------------------------------
 function search(query, entry, results) {
     query = query.toLowerCase()
@@ -60,8 +62,21 @@ function search(query, entry, results) {
             results.push(entry)
         }
     }
-    else if (entry.english.join('|').toLowerCase().includes(query)) {
-        results.push(entry)
+    else {
+        let addEntry = false
+        entry.distance = 99
+
+        entry.english.forEach(it => {
+            if (it.toLowerCase().includes(query)) {
+                const distance = levenshtein.get(query, it)
+                if (distance <= 30) {
+                    if (distance < entry.distance) entry.distance = distance
+                    addEntry = true
+                }
+            }
+        })
+
+        if (addEntry) results.push(entry)
     }
 }
 

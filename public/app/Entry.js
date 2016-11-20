@@ -8,14 +8,16 @@ define(function (require) {
         this.pinyin = m.prop(data.pinyin || '')
         this.english = m.prop(data.english || [])
         this.hsk = m.prop(data.hsk || '')
+        this.distance = m.prop(data.distance >= 0 ? data.distance : '')
     }
 
     Entry.search = function (appModel) {
-        //Cheat to get no results instead of a 404 because I don't know to use Express
-        const query = appModel.query() || 'XemptyX'
-        const hskOnly = appModel.hskOnly() || ''
+        let query = appModel.query().replace(/[!@^&-=_\[\]|;`\/\\#,+()$~%.'":*?<>{}]/g, '').trim()
 
-        return m.request({method: 'GET', url: `/search/${query}?hskOnly=${hskOnly}`, type: Entry})
+        //Cheat to get no results instead of a 404 because I don't know to use Express
+        query = query || 'XemptyX'
+
+        return m.request({method: 'GET', url: `/search/${query}?hskOnly=${appModel.hskOnly()}`, type: Entry})
     }
 
     return Entry
