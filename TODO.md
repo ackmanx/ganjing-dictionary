@@ -19,6 +19,8 @@
     * Total searches count
 * Google Analytics for shits and giggles
 * Highlight search hits
+* Caching?
+    * https://github.com/expressjs/serve-static
 
 #Dev Setup
 * Need Node 6.9.1
