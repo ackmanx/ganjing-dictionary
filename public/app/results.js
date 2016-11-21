@@ -9,13 +9,15 @@ define(function (require) {
         view: (ctrl) =>
             m('span.results',
                 ctrl.am.results().length ? m('div.results-counter', `${ctrl.am.results().length} results`) : '',
-                ctrl.am.results().map((result) =>
+                ctrl.am.results().map((entry) =>
                     m('div.listing',
-                        m('span.simplified', result.simplified()),
-                        m('span.pinyin', result.pinyin()),
-                        m('span.hsk', result.hsk()),
+                        m('span.simplified', entry.simplified()),
+                        m('span.pinyin', entry.pinyin()),
                         m('ul.english',
-                            result.english().map((it) => m('li', it))
+                            entry.english().map((it) => m('li', it))
+                        ),
+                        m('span.badges',
+                            entry.hsk() ? m('span.hsk', `HSK ${entry.hsk()}`) : ''
                         )
                     )
                 )
