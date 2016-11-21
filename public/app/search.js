@@ -12,7 +12,7 @@ define(function (require) {
             }
         },
         view: (ctrl) =>
-            m('div',
+            m('div.action-bar',
                 m('input[type=text]#searchBar', {
                     autofocus: true,
                     oninput: m.withAttr('value', ctrl.am.query),
