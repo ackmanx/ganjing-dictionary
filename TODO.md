@@ -1,7 +1,8 @@
 #Left Off
 * Allow whitelisted 1 letter words
-* Sort results by relevance
-    * Ascending order by HSK
+* DB generate script incorrect for HSK
+    * Some characters have multiple entries, where not all of the entries are HSK
+        * 号 as an example has a HSK 1 entry and a HSK nothing entry
 * Style results into columns
     * Icon for exact match results
 

@@ -39,7 +39,7 @@ router.get('/:query', function (req, res, next) {
 
     debug(`search results size for ${query}... ${results.length}`)
 
-    res.send(results)
+    res.send(sortByDistanceAndHSK(results))
 })
 
 
@@ -83,8 +83,6 @@ function searchSimplified(query, entry) {
 function searchPinyin(query, entry) {
     let result
 
-    debug(entry.pinyinNoTone)
-
     if (entry.pinyinNoTone.includes(query)) {
         const distance = levenshtein.get(query, entry.pinyinNoTone)
         if (distance <= 10) {
@@ -113,6 +111,24 @@ function searchEnglish(query, entry) {
     })
 
     return result
+}
+
+
+//------------------------------------------------------------------------------------------------------------
+function sortByDistanceAndHSK(results) {
+
+    results.sort(function compare(a, b) {
+        if (a.distance != b.distance) {
+            return a.distance - b.distance
+        }
+        else {
+            const hskA = (a.hsk === null ? 999 : a.hsk)
+            const hskB = (b.hsk === null ? 999 : b.hsk)
+            return hskA - hskB
+        }
+    })
+
+    return results
 }
 
 
