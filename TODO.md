@@ -1,9 +1,9 @@
 #Left Off
 * Allow whitelisted 1 letter words
 * Sort results by relevance
-    * Ascending order by distance
     * Ascending order by HSK
 * Style results into columns
+    * Icon for exact match results
 
 #Future Fun
 * Levenshtein for english

@@ -163,5 +163,5 @@ function determineHSK(simplified) {
         if (hsk[level].includes(simplified)) hskForCharacter = level
     }
 
-    return hskForCharacter
+    return parseInt(hskForCharacter)
 }

@@ -7,8 +7,8 @@ define(function (require) {
         this.simplified = m.prop(data.simplified || '')
         this.pinyin = m.prop(data.pinyin || '')
         this.english = m.prop(data.english || [])
-        this.hsk = m.prop(data.hsk || '')
-        this.distance = m.prop(data.distance >= 0 ? data.distance : '')
+        this.hsk = m.prop(data.hsk)
+        this.distance = m.prop(data.distance)
     }
 
     Entry.search = function (appModel) {
