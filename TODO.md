@@ -7,7 +7,7 @@
     * Icon for exact match results
 
 #Future Fun
-* Levenshtein for english
+* Pinyin tones
 * Specify search language
 * Help text on initial page load
 * Responsive design gets funky at 900px and below
