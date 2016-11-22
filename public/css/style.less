@@ -74,75 +74,39 @@ button {
     }
 }
 
-.listing {
-    margin: 20px 0px;
-    padding: 10px;
-    border-radius: 4px;
-    display: flex;
-}
+#results-list {
 
-.listing:first-child {
-    margin: 50px 0px 20px 0px;
-}
+    .listing {
+        margin: 20px 0px;
+        padding: 10px;
+        border-radius: 4px;
+        display: flex;
 
-.listing:last-child {
-    margin: 20px 0px 50px 0px;
-}
+        &:first-child {
+            margin: 50px 0px 20px 0px;
 
-.listing:nth-child(odd) {
-    background-color: rgb(236, 236, 236);
-}
+        }
 
-.listing span {
-    display: block;
-    color: rgba(62, 62, 62, 1.00);
-    margin: 0 2%;
-}
+        &:last-child {
+            margin: 20px 0px 50px 0px;
 
-.results-counter {
-    float: right;
-    margin-right: 10px;
-}
+        }
 
-@media only screen and (max-width: 1200px) {
-    #wrapper {
-        width: 900px;
+        &:nth-child(odd) {
+            background-color: rgb(236, 236, 236);
+
+        }
+
+        span {
+            display: block;
+            color: rgba(62, 62, 62, 1.00);
+            margin: 0 2%;
+        }
+
     }
 
-    main {
-        padding: 15px 20px;
-    }
-
-    #searchBar {
-        width: 615px;
-    }
-}
-
-@media only screen and (max-width: 900px) {
-    #wrapper {
-        width: 100%;
-    }
-
-    #searchBar {
-        width: 60%;
-    }
-}
-
-@media only screen and (max-width: 410px) {
-    #searchBar {
-        width: 90%;
-        margin-bottom: 15px;
-    }
-
-    main {
-        text-align: center;
-    }
-
-    button {
-        margin-left: -20px;
-    }
-
-    h1 {
-        margin: 0.25em 0;
+    .results-counter {
+        float: right;
+        margin-right: 10px;
     }
 }

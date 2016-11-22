@@ -7,7 +7,7 @@ define(function (require) {
             this.am = args.am
         },
         view: (ctrl) =>
-            m('span.results',
+            m('span#results-list',
                 ctrl.am.results().length ? m('div.results-counter', `${ctrl.am.results().length} results`) : '',
                 ctrl.am.results().map((entry) =>
                     m('div.listing',
