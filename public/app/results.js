@@ -7,18 +7,16 @@ define(function (require) {
             this.am = args.am
         },
         view: (ctrl) =>
-            m('span#results-list',
+            m('div#results-list',
                 ctrl.am.results().length ? m('div.results-counter', `${ctrl.am.results().length} results`) : '',
                 ctrl.am.results().map((entry) =>
                     m('div.listing',
-                        m('span.simplified', entry.simplified()),
-                        m('span.pinyin', entry.pinyin()),
-                        m('ul.english',
+                        m('span.simplified-col', entry.simplified()),
+                        m('span.pinyin-col', entry.pinyin()),
+                        m('ol.english-col',
                             entry.english().map((it) => m('li', it))
                         ),
-                        m('span.badges',
-                            entry.hsk() ? m('span.hsk', `HSK ${entry.hsk()}`) : ''
-                        )
+                        entry.hsk() ? m('span.hsk-col', `HSK ${entry.hsk()}`) : ''
                     )
                 )
             )

@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 * {
-    margin: 0px;
+    margin: 0;
 }
 
 body {
@@ -12,7 +12,7 @@ body {
 #wrapper {
     width: 1200px;
     margin: auto;
-    box-shadow: 0px 0px 10px rgba(100, 100, 100, 0.10);
+    box-shadow: 0 0 10px rgba(100, 100, 100, 0.10);
 }
 
 header {
@@ -24,7 +24,7 @@ header {
 h1 {
     font-size: 50px;
     font-weight: 300;
-    padding: 0px 20px;
+    padding: 0 20px;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.40);
 }
 
@@ -77,36 +77,51 @@ button {
 #results-list {
 
     .listing {
-        margin: 20px 0px;
+        margin: 20px 10px 20px 0;
         padding: 10px;
         border-radius: 4px;
         display: flex;
 
         &:first-child {
-            margin: 50px 0px 20px 0px;
+            margin: 50px 0 20px 0;
 
         }
 
         &:last-child {
-            margin: 20px 0px 50px 0px;
+            margin: 20px 0 50px 0;
 
         }
 
-        &:nth-child(odd) {
+        &:nth-child(even) {
             background-color: rgb(236, 236, 236);
 
         }
 
         span {
-            display: block;
             color: rgba(62, 62, 62, 1.00);
             margin: 0 2%;
+        }
+
+        .simplified-col{
+            white-space: nowrap;
+        }
+
+        .pinyin-col {
+            white-space: nowrap;
+        }
+
+        .english-col {
+            width: 100%;
+        }
+
+        .hsk-col {
+            white-space: nowrap;
         }
 
     }
 
     .results-counter {
-        float: right;
-        margin-right: 10px;
+        text-align: right;
+        margin: 10px 10px 0 0;
     }
 }

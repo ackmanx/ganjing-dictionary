@@ -7,6 +7,7 @@
     * Icon for exact match results
 
 #Future Fun
+* History
 * Pinyin tones
 * Specify search language
 * Help text on initial page load
