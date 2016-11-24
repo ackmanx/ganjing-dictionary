@@ -1,2 +1,29 @@
-{{! Whatever is in this file will get put into layout.hbs under body variable}}
-{{! This file is empty because Mithril attaches to the body, so there's no skeleton work to put here }}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{title}}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            text-align: center;
+        }
+        .huge {
+            font-size: 72px;
+        }
+        .less-huge {
+            font-size: 36px;
+        }
+        .not-huge {
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="huge">干净</div>
+<hr>
+<div class="less-huge">{{version}}</div>
+<div class="not-huge">{{date}}</div>
+
+</body>
+</html>

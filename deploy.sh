@@ -8,9 +8,12 @@ echo 'Generating new version number'
 echo ------------------------------------------------------------
 
 branch=`git branch | grep \* | awk '{print $2}'`
-version=`cat VERSION | cut -d ':' -f2`
+version=`cat VERSION | cut -d '#' -f2`
 version=$((version + 1))
-printf "$branch:$version" > VERSION
+date=`date`
+
+printf "$branch#$version#$date" > VERSION
+
 git reset HEAD --
 git add VERSION
 git commit -m "Version++"
