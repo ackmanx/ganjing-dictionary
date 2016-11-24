@@ -40,7 +40,6 @@ dirty(globals.db_paths.uberHsk).on('load', () =>
 })
 
 
-
 //----------------//----------------//----------------//----------------//----------------
 // Controller/Route Config
 //----------------//----------------//----------------//----------------//----------------
@@ -54,6 +53,8 @@ app.use('/search', searchController)
 //----------------//----------------//----------------//----------------//----------------
 // View Config
 //----------------//----------------//----------------//----------------//----------------
+//Don't use layout.hbs file as a central template, but instead let routes delegate which template
+app.set('view options', {layout: false})
 app.set('views', path.join(__dirname, 'server/views'))
 app.set('view engine', 'hbs')
 
