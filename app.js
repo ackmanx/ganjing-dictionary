@@ -21,7 +21,7 @@ const app = express()
 //----------------//----------------//----------------//----------------//----------------
 // Initial database loads so they're available in memory for searches
 //----------------//----------------//----------------//----------------//----------------
-debug('Loading databases...')
+debug('Loading databases... databases to load are: ', JSON.stringify(globals.db_paths, null, 4))
 let loaded = 0
 
 const emitter = new EventEmitter();
