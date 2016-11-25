@@ -10,6 +10,8 @@ const debug = require('debug')('Chinese:app')
 const fs = require('fs')
 const compression = require('compression')
 const hbs = require('hbs')
+const EventEmitter = require('events');
+
 
 const globals = require('./globals')
 
@@ -20,6 +22,16 @@ const app = express()
 // Initial database loads so they're available in memory for searches
 //----------------//----------------//----------------//----------------//----------------
 debug('Loading databases...')
+let loaded = 0
+
+const emitter = new EventEmitter();
+emitter.on('db-loaded', db => {
+    debug(`${db} has been loaded!`)
+    loaded++
+    if (loaded == 2) {
+        debug('All databases have been loaded!')
+    }
+});
 
 for (const key in globals.db_paths) {
     const path = globals.db_paths[key]
@@ -29,13 +41,13 @@ for (const key in globals.db_paths) {
 }
 
 dirty(globals.db_paths.giantEffing).on('load', () =>
-    debug(`giant effing database loaded!`)
+    emitter.emit('db-loaded', globals.db_paths.giantEffing)
 ).on('error', function (error) {
     debug(error)
 })
 
 dirty(globals.db_paths.uberHsk).on('load', () =>
-    debug(`uber hsk database loaded!`)
+    emitter.emit('db-loaded', globals.db_paths.uberHsk)
 ).on('error', function (error) {
     debug(error)
 })
