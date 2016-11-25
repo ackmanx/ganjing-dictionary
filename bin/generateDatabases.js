@@ -4,7 +4,7 @@
 const fs = require('fs')
 const readline = require('readline')
 const dirty = require('dirty')
-const concat = require('concat-files');
+const concat = require('concat-files')
 
 //ID generator function globally scoped so it doesn't reset
 const id = (function* idMaker() {
@@ -78,8 +78,9 @@ rl.on('close', () => {
         //output file
         '../resources/uber-hsk.db',
         () => console.log('finished creating uber-hsk')
-    );
+    )
     console.log('finished processing dictionary')
+    process.exit()
 })
 
 
@@ -133,14 +134,15 @@ function addToDatabase(line) {
     englishHalves.pop() //throw away the empty element from the split
 
     const simplified = chineseHalf.split(' ', 2)[1]
-    const pinyin = chineseHalf.split('[')[1].replace('] ', '')
+    const pinyinWithNumbers = chineseHalf.split('[')[1].replace('] ', '')
+    pinyinWithAccents = convertToneNumbersToAccents(pinyinWithNumbers)
 
     const hskLevel = determineHSK(simplified)
 
     const entry = {
         simplified: simplified,
-        pinyin: pinyin,
-        pinyinNoTone: pinyin.replace(/\d/g, '').toLocaleLowerCase(),
+        pinyin: pinyinWithAccents,
+        pinyinNoTone: pinyinWithNumbers.replace(/\d/g, '').toLocaleLowerCase(),
         english: englishHalves,
         hsk: hskLevel
     }
@@ -164,4 +166,89 @@ function determineHSK(simplified) {
     }
 
     return parseInt(hskForCharacter)
+}
+
+
+//----------------//----------------//----------------//----------------//----------------
+// Converts from tone numbers to accents for readability
+//----------------//----------------//----------------//----------------//----------------
+function convertToneNumbersToAccents(pinyin) {
+
+    return pinyin
+        .replace(/a1/g, "ā")
+        .replace(/a2/g, "á")
+        .replace(/a3/g, "ǎ")
+        .replace(/a4/g, "à")
+        .replace(/e1/g, "ē")
+        .replace(/e2/g, "é")
+        .replace(/e3/g, "ě")
+        .replace(/e4/g, "è")
+        .replace(/i1/g, "ī")
+        .replace(/i2/g, "í")
+        .replace(/i3/g, "ǐ")
+        .replace(/i4/g, "ì")
+        .replace(/o1/g, "ō")
+        .replace(/o2/g, "ó")
+        .replace(/o3/g, "ǒ")
+        .replace(/o4/g, "ò")
+        .replace(/u1/g, "ū")
+        .replace(/u2/g, "ú")
+        .replace(/u3/g, "ǔ")
+        .replace(/u4/g, "ù")
+        .replace(/ü1/g, "ǖ")
+        .replace(/ü2/g, "ǘ")
+        .replace(/ü3/g, "ǚ")
+        .replace(/ü4/g, "ǜ")
+        .replace(/an1/g, "ān")
+        .replace(/an2/g, "án")
+        .replace(/an3/g, "ǎn")
+        .replace(/an4/g, "àn")
+        .replace(/ang1/g, "āng")
+        .replace(/ang2/g, "áng")
+        .replace(/ang3/g, "ǎng")
+        .replace(/ang4/g, "àng")
+        .replace(/en1/g, "ēn")
+        .replace(/en2/g, "én")
+        .replace(/en3/g, "ěn")
+        .replace(/en4/g, "èn")
+        .replace(/eng1/g, "ēng")
+        .replace(/eng2/g, "éng")
+        .replace(/eng3/g, "ěng")
+        .replace(/eng4/g, "èng")
+        .replace(/in1/g, "īn")
+        .replace(/in2/g, "ín")
+        .replace(/in3/g, "ǐn")
+        .replace(/in4/g, "ìn")
+        .replace(/ing1/g, "īng")
+        .replace(/ing2/g, "íng")
+        .replace(/ing3/g, "ǐng")
+        .replace(/ing4/g, "ìng")
+        .replace(/ong1/g, "ōng")
+        .replace(/ong2/g, "óng")
+        .replace(/ong3/g, "ǒng")
+        .replace(/ong4/g, "òng")
+        .replace(/uv/g, "ǚ")
+        .replace(/un1/g, "ūn")
+        .replace(/un2/g, "ún")
+        .replace(/un3/g, "ǔn")
+        .replace(/un4/g, "ùn")
+        .replace(/er2/g, "ér")
+        .replace(/er3/g, "ěr")
+        .replace(/er4/g, "èr")
+        .replace(/aō/g, "āo")
+        .replace(/aó/g, "áo")
+        .replace(/aǒ/g, "ǎo")
+        .replace(/aò/g, "ào")
+        .replace(/oū/g, "ōu")
+        .replace(/oú/g, "óu")
+        .replace(/oǔ/g, "ǒu")
+        .replace(/où/g, "òu")
+        .replace(/aī/g, "āi")
+        .replace(/aí/g, "ái")
+        .replace(/aǐ/g, "ǎi")
+        .replace(/aì/g, "ài")
+        .replace(/eī/g, "ēi")
+        .replace(/eí/g, "éi")
+        .replace(/eǐ/g, "ěi")
+        .replace(/eī/g, "èi")
 }
