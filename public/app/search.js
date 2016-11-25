@@ -9,6 +9,7 @@ define(function (require) {
             this.am = args.am
             this.performSearch = () => {
                 Entry.search(this.am).then(this.am.results)
+                document.getElementById('searchBar').blur()
             }
         },
         view: (ctrl) =>
