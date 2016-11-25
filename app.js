@@ -9,6 +9,7 @@ const dirty = require('dirty')
 const debug = require('debug')('Chinese:app')
 const fs = require('fs')
 const compression = require('compression')
+const hbs = require('hbs')
 
 const globals = require('./globals')
 
@@ -57,7 +58,7 @@ app.use('/search', searchController)
 app.set('view options', {layout: false})
 app.set('views', path.join(__dirname, 'server/views'))
 app.set('view engine', 'hbs')
-
+hbs.registerPartials(path.join(__dirname, 'server/views/partials'))
 
 //----------------//----------------//----------------//----------------//----------------
 // Uhhh Stuff I Guess
