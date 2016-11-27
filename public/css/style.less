@@ -76,33 +76,54 @@ button {
 
 #results-list {
 
+    border-collapse: collapse;
+    border-spacing: 0;
+
     .listing {
         margin: 20px 10px 20px 0;
         padding: 10px;
         border-radius: 4px;
         display: flex;
+        width: 100%;
+
+        > div {
+            margin: 0 1%;
+
+            &:first-child {
+                width: 12%;
+            }
+
+            &:nth-child(2) {
+                width: 25%;
+            }
+
+            &:nth-child(3) {
+                width: 43%;
+            }
+
+            &:last-child {
+                width: 12%;
+            }
+        }
 
         &:first-child {
             margin: 50px 0 20px 0;
-
         }
 
         &:last-child {
             margin: 20px 0 50px 0;
-
         }
 
         &:nth-child(even) {
             background-color: rgb(236, 236, 236);
-
         }
 
-        span {
+        div {
             color: rgba(62, 62, 62, 1.00);
             margin: 0 2%;
         }
 
-        .simplified-col{
+        .simplified-col {
             white-space: nowrap;
         }
 
@@ -112,12 +133,15 @@ button {
 
         .english-col {
             width: 100%;
+
+            ol {
+                padding: 0 0 0 20px;
+            }
         }
 
         .hsk-col {
             white-space: nowrap;
         }
-
     }
 
     .results-counter {
