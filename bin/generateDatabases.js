@@ -14,6 +14,10 @@ const id = (function* idMaker() {
     }
 })()
 
+if (!process.cwd().endsWith('/bin')) {
+    console.error('Run script from the bin directory.')
+    process.exit(1)
+}
 
 //----------------//----------------//----------------//----------------//----------------
 // Database Config
@@ -23,25 +27,26 @@ let giantEffingDB
 const hskDB = {}
 
 //These will be deleted and re-created on script run don't we don't have to bother with updates
-const giantEffingDatabasePath = '../resources/giantEffing.db'
-const hskDatabasePath = '../resources/hsk<#>.db'
+const GIANT_EFFING_DB_PATH = '../resources/giantEffing.db'
+const HSK_DB_PATH = '../resources/hsk<#>.db'
 
 //Dictionary available free at http://www.mdbg.net/chindict/chindict.php?page=cc-cedict
-const dictionaryPath = '../resources/sourceLists/cedict_1_0_ts_utf-8_mdbg.txt'
+const SOURCE_DICTIONARY_PATH = '../resources/sourceLists/cedict_1_0_ts_utf-8_mdbg.txt'
 //Word lists available free at http://www.hskhsk.com/word-lists.html
-const hskSourceListPath = '../resources/sourceLists/HSK Official 2012 L<#>.txt'
+//Note this path is parsed later and <#> is replaced with a number
+const SOURCE_HSK_LIST_PATH = '../resources/sourceLists/HSK Official 2012 L<#>.txt'
 
 
 //----------------//----------------//----------------//----------------//----------------
 // Pre-validation
 //----------------//----------------//----------------//----------------//----------------
-if (!fs.existsSync(dictionaryPath)) {
-    console.error(`${dictionaryPath} not found`)
+if (!fs.existsSync(SOURCE_DICTIONARY_PATH)) {
+    console.error(`${SOURCE_DICTIONARY_PATH} not found`)
     process.exit()
 }
 
 for (let level = 1; level <= 6; level++) {
-    let levelPath = hskSourceListPath.replace('<#>', level)
+    let levelPath = SOURCE_HSK_LIST_PATH.replace('<#>', level)
     if (!fs.existsSync(levelPath)) {
         console.error(`${levelPath} not found`)
         process.exit()
@@ -55,7 +60,7 @@ for (let level = 1; level <= 6; level++) {
 initializeDatabase()
 const hsk = loadHSK()
 
-const inStream = fs.createReadStream(dictionaryPath)
+const inStream = fs.createReadStream(SOURCE_DICTIONARY_PATH)
 const rl = readline.createInterface({
     input: inStream
 })
@@ -91,7 +96,7 @@ function loadHSK() {
     const hsk = {}
 
     for (let level = 1; level <= 6; level++) {
-        let levelPath = hskSourceListPath.replace('<#>', level)
+        let levelPath = SOURCE_HSK_LIST_PATH.replace('<#>', level)
         const characters = fs.readFileSync(levelPath, 'utf8')
         hsk[level] = characters.split('\r\n')
     }
@@ -104,13 +109,13 @@ function loadHSK() {
 // Create/connect to dbs
 //----------------//----------------//----------------//----------------//----------------
 function initializeDatabase() {
-    if (fs.existsSync(giantEffingDatabasePath)) {
-        fs.unlinkSync(giantEffingDatabasePath)
+    if (fs.existsSync(GIANT_EFFING_DB_PATH)) {
+        fs.unlinkSync(GIANT_EFFING_DB_PATH)
     }
-    giantEffingDB = dirty(giantEffingDatabasePath)
+    giantEffingDB = dirty(GIANT_EFFING_DB_PATH)
 
     for (let level = 1; level <= 6; level++) {
-        let hskDBPath = hskDatabasePath.replace('<#>', level)
+        let hskDBPath = HSK_DB_PATH.replace('<#>', level)
         if (fs.existsSync(hskDBPath)) {
             fs.unlinkSync(hskDBPath)
         }
