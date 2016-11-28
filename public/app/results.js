@@ -18,7 +18,7 @@ define(function (require) {
                                 entry.english().map((it) => m('li', it))
                             )
                         ),
-                        entry.hsk() ? m('div.hsk-col', `HSK ${entry.hsk()}`) : ''
+                        m('div.hsk-col', entry.hsk() ? `HSK ${entry.hsk()}` : '')
                     )
                 )
             )
