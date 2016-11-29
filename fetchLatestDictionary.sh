@@ -1,5 +1,12 @@
 #!/usr/bin/env bash
 
+if [[ ! -e package.json ]]; then
+    echo "Please run in project root"
+    exit
+fi
+
+
+
 echo ------------------------------------------------------------
 echo 'Getting latest database from MDBG'
 echo ------------------------------------------------------------

@@ -119,9 +119,11 @@ function sortByDistanceAndHSK(results) {
 
     results.sort(function compare(a, b) {
         if (a.distance != b.distance) {
+            //1st level sorting. Sort ascending order based on the edit distance.
             return a.distance - b.distance
         }
         else {
+            //2nd level sorting. Always put HSK on top.
             const hskA = (a.hsk === null ? 999 : a.hsk)
             const hskB = (b.hsk === null ? 999 : b.hsk)
             return hskA - hskB
