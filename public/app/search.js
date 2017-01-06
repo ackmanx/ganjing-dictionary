@@ -21,9 +21,9 @@ define(function (require) {
                     autofocus: true,
                     oninput: m.withAttr('value', ctrl.am.query),
                     onkeyup: event => {
-                        if (event.keyCode == ESC)
+                        if (event.keyCode === ESC)
                             ctrl.am.query('')
-                        else if (event.keyCode == ENTER)
+                        else if (event.keyCode === ENTER)
                             ctrl.performSearch()
                     },
                     value: ctrl.am.query()
