@@ -1,29 +1,46 @@
 #Left Off
-* Allow whitelisted 1 letter words
-    * Only English needs to be whitelisted for 1 letter
-* DB generate script incorrect for HSK
-    * Some characters have multiple entries, where not all of the entries are HSK
-        * 号 as an example has a HSK 1 entry and a HSK nothing entry
+* 5 Bug: zen me yang gives 2 different results depending on if using HSK switch
+    * Source dictionary entry shows me5 but generated giant dictionary has me4
+    * Rebuild all dictionaries and upload them to heroku
 
 #Future Fun
-* Allow idiom searches because edit distance doesn't work there
-* History
-* Responsive design gets funky at 900px and below
-* HSK css animation stalls with large result sets
+* 5 Loading spinner
+* 5 Update page title on search
+* 5 No results found notification
+* 5 Unique URLs
+    * Allows linking and bookmarks because entire app so far is a single domain
+    * Allows back button
+* 4 Migrate to MongoDB
+* 3 History
+    * Local storage option can have "Recent searches"
+* 3 DB generate script incorrect for HSK
+    * Some characters have multiple entries, where not all of the entries are HSK
+        * 号 as an example has a HSK 1 entry and a HSK nothing entry
+        * My HSK list is character only, so I need to add to that for comparison somehow
+* 3 Always auto-focus on input
+    * Don't defocus on search? Or did I specifically code to defocus already?
+    * Set shortcut to focus?
+* 2 Responsive design gets funky at 900px and below
+* 2 Highlight search hits
+* 2 Allow whitelisted 1 letter words
+    * Only English needs to be whitelisted for 1 letter
+* 1 Allow idiom searches because edit distance doesn't work there
+* 1 HSK css animation stalls with large result sets
     * It appears that the animation waits for the response to come back, by then it's too late and it just jumps instead
-* About page
+* 1 About page
     * Credits
     * Contact
     * Total searches count
-* Highlight search hits
 
 #Dev Setup
 * Need Node 6.9.1
 * npm install
-* Need environment variable, which can be confused in Run Configuration.
+* Need environment variable, which can be configured in Run Configuration.
     * DEBUG=Chinese:*
 * heroku cli
     * git push heroku master
     * git push heroku othermaster:master
     * heroku logs
     * heroku logs --tail
+* MongoDB 3
+    * If install via brew, MUST have brew version 1.0 or greater
