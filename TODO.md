@@ -3,7 +3,6 @@
 
 #Future Fun
 * 5 Loading spinner
-* 5 No results found notification
 * 5 Unique URLs
     * Allows linking and bookmarks because entire app so far is a single domain
     * Allows back button

@@ -7,6 +7,7 @@ define(function (require) {
         this.results = m.prop(data.results || [])
         this.hskOnly = m.prop(data.hskOnly || false)
         this.query = m.prop(data.query || '')
+        this.firstLoad = m.prop(data.firstLoad || true)
     }
 
 })

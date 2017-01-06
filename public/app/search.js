@@ -9,6 +9,7 @@ define(function (require) {
             this.am = args.am
             this.performSearch = () => {
                 document.title = `${window.GANJING_TITLE_PREFIX} - ${this.am.query()}`
+                this.am.firstLoad(false)
                 Entry.search(this.am).then(this.am.results)
 
                 //So user can scroll via arrow keys after results come in
