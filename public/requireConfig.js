@@ -7,8 +7,7 @@ require.config({
     paths: {
         moment: '../lib/moment',
         underscore: '../lib/underscore-min',
-        mithril: '../lib/mithril',
-        jquery: '../lib/jquery-min'
+        mithril: '../lib/mithril'
     }
 })
 

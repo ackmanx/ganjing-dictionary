@@ -1,5 +1,6 @@
 window.ESC = 27
 window.ENTER = 13
+window.GANJING_TITLE_PREFIX = '干净 gānjìng'
 
 define(function (require) {
 

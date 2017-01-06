@@ -8,7 +8,10 @@ define(function (require) {
         controller: function (args) {
             this.am = args.am
             this.performSearch = () => {
+                document.title = `${window.GANJING_TITLE_PREFIX} - ${this.am.query()}`
                 Entry.search(this.am).then(this.am.results)
+
+                //So user can scroll via arrow keys after results come in
                 document.getElementById('searchBar').blur()
             }
         },

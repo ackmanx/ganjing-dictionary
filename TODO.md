@@ -1,11 +1,8 @@
 #Left Off
-* 5 Bug: zen me yang gives 2 different results depending on if using HSK switch
-    * Source dictionary entry shows me5 but generated giant dictionary has me4
-    * Rebuild all dictionaries and upload them to heroku
+
 
 #Future Fun
 * 5 Loading spinner
-* 5 Update page title on search
 * 5 No results found notification
 * 5 Unique URLs
     * Allows linking and bookmarks because entire app so far is a single domain
