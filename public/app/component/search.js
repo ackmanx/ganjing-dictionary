@@ -1,8 +1,8 @@
 define(function (require) {
 
     const m = require('mithril')
-    const Entry = require('Entry')
-    const hsk = require('hsk')
+    const Entry = require('model/Entry')
+    const Hsk = require('component/hsk')
 
     return {
         controller: function (args) {
@@ -40,7 +40,7 @@ define(function (require) {
                     value: ctrl.am.query()
                 }),
                 m('button.search', {onclick: ctrl.performSearch}, '中文'),
-                m(hsk, {am: ctrl.am})
+                m(Hsk, {am: ctrl.am})
             )
     }
 })

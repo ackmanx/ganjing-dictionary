@@ -1,7 +1,7 @@
 define(function (require) {
 
     const m = require('mithril')
-    const Entry = require('Entry')
+    const Entry = require('model/Entry')
 
     return {
         controller: function (args) {

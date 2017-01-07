@@ -1,7 +1,7 @@
 define(function (require) {
 
     const m = require('mithril')
-    const listing = require('listing')
+    const Listing = require('component/listing')
 
     return {
         controller: function (args) {
@@ -14,7 +14,7 @@ define(function (require) {
                     ctrl.am.results().length ? m('div.results-counter', `${ctrl.am.results().length} results`) : '',
                     ctrl.am.results().length ?
                         ctrl.am.results().map((entry) =>
-                            m(listing, {entry: entry})
+                            m(Listing, {entry: entry})
                         ) :
                         ctrl.am.firstLoad() ? '' : m('div.no-results', 'No results found')
                 )
