@@ -1,11 +1,9 @@
 #Left Off
-
-
-#Future Fun
-* 5 Loading spinner
 * 5 Unique URLs
     * Allows linking and bookmarks because entire app so far is a single domain
     * Allows back button
+
+#Future Fun
 * 4 Migrate to MongoDB
 * 3 History
     * Local storage option can have "Recent searches"
