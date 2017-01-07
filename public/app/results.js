@@ -8,16 +8,16 @@ define(function (require) {
             this.am = args.am
         },
         view: (ctrl) =>
-            m('section#results-list',
-                ctrl.am.loading() ?
-                    m('div.loader', 'Loading') : (
+            ctrl.am.loading() ?
+                m('div.loader', 'Loading') :
+                m('section#results-list',
                     ctrl.am.results().length ? m('div.results-counter', `${ctrl.am.results().length} results`) : '',
-                        ctrl.am.results().length ?
-                            ctrl.am.results().map((entry) =>
-                                m(listing, {entry: entry})
-                            ) :
-                            ctrl.am.firstLoad() ? '' : m('div.no-results', 'No results found')
+                    ctrl.am.results().length ?
+                        ctrl.am.results().map((entry) =>
+                            m(listing, {entry: entry})
+                        ) :
+                        ctrl.am.firstLoad() ? '' : m('div.no-results', 'No results found')
                 )
-            )
+
     }
 })

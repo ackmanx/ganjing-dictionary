@@ -21,7 +21,7 @@ define(function (require) {
             method: 'GET',
             url: `/search/${query}?hskOnly=${appModel.hskOnly()}`,
             type: Entry,
-            background: true
+            background: true //causes mithril to redraw after request is sent but not redraw after the request callback
         })
     }
 

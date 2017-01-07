@@ -8,7 +8,7 @@ define(function (require) {
             this.am = args.am
             this.hskSearch = () => {
                 this.am.hskOnly(!this.am.hskOnly())
-                
+
                 //Trigger loading spinner
                 this.am.loading(true)
                 this.am.results([])
