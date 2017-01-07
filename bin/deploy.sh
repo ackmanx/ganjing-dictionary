@@ -1,5 +1,14 @@
 #!/usr/bin/env bash
 
+# Usage:
+# deploy.sh OR deploy.sh <branch_name>
+
+if [[ ! -e www.js ]]; then
+    echo "Please run from bin"
+    exit
+fi
+
+
 cyan=\\e[96m
 default=\\e[39m
 
@@ -8,14 +17,14 @@ echo 'Generating new version number'
 echo ------------------------------------------------------------
 
 branch=`git branch | grep \* | awk '{print $2}'`
-version=`cat VERSION | cut -d '#' -f2`
+version=`cat ../VERSION | cut -d '#' -f2`
 version=$((version + 1))
 date=`date`
 
-printf "$branch#$version#$date" > VERSION
+printf "$branch#$version#$date" > ../VERSION
 
 git reset HEAD --
-git add VERSION
+git add ../VERSION
 git commit -m "Version++"
 
 echo ''

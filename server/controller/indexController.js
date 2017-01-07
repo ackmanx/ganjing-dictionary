@@ -1,6 +1,6 @@
 const router = require('express').Router()
 const fs = require('fs')
-const globals = require('../../globals')
+const globals = require('../globals')
 
 router.get('/', function (req, res, next) {
     res.render('index', {title: '干净 gānjìng'})

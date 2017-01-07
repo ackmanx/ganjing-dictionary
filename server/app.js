@@ -28,10 +28,10 @@ const emitter = new EventEmitter();
 emitter.on('db-loaded', db => {
     debug(`${db} has been loaded!`)
     loaded++
-    if (loaded == 2) {
+    if (loaded === 2) {
         debug('All databases have been loaded!')
     }
-});
+})
 
 for (const key in globals.db_paths) {
     const path = globals.db_paths[key]
@@ -56,8 +56,8 @@ dirty(globals.db_paths.uberHsk).on('load', () =>
 //----------------//----------------//----------------//----------------//----------------
 // Controller/Route Config
 //----------------//----------------//----------------//----------------//----------------
-const indexController = require('./server/controller/indexController')
-const searchController = require('./server/controller/searchController')
+const indexController = require('./controller/indexController')
+const searchController = require('./controller/searchController')
 
 app.use('/', indexController)
 app.use('/search', searchController)
@@ -68,9 +68,9 @@ app.use('/search', searchController)
 //----------------//----------------//----------------//----------------//----------------
 //Don't use layout.hbs file as a central template, but instead let routes delegate which template
 app.set('view options', {layout: false})
-app.set('views', path.join(__dirname, 'server/views'))
+app.set('views', path.join(__dirname, 'views'))
 app.set('view engine', 'hbs')
-hbs.registerPartials(path.join(__dirname, 'server/views/partials'))
+hbs.registerPartials(path.join(__dirname, 'views', 'partials'))
 
 //----------------//----------------//----------------//----------------//----------------
 // Uhhh Stuff I Guess
@@ -82,10 +82,10 @@ app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended: false}))
 
 //Serve the public folder as static resource
-app.use(express.static(path.join(__dirname, 'public')))
-app.use(favicon(path.join(__dirname, 'public', 'favicon-128.png')))
+app.use(express.static(path.join(__dirname, '..', 'public')))
+app.use(favicon(path.join(__dirname, '..', 'public', 'favicon-128.png')))
 
-app.use('/css', expressLess(`${__dirname}/public/css`))
+app.use('/css', expressLess(path.join(__dirname, '..', 'public', 'css')))
 
 
 //----------------//----------------//----------------//----------------//----------------

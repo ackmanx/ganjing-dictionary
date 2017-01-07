@@ -1,7 +1,7 @@
 /*
  * Mapping: /search
  */
-const globals = require('../../globals')
+const globals = require('../globals')
 const router = require('express').Router()
 const levenshtein = require('fast-levenshtein')
 const debug = require('debug')('Chinese:searchController')

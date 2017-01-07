@@ -6,7 +6,7 @@
 const debug = require('debug')('Chinese:www')
 const http = require('http')
 
-const app = require('../app')
+const app = require('../server/app')
 
 
 /**
