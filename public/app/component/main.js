@@ -16,7 +16,7 @@ define(function (require) {
         view: (ctrl) =>
             m('div#wrapper',
                 m('header',
-                    m('h1', '干净 gānjìng')
+                    m('a[href=/]', m('h1', '干净 gānjìng'))
                 ),
                 m('main',
                     m(Search, {am: ctrl.am}),
