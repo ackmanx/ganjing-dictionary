@@ -46,7 +46,7 @@ define(function (require) {
                     },
                     value: ctrl.am.query()
                 }),
-                m('button.search', {onclick: ctrl.performSearch}, '中文'),
+                m('button.search', {onclick: () => m.route('/' + ctrl.am.query())}, '中文'),
                 m(Hsk, {am: ctrl.am})
             )
     }
