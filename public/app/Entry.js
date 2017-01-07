@@ -17,7 +17,12 @@ define(function (require) {
         //Cheat to get no results instead of a 404 because I don't know to use Express
         query = query || 'XemptyX'
 
-        return m.request({method: 'GET', url: `/search/${query}?hskOnly=${appModel.hskOnly()}`, type: Entry})
+        return m.request({
+            method: 'GET',
+            url: `/search/${query}?hskOnly=${appModel.hskOnly()}`,
+            type: Entry,
+            background: true
+        })
     }
 
     return Entry

@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
+@import "colors";
+@import "loader";
+
 * {
     margin: 0;
 }
@@ -16,8 +19,8 @@ body {
 }
 
 header {
-    background-color: rgba(33, 150, 243, 1.00);
-    color: rgba(255, 255, 255, 1.00);
+    background-color: @primaryBlue;
+    color: @white;
     padding: 15px;
 }
 
@@ -29,7 +32,7 @@ h1 {
 }
 
 main {
-    background-color: rgba(255, 255, 255, 1.00);
+    background-color: @white;
     padding: 15px 80px;
     font-size: 18px;
     font-weight: 300;
@@ -62,14 +65,14 @@ button {
     outline: none;
 
     &:hover {
-        background-color: rgba(33, 150, 243, 1.00);
-        color: rgba(255, 255, 255, 1.00);
+        background-color: @primaryBlue;
+        color: @white;
         transition: all 0.5s;
     }
 
     &:active {
         background-color: rgb(25, 86, 145);
-        color: rgba(255, 255, 255, 1.00);
+        color: @white;
         transition: all 0.5s;
     }
 }

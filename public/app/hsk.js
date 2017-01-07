@@ -8,7 +8,17 @@ define(function (require) {
             this.am = args.am
             this.hskSearch = () => {
                 this.am.hskOnly(!this.am.hskOnly())
-                Entry.search(this.am).then(this.am.results)
+                
+                //Trigger loading spinner
+                this.am.loading(true)
+                this.am.results([])
+
+                Entry.search(this.am).then((results) => {
+                    this.am.results(results)
+                    this.am.loading(false)
+                    //Because search is a background request, mithril doesn't redraw automatically on changing the model in this callback
+                    m.redraw()
+                })
             }
         },
         view: (ctrl) =>

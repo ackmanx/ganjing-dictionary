@@ -10,7 +10,17 @@ define(function (require) {
             this.performSearch = () => {
                 document.title = `${window.GANJING_TITLE_PREFIX} - ${this.am.query()}`
                 this.am.firstLoad(false)
-                Entry.search(this.am).then(this.am.results)
+
+                //Trigger loading spinner
+                this.am.loading(true)
+                this.am.results([])
+
+                Entry.search(this.am).then((results) => {
+                    this.am.results(results)
+                    this.am.loading(false)
+                    //Because search is a background request, mithril doesn't redraw automatically on changing the model in this callback
+                    m.redraw()
+                })
 
                 //So user can scroll via arrow keys after results come in
                 document.getElementById('searchBar').blur()
