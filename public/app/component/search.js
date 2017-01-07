@@ -22,8 +22,15 @@ define(function (require) {
                     m.redraw()
                 })
 
-                //So user can scroll via arrow keys after results come in
-                document.getElementById('searchBar').blur()
+                //This won't be rendered yet if we are coming from a fresh page load
+                const searchBar = document.getElementById('searchBar')
+                if (searchBar) {
+                    //So user can scroll via arrow keys after results come in
+                    document.getElementById('searchBar').blur()
+                }
+            }
+            if (this.am.query()) {
+                this.performSearch()
             }
         },
         view: (ctrl) =>
@@ -35,7 +42,7 @@ define(function (require) {
                         if (event.keyCode === ESC)
                             ctrl.am.query('')
                         else if (event.keyCode === ENTER)
-                            ctrl.performSearch()
+                            m.route('/' + ctrl.am.query())
                     },
                     value: ctrl.am.query()
                 }),

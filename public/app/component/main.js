@@ -9,9 +9,11 @@ define(function (require) {
     const Results = require('component/results')
     const AppModel = require('model/AppModel')
 
-    const app = {
+    const App = {
         controller: function () {
-            this.am = new AppModel()
+            this.am = new AppModel({
+                query: m.route.param('searchQuery')
+            })
         },
         view: (ctrl) =>
             m('div#wrapper',
@@ -25,5 +27,8 @@ define(function (require) {
             )
     }
 
-    m.mount(document.body, app)
+    m.route(document.body, '/', {
+        '/': App,
+        '/:searchQuery': App
+    })
 })
