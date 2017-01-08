@@ -1,11 +1,4 @@
 #Left Off
-* 3 Local storage option can have "Recent searches"
-    m('select', {title: 'zuìjìn sōusuǒ'},
-        m('option', '最近搜索'),
-        m('option', '2'),
-        m('option', '3'),
-        m('option', '4')
-    ),
 * 3 Favorite search entries
     * Requires... Star icon. New view. Local storage.
 
