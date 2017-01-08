@@ -13,4 +13,4 @@ require.config({
 //Load the main app module to start the app
 //Note we are using modules named by convention, not configuration
 //This module is unnamed but will reside in the folder app and be in file Main.js
-require(['component/main'])
+require(['component/Main'])
