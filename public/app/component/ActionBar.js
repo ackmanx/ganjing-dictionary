@@ -2,7 +2,7 @@ define(function (require) {
 
     const m = require('mithril')
     const Entry = require('model/Entry')
-    const Hsk = require('component/hsk')
+    const Hsk = require('component/Hsk')
 
     return {
         controller: function (args) {

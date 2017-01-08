@@ -1,7 +1,7 @@
 define(function (require) {
 
     const m = require('mithril')
-    const Listing = require('component/listing')
+    const Listing = require('component/Listing')
 
     return {
         controller: function (args) {
