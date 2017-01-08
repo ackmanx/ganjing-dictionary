@@ -46,7 +46,17 @@ define(function (require) {
                     },
                     value: ctrl.am.query()
                 }),
-                m('button.search', {onclick: () => m.route('/' + ctrl.am.query())}, '中文'),
+                m('button.button.search', {onclick: () => m.route('/' + ctrl.am.query())}, '中文'),
+                m('select.button', {title: 'zuìjìn sōusuǒ'},
+                    m('option', {
+                        disabled: true,
+                        selected: true,
+                        hidden: true
+                    }, '最近搜索'),
+                    m('option', '2'),
+                    m('option', '3'),
+                    m('option', '4')
+                ),
                 m(Hsk, {am: ctrl.am})
             )
     }

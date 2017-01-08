@@ -1,19 +1,17 @@
 #Left Off
-* 5 Unique URLs
-    * Allows linking and bookmarks because entire app so far is a single domain
-    * Allows back button
-
-#Future Fun
-* 4 Migrate to MongoDB
-* 3 Paging (dependent on MongoDB)
-* 3 History
-    * Local storage option can have "Recent searches"
+* 3 Local storage option can have "Recent searches"
     m('select', {title: 'zuìjìn sōusuǒ'},
         m('option', '最近搜索'),
         m('option', '2'),
         m('option', '3'),
         m('option', '4')
     ),
+* 3 Favorite search entries
+    * Requires... Star icon. New view. Local storage.
+
+#Future Fun
+* 4 Migrate to MongoDB
+* 3 Paging (dependent on MongoDB)
 * 3 DB generate script incorrect for HSK
     * Some characters have multiple entries, where not all of the entries are HSK
         * 号 as an example has a HSK 1 entry and a HSK nothing entry
