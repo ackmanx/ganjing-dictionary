@@ -1,7 +1,7 @@
 define(function (require) {
 
     const m = require('mithril')
-    const storage = require ('localStorage')
+    const storage = require('localStorage')
     const Entry = require('model/Entry')
     const Hsk = require('component/Hsk')
     const RecentSearches = require('component/RecentSearches')
@@ -50,9 +50,11 @@ define(function (require) {
                     },
                     value: ctrl.am.query()
                 }),
-                m('button.button.search', {onclick: () => m.route('/' + ctrl.am.query())}, '中文'),
-                m(RecentSearches),
-                m(Hsk, {am: ctrl.am})
+                m('div.button-container',
+                    m('button.button.search', {onclick: () => m.route('/' + ctrl.am.query())}, '中文'),
+                    m(RecentSearches),
+                    m(Hsk, {am: ctrl.am})
+                )
             )
     }
 })

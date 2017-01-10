@@ -8,8 +8,8 @@ define(function (require) {
             this.am = args.am
             /*
              * Intentionally not using route for hsk filtering because...
-              *  - extreme pains with the Mithril rendering the correct state (even when hskOnly is false, it renders true)
-              *  - loss of cute animation when turning it on because routes cause complete DOM rebuilding in Mithril 0.2.x
+             *  - extreme pains with the Mithril rendering the correct state (even when hskOnly is false, it renders true)
+             *  - loss of cute animation when turning it on because routes cause complete DOM rebuilding in Mithril 0.2.x
              */
             this.hskSearch = () => {
                 this.am.hskOnly(!this.am.hskOnly())

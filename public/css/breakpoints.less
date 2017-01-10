@@ -20,18 +20,33 @@
 // ---------------------------------------------------------------------------------------------------------------------------
 // Medium
 // ---------------------------------------------------------------------------------------------------------------------------
-
 @media only screen and (max-width: 900px) {
     #wrapper {
         width: 100%;
     }
 
+    .action-bar {
+        display: flex;
+    }
+
     #searchBar {
-        width: 50%;
+        width: initial;
+        flex: 1 1 auto;
+    }
+
+    .button-container {
+        flex: 0 0 auto;
     }
 
     h1 {
         margin: 0.25em 0;
+    }
+
+    #results-list {
+
+        .listing {
+            padding: 10px 0 10px 0;
+        }
     }
 
 }
@@ -40,6 +55,11 @@
 // Small
 // ---------------------------------------------------------------------------------------------------------------------------
 @media only screen and (max-width: 550px) {
+
+    .action-bar {
+        display: block;
+    }
+
     #searchBar {
         width: 90%;
         margin-bottom: 15px;
