@@ -31,11 +31,13 @@
 
     #searchBar {
         width: initial;
-        flex: 1 1 auto;
+        flex-grow: 0.7;
+        flex-shrink: 0.7;
     }
 
     .button-container {
-        flex: 0 0 auto;
+        flex-grow: 0;
+        flex-shrink: 0;
     }
 
     h1 {
@@ -58,6 +60,12 @@
 
     .action-bar {
         display: block;
+    }
+
+    .button-container {
+        display: block;
+        margin: 0 auto;
+        width: 340px;
     }
 
     #searchBar {
