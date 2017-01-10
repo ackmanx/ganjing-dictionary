@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 // ---------------------------------------------------------------------------------------------------------------------------
-// Large
+// Compact Large
 // ---------------------------------------------------------------------------------------------------------------------------
 @media only screen and (max-width: 1200px) {
     #wrapper {
@@ -15,29 +15,33 @@
     #searchBar {
         width: 515px;
     }
+
+    #results-list {
+
+        .listing {
+            padding: 10px 0 10px 0;
+        }
+    }
 }
 
 // ---------------------------------------------------------------------------------------------------------------------------
 // Medium
 // ---------------------------------------------------------------------------------------------------------------------------
 @media only screen and (max-width: 900px) {
+    @buttonContainerWidth: 315px;
+
     #wrapper {
         width: 100%;
     }
 
-    .action-bar {
-        display: flex;
-    }
-
     #searchBar {
-        width: initial;
-        flex-grow: 0.7;
-        flex-shrink: 0.7;
+        @rightMargin: 32px;
+        //This is escaped because otherwise LESS performs the calculation and writes the calculation result out as CSS
+        width: calc(~'100% - @{buttonContainerWidth}' - @rightMargin);
     }
 
     .button-container {
-        flex-grow: 0;
-        flex-shrink: 0;
+        width: @buttonContainerWidth;
     }
 
     h1 {
