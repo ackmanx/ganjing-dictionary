@@ -55,6 +55,8 @@ dirty(globals.db_paths.uberHsk).on('load', () =>
 
 
 function bootstrap() {
+    debug('Bootstrapping...')
+
     //----------------//----------------//----------------//----------------//----------------
     // Controller/Route Config
     //----------------//----------------//----------------//----------------//----------------
@@ -126,6 +128,12 @@ function bootstrap() {
             error: {}
         })
     })
+
+    fs.readFile('VERSION', 'utf8', (err, data) => {
+        if (err) throw err;
+        debug(`Deployment finished: ${data}`)
+    })
+
 }
 
 module.exports = app
