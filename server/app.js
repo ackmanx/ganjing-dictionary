@@ -30,6 +30,7 @@ emitter.on('db-loaded', db => {
     loaded++
     if (loaded === 2) {
         debug('All databases have been loaded!')
+        bootstrap()
     }
 })
 
@@ -53,75 +54,78 @@ dirty(globals.db_paths.uberHsk).on('load', () =>
 })
 
 
-//----------------//----------------//----------------//----------------//----------------
-// Controller/Route Config
-//----------------//----------------//----------------//----------------//----------------
-const indexController = require('./controller/indexController')
-const searchController = require('./controller/searchController')
+function bootstrap() {
+    //----------------//----------------//----------------//----------------//----------------
+    // Controller/Route Config
+    //----------------//----------------//----------------//----------------//----------------
+    const indexController = require('./controller/indexController')
+    const searchController = require('./controller/searchController')
 
-app.use('/', indexController)
-app.use('/search', searchController)
-
-
-//----------------//----------------//----------------//----------------//----------------
-// View Config
-//----------------//----------------//----------------//----------------//----------------
-//Don't use layout.hbs file as a central template, but instead let routes delegate which template
-app.set('view options', {layout: false})
-app.set('views', path.join(__dirname, 'views'))
-app.set('view engine', 'hbs')
-hbs.registerPartials(path.join(__dirname, 'views', 'partials'))
-
-//----------------//----------------//----------------//----------------//----------------
-// Uhhh Stuff I Guess
-//----------------//----------------//----------------//----------------//----------------
-app.use(logger('dev'))
-app.use(cookieParser())
-app.use(compression()) //enables gzip
-app.use(bodyParser.json())
-app.use(bodyParser.urlencoded({extended: false}))
-
-//Serve the public folder as static resource
-app.use(express.static(path.join(__dirname, '..', 'public')))
-
-if (app.get('env') === 'production')
-    app.use(favicon(path.join(__dirname, '..', 'public', 'favicon-128.png')))
-else
-    app.use(favicon(path.join(__dirname, '..', 'public', 'favicon-128-dev.png')))
-
-app.use('/css', expressLess(path.join(__dirname, '..', 'public', 'css')))
+    app.use('/', indexController)
+    app.use('/search', searchController)
 
 
-//----------------//----------------//----------------//----------------//----------------
-// App Error Handlers
-//----------------//----------------//----------------//----------------//----------------
-//Catch 404 and forward to error handler
-app.use(function (req, res, next) {
-    const err = new Error('Not Found')
-    err.status = 404
-    next(err)
-})
+    //----------------//----------------//----------------//----------------//----------------
+    // View Config
+    //----------------//----------------//----------------//----------------//----------------
+    //Don't use layout.hbs file as a central template, but instead let routes delegate which template
+    app.set('view options', {layout: false})
+    app.set('views', path.join(__dirname, 'views'))
+    app.set('view engine', 'hbs')
+    hbs.registerPartials(path.join(__dirname, 'views', 'partials'))
 
-// development error handler
-// will print stacktrace
-if (app.get('env') === 'development') {
+    
+    //----------------//----------------//----------------//----------------//----------------
+    // Uhhh Stuff I Guess
+    //----------------//----------------//----------------//----------------//----------------
+    app.use(logger('dev'))
+    app.use(cookieParser())
+    app.use(compression()) //enables gzip
+    app.use(bodyParser.json())
+    app.use(bodyParser.urlencoded({extended: false}))
+
+    //Serve the public folder as static resource
+    app.use(express.static(path.join(__dirname, '..', 'public')))
+
+    if (app.get('env') === 'production')
+        app.use(favicon(path.join(__dirname, '..', 'public', 'favicon-128.png')))
+    else
+        app.use(favicon(path.join(__dirname, '..', 'public', 'favicon-128-dev.png')))
+
+    app.use('/css', expressLess(path.join(__dirname, '..', 'public', 'css')))
+
+
+    //----------------//----------------//----------------//----------------//----------------
+    // App Error Handlers
+    //----------------//----------------//----------------//----------------//----------------
+    //Catch 404 and forward to error handler
+    app.use(function (req, res, next) {
+        const err = new Error('Not Found')
+        err.status = 404
+        next(err)
+    })
+
+    // development error handler
+    // will print stacktrace
+    if (app.get('env') === 'development') {
+        app.use(function (err, req, res, next) {
+            res.status(err.status || 500)
+            res.send({
+                message: err.message,
+                error: err
+            })
+        })
+    }
+
+    // production error handler
+    // no stacktraces leaked to user
     app.use(function (err, req, res, next) {
         res.status(err.status || 500)
         res.send({
             message: err.message,
-            error: err
+            error: {}
         })
     })
 }
-
-// production error handler
-// no stacktraces leaked to user
-app.use(function (err, req, res, next) {
-    res.status(err.status || 500)
-    res.send({
-        message: err.message,
-        error: {}
-    })
-})
 
 module.exports = app
