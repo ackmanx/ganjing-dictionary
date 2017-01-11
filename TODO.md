@@ -2,8 +2,6 @@
 * 3 Favorite search entries
     * Requires... Star icon. New view. Local storage.
 
-* Search without a query does nothing instead of say no results
-
 #Future Fun
 * 4 Migrate to MongoDB
 * 3 Paging (dependent on MongoDB)
@@ -11,10 +9,6 @@
     * Some characters have multiple entries, where not all of the entries are HSK
         * 号 as an example has a HSK 1 entry and a HSK nothing entry
         * My HSK list is character only, so I need to add to that for comparison somehow
-* 3 Always auto-focus on input
-    * Don't defocus on search? Or did I specifically code to defocus already?
-    * Set shortcut to focus?
-* 2 Responsive design gets funky at 900px and below
 * 2 Highlight search hits
 * 2 Allow whitelisted 1 letter words
     * Only English needs to be whitelisted for 1 letter

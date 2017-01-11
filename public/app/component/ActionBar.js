@@ -9,6 +9,7 @@ define(function (require) {
     return {
         controller: function (args) {
             this.am = args.am
+
             this.performSearch = () => {
                 document.title = `${window.GANJING_TITLE_PREFIX} - ${this.am.query()}`
                 this.am.firstLoad(false)
@@ -25,14 +26,10 @@ define(function (require) {
                     //Because search is a background request, mithril doesn't redraw automatically on changing the model in this callback
                     m.redraw()
                 })
-
-                //This won't be rendered yet if we are coming from a fresh page load
-                const searchBar = document.getElementById('searchBar')
-                if (searchBar) {
-                    //So user can scroll via arrow keys after results come in
-                    document.getElementById('searchBar').blur()
-                }
             }
+
+            //On load of this component, check if we already have a query set
+            //This is because searches are performed by a URL change (route)
             if (this.am.query()) {
                 this.performSearch()
             }
