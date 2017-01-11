@@ -39,7 +39,7 @@ define(function (require) {
         },
         view: (ctrl) =>
             m('div.action-bar',
-                m('input[type=text]#searchBar', {
+                m('input[type=text]#searchBar.search-bar', {
                     autofocus: true,
                     oninput: m.withAttr('value', ctrl.am.query),
                     onkeyup: event => {

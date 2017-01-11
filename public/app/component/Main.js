@@ -16,7 +16,7 @@ define(function (require) {
             })
         },
         view: (ctrl) =>
-            m('div#wrapper',
+            m('div.application-container',
                 m('header',
                     m('a[href=/]', m('h1', '干净 gānjìng'))
                 ),
