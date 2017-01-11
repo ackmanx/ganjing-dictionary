@@ -8,7 +8,7 @@ define(function (require) {
             this.recentSearches = storage.getRecents
         },
         view: (ctrl) =>
-            m('select.button',
+            m('select.button.recent-searches',
                 {
                     title: 'zuìjìn sōusuǒ',
                     onchange: event => m.route('/' + event.target.value)

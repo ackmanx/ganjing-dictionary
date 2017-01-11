@@ -129,10 +129,15 @@ function bootstrap() {
         })
     })
 
-    fs.readFile('VERSION', 'utf8', (err, data) => {
-        if (err) throw err;
-        debug(`Deployment finished: ${data}`)
-    })
+    if (app.get('env') === 'development') {
+        debug('Deployment finished: dev')
+    }
+    else {
+        fs.readFile('VERSION', 'utf8', (err, data) => {
+            if (err) throw err;
+            debug(`Deployment finished: ${data}`)
+        })
+    }
 
 }
 
