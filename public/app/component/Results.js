@@ -10,7 +10,7 @@ define(function (require) {
         view: (ctrl) =>
             ctrl.am.loading() ?
                 m('div.loader', 'Loading') :
-                m('section#results-list',
+                m('section.results-list',
                     ctrl.am.results().length ? m('div.results-counter', `${ctrl.am.results().length} results`) : '',
                     ctrl.am.results().length ?
                         ctrl.am.results().map((entry) =>

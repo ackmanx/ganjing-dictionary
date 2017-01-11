@@ -2,7 +2,7 @@
 * 3 Favorite search entries
     * Requires... Star icon. New view. Local storage.
 
-* Restructure LESS so Full Large layout rules aren't mixed with global rules
+* Search without a query does nothing instead of say no results
 
 #Future Fun
 * 4 Migrate to MongoDB

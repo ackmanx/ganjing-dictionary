@@ -74,7 +74,7 @@ function bootstrap() {
     app.set('view engine', 'hbs')
     hbs.registerPartials(path.join(__dirname, 'views', 'partials'))
 
-    
+
     //----------------//----------------//----------------//----------------//----------------
     // Uhhh Stuff I Guess
     //----------------//----------------//----------------//----------------//----------------
