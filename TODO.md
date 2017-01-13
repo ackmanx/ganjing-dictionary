@@ -1,6 +1,8 @@
 #Left Off
 * 3 Favorite search entries
     * Requires... Star icon. New view. Local storage.
+* Duplicate entry for search
+    * shen me shi hou (is this not an HSK?)
 
 #Future Fun
 * 4 Migrate to MongoDB
@@ -9,6 +11,7 @@
     * Some characters have multiple entries, where not all of the entries are HSK
         * 号 as an example has a HSK 1 entry and a HSK nothing entry
         * My HSK list is character only, so I need to add to that for comparison somehow
+* 3 More frequently used characters/words should have higher relevence
 * 2 Highlight search hits
 * 2 Allow whitelisted 1 letter words
     * Only English needs to be whitelisted for 1 letter
