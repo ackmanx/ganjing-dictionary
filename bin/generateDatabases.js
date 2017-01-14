@@ -1,3 +1,13 @@
+'use strict'
+
+/*
+ This is complicated because it relies on two independent sources of data, MDBG and hskhsk.com for sources
+ https://www.mdbg.net/chindict/chindict.php?page=cc-cedict
+ http://www.hskhsk.com/word-lists.html
+
+ To run, simply execute this script with Node and it will generate the *.db files
+ */
+
 //----------------//----------------//----------------//----------------//----------------
 // Modules
 //----------------//----------------//----------------//----------------//----------------
@@ -26,19 +36,18 @@ if (!process.cwd().endsWith('/bin')) {
 let giantEffingDB
 const hskDB = {}
 
-//These will be deleted and re-created on script run don't we don't have to bother with updates
+//These DB paths will be deleted and re-created on script run. We don't have to bother with updates
 const GIANT_EFFING_DB_PATH = '../resources/giantEffing.db'
 const HSK_DB_PATH = '../resources/hsk<#>.db'
 
-//Dictionary available free at http://www.mdbg.net/chindict/chindict.php?page=cc-cedict
-const SOURCE_DICTIONARY_PATH = '../resources/sourceLists/cedict_1_0_ts_utf-8_mdbg.txt'
-//Word lists available free at http://www.hskhsk.com/word-lists.html
 //Note this path is parsed later and <#> is replaced with a number
 const SOURCE_HSK_LIST_PATH = '../resources/sourceLists/HSK Official 2012 L<#>.txt'
+const SOURCE_DICTIONARY_PATH = '../resources/sourceLists/cedict_1_0_ts_utf-8_mdbg.txt'
 
 
 //----------------//----------------//----------------//----------------//----------------
 // Pre-validation
+// Verify our source database files exist
 //----------------//----------------//----------------//----------------//----------------
 if (!fs.existsSync(SOURCE_DICTIONARY_PATH)) {
     console.error(`${SOURCE_DICTIONARY_PATH} not found`)
@@ -82,7 +91,11 @@ rl.on('close', () => {
         ],
         //output file
         '../resources/uber-hsk.db',
-        () => console.log('finished creating uber-hsk')
+        //callback after concat is finished
+        () => {
+            console.log('finished creating uber-hsk')
+            process.exit()
+        }
     )
     console.log('finished processing giantEffing dictionary')
 })
@@ -139,7 +152,7 @@ function addToDatabase(line) {
 
     const simplified = chineseHalf.split(' ', 2)[1]
     const pinyinWithNumbers = chineseHalf.split('[')[1].replace('] ', '')
-    pinyinWithAccents = convertToneNumbersToAccents(pinyinWithNumbers)
+    const pinyinWithAccents = convertToneNumbersToAccents(pinyinWithNumbers)
 
     const hskLevel = determineHSK(simplified)
 
@@ -161,15 +174,21 @@ function addToDatabase(line) {
 
 //----------------//----------------//----------------//----------------//----------------
 // Check passed in character against HSK lists
+// There are many cases where a character is on the HSK list, but that character may have multiple definitions and only one definition is HSK
+// We need to check both the character and the pinyin to make sure we have the correct definition
+//      BUT! AHH HHAHAHAA it's not easy.
+//      Comparing an HSK list against MDBG entries introduces a host of new problems...
+//      Spaces in one list but not the other, tone change rules with 一 and 不 in one but not the other, skipping 2nd tone in a "word" sometimes, yīdiǎner vs yīdiǎnr
+//      Finding these unique cases in all 6,000+ HSK entries is not worth not it
 //----------------//----------------//----------------//----------------//----------------
 function determineHSK(simplified) {
-    let hskForCharacter = null
+    let hskForCharacter
 
     for (let level in hsk) {
         if (hsk[level].includes(simplified)) hskForCharacter = level
-    }
+        }
 
-    return parseInt(hskForCharacter)
+    return parseInt(hskForCharacter) || null
 }
 
 
@@ -178,6 +197,7 @@ function determineHSK(simplified) {
 //----------------//----------------//----------------//----------------//----------------
 function convertToneNumbersToAccents(pinyin) {
 
+    //Replace numbers with tone marks... but there will be some mistakes to correct later in the chain
     return pinyin
         .replace(/a1/g, "ā")
         .replace(/a2/g, "á")
@@ -250,10 +270,12 @@ function convertToneNumbersToAccents(pinyin) {
         .replace(/un3/g, "ǔn")
         .replace(/un4/g, "ùn")
         .replace(/un5/g, "un")
+        .replace(/er1/g, "ēr")
         .replace(/er2/g, "ér")
         .replace(/er3/g, "ěr")
         .replace(/er4/g, "èr")
         .replace(/er5/g, "er")
+        //Correct mistakes from above... example wei4 becomes weì, which is invalid pinyin
         .replace(/aō/g, "āo")
         .replace(/aó/g, "áo")
         .replace(/aǒ/g, "ǎo")
@@ -269,5 +291,5 @@ function convertToneNumbersToAccents(pinyin) {
         .replace(/eī/g, "ēi")
         .replace(/eí/g, "éi")
         .replace(/eǐ/g, "ěi")
-        .replace(/eī/g, "èi")
+        .replace(/eì/g, "èi")
 }

@@ -244,7 +244,7 @@
 {"key":21400,"val":{"simplified":"唱歌","pinyin":"chàng gē","pinyinNoTone":"chang ge","english":["to sing a song"],"hsk":2}}
 {"key":21587,"val":{"simplified":"问","pinyin":"wèn","pinyinNoTone":"wen","english":["to ask"],"hsk":2}}
 {"key":21616,"val":{"simplified":"问题","pinyin":"wèn tí","pinyinNoTone":"wen ti","english":["question","problem","issue","topic","CL:個|个[ge4]"],"hsk":2}}
-{"key":23330,"val":{"simplified":"因为","pinyin":"yīn weì","pinyinNoTone":"yin wei","english":["because","owing to","on account of"],"hsk":2}}
+{"key":23330,"val":{"simplified":"因为","pinyin":"yīn wèi","pinyinNoTone":"yin wei","english":["because","owing to","on account of"],"hsk":2}}
 {"key":25328,"val":{"simplified":"报纸","pinyin":"bào zhǐ","pinyinNoTone":"bao zhi","english":["newspaper","newsprint","CL:份[fen4],期[qi1],張|张[zhang1]"],"hsk":2}}
 {"key":26181,"val":{"simplified":"外","pinyin":"wài","pinyinNoTone":"wai","english":["outside","in addition","foreign","external"],"hsk":2}}
 {"key":27016,"val":{"simplified":"大家","pinyin":"dà jiā","pinyinNoTone":"da jia","english":["everyone","influential family","great expert"],"hsk":2}}
@@ -252,7 +252,7 @@
 {"key":28857,"val":{"simplified":"女","pinyin":"rǔ","pinyinNoTone":"ru","english":["archaic variant of 汝[ru3]"],"hsk":2}}
 {"key":29070,"val":{"simplified":"好吃","pinyin":"hǎo chī","pinyinNoTone":"hao chi","english":["tasty","delicious"],"hsk":2}}
 {"key":29072,"val":{"simplified":"好吃","pinyin":"hào chī","pinyinNoTone":"hao chi","english":["to be fond of eating","to be gluttonous"],"hsk":2}}
-{"key":29388,"val":{"simplified":"妹妹","pinyin":"meì mei","pinyinNoTone":"mei mei","english":["younger sister","young woman","CL:個|个[ge4]"],"hsk":2}}
+{"key":29388,"val":{"simplified":"妹妹","pinyin":"mèi mei","pinyinNoTone":"mei mei","english":["younger sister","young woman","CL:個|个[ge4]"],"hsk":2}}
 {"key":29398,"val":{"simplified":"妻子","pinyin":"qī zǐ","pinyinNoTone":"qi zi","english":["wife and children"],"hsk":2}}
 {"key":29400,"val":{"simplified":"妻子","pinyin":"qī zi","pinyinNoTone":"qi zi","english":["wife","CL:個|个[ge4]"],"hsk":2}}
 {"key":29451,"val":{"simplified":"姐姐","pinyin":"jiě jie","pinyinNoTone":"jie jie","english":["older sister","CL:個|个[ge4]"],"hsk":2}}
@@ -308,9 +308,9 @@
 {"key":59571,"val":{"simplified":"比","pinyin":"bì","pinyinNoTone":"bi","english":["to associate with","to be near"],"hsk":2}}
 {"key":62374,"val":{"simplified":"洗","pinyin":"xǐ","pinyinNoTone":"xi","english":["to wash","to bathe","to develop (photo)"],"hsk":2}}
 {"key":64643,"val":{"simplified":"游泳","pinyin":"yóu yǒng","pinyinNoTone":"you yong","english":["swimming","to swim"],"hsk":2}}
-{"key":64917,"val":{"simplified":"准备","pinyin":"zhǔn beì","pinyinNoTone":"zhun bei","english":["preparation","to prepare","to intend","to be about to","reserve (fund)"],"hsk":2}}
+{"key":64917,"val":{"simplified":"准备","pinyin":"zhǔn bèi","pinyinNoTone":"zhun bei","english":["preparation","to prepare","to intend","to be about to","reserve (fund)"],"hsk":2}}
 {"key":66789,"val":{"simplified":"火车站","pinyin":"huǒ chē zhàn","pinyinNoTone":"huo che zhan","english":["train station"],"hsk":2}}
-{"key":67098,"val":{"simplified":"为什么","pinyin":"weì shén me","pinyinNoTone":"wei shen me","english":["why?","for what reason?"],"hsk":2}}
+{"key":67098,"val":{"simplified":"为什么","pinyin":"wèi shén me","pinyinNoTone":"wei shen me","english":["why?","for what reason?"],"hsk":2}}
 {"key":69142,"val":{"simplified":"牛奶","pinyin":"niú nǎi","pinyinNoTone":"niu nai","english":["cow's milk","CL:瓶[ping2],杯[bei1]"],"hsk":2}}
 {"key":70598,"val":{"simplified":"玩","pinyin":"wán","pinyinNoTone":"wan","english":["to play","to have fun","to trifle with","toy","sth used for amusement","curio or antique (Taiwan pr. [wan4])","to keep sth for entertainment"],"hsk":2}}
 {"key":71820,"val":{"simplified":"生日","pinyin":"shēng rì","pinyinNoTone":"sheng ri","english":["birthday","CL:個|个[ge4]"],"hsk":2}}
@@ -331,7 +331,7 @@
 {"key":81595,"val":{"simplified":"红","pinyin":"Hóng","pinyinNoTone":"hong","english":["surname Hong"],"hsk":2}}
 {"key":81597,"val":{"simplified":"红","pinyin":"hóng","pinyinNoTone":"hong","english":["red","popular","revolutionary","bonus"],"hsk":2}}
 {"key":82290,"val":{"simplified":"累","pinyin":"lěi","pinyinNoTone":"lei","english":["to accumulate","to involve or implicate (Taiwan pr. [lei4])","continuous","repeated"],"hsk":2}}
-{"key":82292,"val":{"simplified":"累","pinyin":"leì","pinyinNoTone":"lei","english":["tired","weary","to strain","to wear out","to work hard"],"hsk":2}}
+{"key":82292,"val":{"simplified":"累","pinyin":"lèi","pinyinNoTone":"lei","english":["tired","weary","to strain","to wear out","to work hard"],"hsk":2}}
 {"key":82755,"val":{"simplified":"给","pinyin":"gěi","pinyinNoTone":"gei","english":["to","for","for the benefit of","to give","to allow","to do sth (for sb)","(grammatical equivalent of 被)","(grammatical equivalent of 把)","(sentence intensifier)"],"hsk":2}}
 {"key":82757,"val":{"simplified":"给","pinyin":"jǐ","pinyinNoTone":"ji","english":["to supply","to provide"],"hsk":2}}
 {"key":84291,"val":{"simplified":"累","pinyin":"Léi","pinyinNoTone":"lei","english":["surname Lei"],"hsk":2}}
@@ -417,7 +417,7 @@
 {"key":4197,"val":{"simplified":"干净","pinyin":"gān jìng","pinyinNoTone":"gan jing","english":["clean","neat"],"hsk":3}}
 {"key":4323,"val":{"simplified":"了解","pinyin":"liǎo jiě","pinyinNoTone":"liao jie","english":["to understand","to realize","to find out"],"hsk":3}}
 {"key":6096,"val":{"simplified":"以前","pinyin":"yǐ qián","pinyinNoTone":"yi qian","english":["before","formerly","previous","ago"],"hsk":3}}
-{"key":6758,"val":{"simplified":"位","pinyin":"weì","pinyinNoTone":"wei","english":["position","location","place","seat","classifier for people (honorific)","classifier for binary bits (e.g. 十六位 16-bit or 2 bytes)"],"hsk":3}}
+{"key":6758,"val":{"simplified":"位","pinyin":"wèi","pinyinNoTone":"wei","english":["position","location","place","seat","classifier for people (honorific)","classifier for binary bits (e.g. 十六位 16-bit or 2 bytes)"],"hsk":3}}
 {"key":7102,"val":{"simplified":"作业","pinyin":"zuò yè","pinyinNoTone":"zuo ye","english":["school assignment","homework","work","task","operation","CL:個|个[ge4]","to operate"],"hsk":3}}
 {"key":8022,"val":{"simplified":"信用卡","pinyin":"xìn yòng kǎ","pinyinNoTone":"xin yong ka","english":["credit card"],"hsk":3}}
 {"key":8256,"val":{"simplified":"个子","pinyin":"gè zi","pinyinNoTone":"ge zi","english":["height","stature","build","size"],"hsk":3}}
@@ -582,8 +582,8 @@
 {"key":64625,"val":{"simplified":"渴","pinyin":"kě","pinyinNoTone":"ke","english":["thirsty"],"hsk":3}}
 {"key":65471,"val":{"simplified":"满意","pinyin":"mǎn yì","pinyinNoTone":"man yi","english":["satisfied","pleased","to one's satisfaction"],"hsk":3}}
 {"key":67087,"val":{"simplified":"为","pinyin":"wéi","pinyinNoTone":"wei","english":["as (in the capacity of)","to take sth as","to act as","to serve as","to behave as","to become","to be","to do","by (in the passive voice)"],"hsk":3}}
-{"key":67089,"val":{"simplified":"为","pinyin":"weì","pinyinNoTone":"wei","english":["because of","for","to"],"hsk":3}}
-{"key":67092,"val":{"simplified":"为了","pinyin":"weì le","pinyinNoTone":"wei le","english":["in order to","for the purpose of","so as to"],"hsk":3}}
+{"key":67089,"val":{"simplified":"为","pinyin":"wèi","pinyinNoTone":"wei","english":["because of","for","to"],"hsk":3}}
+{"key":67092,"val":{"simplified":"为了","pinyin":"wèi le","pinyinNoTone":"wei le","english":["in order to","for the purpose of","so as to"],"hsk":3}}
 {"key":67880,"val":{"simplified":"然后","pinyin":"rán hòu","pinyinNoTone":"ran hou","english":["after","then (afterwards)","after that","afterwards"],"hsk":3}}
 {"key":68102,"val":{"simplified":"照片","pinyin":"zhào piàn","pinyinNoTone":"zhao pian","english":["photograph","picture","CL:張|张[zhang1],套[tao4],幅[fu2]"],"hsk":3}}
 {"key":68111,"val":{"simplified":"照相机","pinyin":"zhào xiàng jī","pinyinNoTone":"zhao xiang ji","english":["camera","CL:個|个[ge4],架[jia4],部[bu4],台[tai2],隻|只[zhi1]"],"hsk":3}}
@@ -593,7 +593,7 @@
 {"key":68512,"val":{"simplified":"灯","pinyin":"dēng","pinyinNoTone":"deng","english":["lamp","light","lantern","CL:盞|盏[zhan3]"],"hsk":3}}
 {"key":68856,"val":{"simplified":"爬山","pinyin":"pá shān","pinyinNoTone":"pa shan","english":["to climb a mountain","to mountaineer","hiking","mountaineering"],"hsk":3}}
 {"key":68925,"val":{"simplified":"为","pinyin":"wéi","pinyinNoTone":"wei","english":["variant of 為|为[wei2]","as (i.e. in the capacity of)","to take sth as","to act as","to serve as","to behave as","to become","to be","to do"],"hsk":3}}
-{"key":68927,"val":{"simplified":"为","pinyin":"weì","pinyinNoTone":"wei","english":["variant of 為|为[wei4], because of","for","to"],"hsk":3}}
+{"key":68927,"val":{"simplified":"为","pinyin":"wèi","pinyinNoTone":"wei","english":["variant of 為|为[wei4], because of","for","to"],"hsk":3}}
 {"key":68965,"val":{"simplified":"爷爷","pinyin":"yé ye","pinyinNoTone":"ye ye","english":["(coll.) father's father","paternal grandfather","CL:個|个[ge4]"],"hsk":3}}
 {"key":69407,"val":{"simplified":"特别","pinyin":"tè bié","pinyinNoTone":"te bie","english":["especially","special","particular","unusual"],"hsk":3}}
 {"key":70788,"val":{"simplified":"班","pinyin":"Bān","pinyinNoTone":"ban","english":["surname Ban"],"hsk":3}}
@@ -685,7 +685,7 @@
 {"key":94449,"val":{"simplified":"行李箱","pinyin":"xíng li xiāng","pinyinNoTone":"xing li xiang","english":["suitcase","baggage compartment","overhead bin","(car) trunk","boot"],"hsk":3}}
 {"key":94552,"val":{"simplified":"街道","pinyin":"jiē dào","pinyinNoTone":"jie dao","english":["street","CL:條|条[tiao2]","subdistrict","residential district"],"hsk":3}}
 {"key":94860,"val":{"simplified":"只","pinyin":"zhǐ","pinyinNoTone":"zhi","english":["variant of 只[zhi3]"],"hsk":3}}
-{"key":94929,"val":{"simplified":"被","pinyin":"beì","pinyinNoTone":"bei","english":["quilt","by","(indicates passive-voice clauses)","(literary) to cover","to meet with"],"hsk":3}}
+{"key":94929,"val":{"simplified":"被","pinyin":"bèi","pinyinNoTone":"bei","english":["quilt","by","(indicates passive-voice clauses)","(literary) to cover","to meet with"],"hsk":3}}
 {"key":95075,"val":{"simplified":"裙子","pinyin":"qún zi","pinyinNoTone":"qun zi","english":["skirt","CL:條|条[tiao2]"],"hsk":3}}
 {"key":95361,"val":{"simplified":"复习","pinyin":"fù xí","pinyinNoTone":"fu xi","english":["variant of 復習|复习[fu4 xi2]"],"hsk":3}}
 {"key":95476,"val":{"simplified":"裤子","pinyin":"kù zi","pinyinNoTone":"ku zi","english":["trousers","pants","CL:條|条[tiao2]"],"hsk":3}}
@@ -841,7 +841,7 @@
 {"key":7998,"val":{"simplified":"信息","pinyin":"xìn xī","pinyinNoTone":"xin xi","english":["information","news","message"],"hsk":4}}
 {"key":8109,"val":{"simplified":"修理","pinyin":"xiū lǐ","pinyinNoTone":"xiu li","english":["to repair","to fix","to prune","to trim","(coll.) to sort sb out","to fix sb"],"hsk":4}}
 {"key":8210,"val":{"simplified":"俩","pinyin":"liǎ","pinyinNoTone":"lia","english":["two (colloquial equivalent of 兩個|两个)","both","some"],"hsk":4}}
-{"key":8275,"val":{"simplified":"倍","pinyin":"beì","pinyinNoTone":"bei","english":["(two, three etc) -fold","times (multiplier)","double","to increase or multiply"],"hsk":4}}
+{"key":8275,"val":{"simplified":"倍","pinyin":"bèi","pinyinNoTone":"bei","english":["(two, three etc) -fold","times (multiplier)","double","to increase or multiply"],"hsk":4}}
 {"key":8293,"val":{"simplified":"倒","pinyin":"dǎo","pinyinNoTone":"dao","english":["to fall","to collapse","to overthrow","to fail","to go bankrupt","to change (trains or buses)","to move around","to resell at a profit"],"hsk":4}}
 {"key":8295,"val":{"simplified":"倒","pinyin":"dào","pinyinNoTone":"dao","english":["to place upside down","to invert","to pour","to throw out","to move backwards","however","actually","as a matter of fact","contrary to expectation"],"hsk":4}}
 {"key":8581,"val":{"simplified":"值得","pinyin":"zhí de","pinyinNoTone":"zhi de","english":["to be worth","to deserve"],"hsk":4}}
@@ -857,11 +857,11 @@
 {"key":9887,"val":{"simplified":"优点","pinyin":"yōu diǎn","pinyinNoTone":"you dian","english":["merit","benefit","strong point","advantage","CL:個|个[ge4],項|项[xiang4]"],"hsk":4}}
 {"key":9948,"val":{"simplified":"允许","pinyin":"yǔn xǔ","pinyinNoTone":"yun xu","english":["to permit","to allow"],"hsk":4}}
 {"key":10211,"val":{"simplified":"光","pinyin":"guāng","pinyinNoTone":"guang","english":["light","ray","CL:道[dao4]","bright","only","merely","to use up"],"hsk":4}}
-{"key":10508,"val":{"simplified":"免费","pinyin":"miǎn feì","pinyinNoTone":"mian fei","english":["free (of charge)"],"hsk":4}}
+{"key":10508,"val":{"simplified":"免费","pinyin":"miǎn fèi","pinyinNoTone":"mian fei","english":["free (of charge)"],"hsk":4}}
 {"key":10538,"val":{"simplified":"儿童","pinyin":"ér tóng","pinyinNoTone":"er tong","english":["child","CL:個|个[ge4]"],"hsk":4}}
 {"key":10603,"val":{"simplified":"入口","pinyin":"rù kǒu","pinyinNoTone":"ru kou","english":["entrance","to import"],"hsk":4}}
-{"key":10665,"val":{"simplified":"内","pinyin":"neì","pinyinNoTone":"nei","english":["inside","inner","internal","within","interior"],"hsk":4}}
-{"key":10711,"val":{"simplified":"内容","pinyin":"neì róng","pinyinNoTone":"nei rong","english":["content","substance","details","CL:個|个[ge4],項|项[xiang4]"],"hsk":4}}
+{"key":10665,"val":{"simplified":"内","pinyin":"nèi","pinyinNoTone":"nei","english":["inside","inner","internal","within","interior"],"hsk":4}}
+{"key":10711,"val":{"simplified":"内容","pinyin":"nèi róng","pinyinNoTone":"nei rong","english":["content","substance","details","CL:個|个[ge4],項|项[xiang4]"],"hsk":4}}
 {"key":11000,"val":{"simplified":"全部","pinyin":"quán bù","pinyinNoTone":"quan bu","english":["whole","entire","complete"],"hsk":4}}
 {"key":11514,"val":{"simplified":"公里","pinyin":"gōng lǐ","pinyinNoTone":"gong li","english":["kilometer"],"hsk":4}}
 {"key":11625,"val":{"simplified":"共同","pinyin":"gòng tóng","pinyinNoTone":"gong tong","english":["common","joint","jointly","together","collaborative"],"hsk":4}}
@@ -928,7 +928,7 @@
 {"key":20001,"val":{"simplified":"吸引","pinyin":"xī yǐn","pinyinNoTone":"xi yin","english":["to attract (interest, investment etc)","CL:個|个[ge4]"],"hsk":4}}
 {"key":20114,"val":{"simplified":"呀","pinyin":"ya","pinyinNoTone":"ya","english":["(particle equivalent to 啊 after a vowel, expressing surprise or doubt)"],"hsk":4}}
 {"key":20247,"val":{"simplified":"周围","pinyin":"zhōu wéi","pinyinNoTone":"zhou wei","english":["surroundings","environment","to encompass"],"hsk":4}}
-{"key":20355,"val":{"simplified":"味道","pinyin":"weì dao","pinyinNoTone":"wei dao","english":["flavor","smell","hint of"],"hsk":4}}
+{"key":20355,"val":{"simplified":"味道","pinyin":"wèi dao","pinyinNoTone":"wei dao","english":["flavor","smell","hint of"],"hsk":4}}
 {"key":20742,"val":{"simplified":"咱们","pinyin":"zán men","pinyinNoTone":"zan men","english":["we or us (including both the speaker and the person(s) spoken to)","(dialect) I or me","(dialect) (in a coaxing or familiar way) you","also pr. [za2 men5]"],"hsk":4}}
 {"key":20751,"val":{"simplified":"咳嗽","pinyin":"ké sou","pinyinNoTone":"ke sou","english":["to cough","CL:陣|阵[zhen4]"],"hsk":4}}
 {"key":20756,"val":{"simplified":"咸","pinyin":"Xián","pinyinNoTone":"xian","english":["surname Xian"],"hsk":4}}
@@ -1019,7 +1019,7 @@
 {"key":36973,"val":{"simplified":"底","pinyin":"de","pinyinNoTone":"de","english":["(equivalent to 的 as possessive particle)"],"hsk":4}}
 {"key":36975,"val":{"simplified":"底","pinyin":"dǐ","pinyinNoTone":"di","english":["background","bottom","base","end (of the month, year etc)","remnants","(math.) radix","base"],"hsk":4}}
 {"key":37062,"val":{"simplified":"座","pinyin":"zuò","pinyinNoTone":"zuo","english":["seat","base","stand","CL:個|个[ge4]","classifier for buildings, mountains and similar immovable objects"],"hsk":4}}
-{"key":37065,"val":{"simplified":"座位","pinyin":"zuò weì","pinyinNoTone":"zuo wei","english":["seat","CL:個|个[ge4]"],"hsk":4}}
+{"key":37065,"val":{"simplified":"座位","pinyin":"zuò wèi","pinyinNoTone":"zuo wei","english":["seat","CL:個|个[ge4]"],"hsk":4}}
 {"key":37230,"val":{"simplified":"厕所","pinyin":"cè suǒ","pinyinNoTone":"ce suo","english":["toilet","lavatory","CL:間|间[jian1],處|处[chu4]"],"hsk":4}}
 {"key":37287,"val":{"simplified":"厨房","pinyin":"chú fáng","pinyinNoTone":"chu fang","english":["kitchen","CL:間|间[jian1]"],"hsk":4}}
 {"key":37379,"val":{"simplified":"广告","pinyin":"guǎng gào","pinyinNoTone":"guang gao","english":["to advertise","a commercial","advertisement","CL:項|项[xiang4]"],"hsk":4}}
@@ -1163,7 +1163,7 @@
 {"key":62796,"val":{"simplified":"流利","pinyin":"liú lì","pinyinNoTone":"liu li","english":["fluent"],"hsk":4}}
 {"key":62885,"val":{"simplified":"流行","pinyin":"liú xíng","pinyinNoTone":"liu xing","english":["(of a contagious disease etc) to spread","to propagate","(of a style of clothing, song etc) popular","fashionable"],"hsk":4}}
 {"key":63004,"val":{"simplified":"浪漫","pinyin":"làng màn","pinyinNoTone":"lang man","english":["romantic"],"hsk":4}}
-{"key":63014,"val":{"simplified":"浪费","pinyin":"làng feì","pinyinNoTone":"lang fei","english":["to waste","to squander"],"hsk":4}}
+{"key":63014,"val":{"simplified":"浪费","pinyin":"làng fèi","pinyinNoTone":"lang fei","english":["to waste","to squander"],"hsk":4}}
 {"key":63260,"val":{"simplified":"海洋","pinyin":"hǎi yáng","pinyinNoTone":"hai yang","english":["ocean","CL:個|个[ge4]"],"hsk":4}}
 {"key":63486,"val":{"simplified":"消息","pinyin":"xiāo xi","pinyinNoTone":"xiao xi","english":["news","information","CL:條|条[tiao2]"],"hsk":4}}
 {"key":63691,"val":{"simplified":"凉快","pinyin":"liáng kuai","pinyinNoTone":"liang kuai","english":["nice and cold","pleasantly cool"],"hsk":4}}
@@ -1329,7 +1329,7 @@
 {"key":94352,"val":{"simplified":"行","pinyin":"háng","pinyinNoTone":"hang","english":["a row","series","age order (of brothers)","profession","professional","relating to company"],"hsk":4}}
 {"key":94354,"val":{"simplified":"行","pinyin":"xíng","pinyinNoTone":"xing","english":["to walk","to go","to travel","a visit","temporary","makeshift","current","in circulation","to do","to perform","capable","competent","effective","all right","OK!","will do","behavior","conduct","Taiwan pr. [xing4] for the behavior-conduct sense"],"hsk":4}}
 {"key":94535,"val":{"simplified":"弄","pinyin":"lòng","pinyinNoTone":"long","english":["variant of 弄[long4]"],"hsk":4}}
-{"key":94613,"val":{"simplified":"卫生间","pinyin":"weì shēng jiān","pinyinNoTone":"wei sheng jian","english":["bathroom","toilet","WC","CL:間|间[jian1]"],"hsk":4}}
+{"key":94613,"val":{"simplified":"卫生间","pinyin":"wèi shēng jiān","pinyinNoTone":"wei sheng jian","english":["bathroom","toilet","WC","CL:間|间[jian1]"],"hsk":4}}
 {"key":94771,"val":{"simplified":"表扬","pinyin":"biǎo yáng","pinyinNoTone":"biao yang","english":["to praise","to commend"],"hsk":4}}
 {"key":94775,"val":{"simplified":"表格","pinyin":"biǎo gé","pinyinNoTone":"biao ge","english":["form","table","CL:張|张[zhang1],份[fen4]"],"hsk":4}}
 {"key":94781,"val":{"simplified":"表演","pinyin":"biǎo yǎn","pinyinNoTone":"biao yan","english":["play","show","performance","exhibition","to perform","to act","to demonstrate","CL:場|场[chang3]"],"hsk":4}}
@@ -1460,7 +1460,7 @@
 {"key":452,"val":{"simplified":"一律","pinyin":"yī lu:4","pinyinNoTone":"yi lu:","english":["same","uniformly","all","without exception"],"hsk":5}}
 {"key":512,"val":{"simplified":"一旦","pinyin":"yī dàn","pinyinNoTone":"yi dan","english":["in case (sth happens)","if","once (sth happens, then...)","when","in a short time","in one day"],"hsk":5}}
 {"key":697,"val":{"simplified":"一致","pinyin":"yī zhì","pinyinNoTone":"yi zhi","english":["unanimous","identical (views or opinions)"],"hsk":5}}
-{"key":784,"val":{"simplified":"一辈子","pinyin":"yī beì zi","pinyinNoTone":"yi bei zi","english":["(for) a lifetime"],"hsk":5}}
+{"key":784,"val":{"simplified":"一辈子","pinyin":"yī bèi zi","pinyinNoTone":"yi bei zi","english":["(for) a lifetime"],"hsk":5}}
 {"key":1557,"val":{"simplified":"上当","pinyin":"shàng dàng","pinyinNoTone":"shang dang","english":["taken in (by sb's deceit)","to be fooled","to be duped"],"hsk":5}}
 {"key":1815,"val":{"simplified":"下载","pinyin":"xià zǎi","pinyinNoTone":"xia zai","english":["to download","also pr. [xia4 zai4]"],"hsk":5}}
 {"key":2142,"val":{"simplified":"不如","pinyin":"bù rú","pinyinNoTone":"bu ru","english":["not equal to","not as good as","inferior to","it would be better to"],"hsk":5}}
@@ -1507,7 +1507,7 @@
 {"key":5512,"val":{"simplified":"人民币","pinyin":"rén mín bì","pinyinNoTone":"ren min bi","english":["Renminbi (RMB)","Chinese Yuan (CNY)"],"hsk":5}}
 {"key":5548,"val":{"simplified":"人物","pinyin":"rén wù","pinyinNoTone":"ren wu","english":["person","character (in a play, novel etc)","protagonist","CL:個|个[ge4]"],"hsk":5}}
 {"key":5554,"val":{"simplified":"人生","pinyin":"rén shēng","pinyinNoTone":"ren sheng","english":["life (one's time on earth)"],"hsk":5}}
-{"key":5646,"val":{"simplified":"人类","pinyin":"rén leì","pinyinNoTone":"ren lei","english":["humanity","human race","mankind"],"hsk":5}}
+{"key":5646,"val":{"simplified":"人类","pinyin":"rén lèi","pinyinNoTone":"ren lei","english":["humanity","human race","mankind"],"hsk":5}}
 {"key":5986,"val":{"simplified":"代替","pinyin":"dài tì","pinyinNoTone":"dai ti","english":["to replace","to take the place of"],"hsk":5}}
 {"key":6012,"val":{"simplified":"代表","pinyin":"dài biǎo","pinyinNoTone":"dai biao","english":["representative","delegate","CL:位[wei4],個|个[ge4],名[ming2]","to represent","to stand for","on behalf of","in the name of"],"hsk":5}}
 {"key":6078,"val":{"simplified":"以来","pinyin":"yǐ lái","pinyinNoTone":"yi lai","english":["since (a previous event)"],"hsk":5}}
@@ -1520,15 +1520,15 @@
 {"key":6687,"val":{"simplified":"似乎","pinyin":"sì hū","pinyinNoTone":"si hu","english":["apparently","to seem","to appear","as if","seemingly"],"hsk":5}}
 {"key":6694,"val":{"simplified":"似的","pinyin":"shì de","pinyinNoTone":"shi de","english":["seems as if","rather like","Taiwan pr. [si4 de5]"],"hsk":5}}
 {"key":6735,"val":{"simplified":"布","pinyin":"bù","pinyinNoTone":"bu","english":["variant of 布[bu4]","to announce","to spread"],"hsk":5}}
-{"key":6768,"val":{"simplified":"位于","pinyin":"weì yú","pinyinNoTone":"wei yu","english":["to be located at","to be situated at","to lie"],"hsk":5}}
-{"key":6773,"val":{"simplified":"位置","pinyin":"weì zhi","pinyinNoTone":"wei zhi","english":["position","place","seat","CL:個|个[ge4]"],"hsk":5}}
+{"key":6768,"val":{"simplified":"位于","pinyin":"wèi yú","pinyinNoTone":"wei yu","english":["to be located at","to be situated at","to lie"],"hsk":5}}
+{"key":6773,"val":{"simplified":"位置","pinyin":"wèi zhi","pinyinNoTone":"wei zhi","english":["position","place","seat","CL:個|个[ge4]"],"hsk":5}}
 {"key":6921,"val":{"simplified":"占","pinyin":"zhàn","pinyinNoTone":"zhan","english":["variant of 占[zhan4]"],"hsk":5}}
 {"key":6958,"val":{"simplified":"何必","pinyin":"hé bì","pinyinNoTone":"he bi","english":["there is no need","why should"],"hsk":5}}
 {"key":6968,"val":{"simplified":"何况","pinyin":"hé kuàng","pinyinNoTone":"he kuang","english":["let alone","to say nothing of","besides","what's more"],"hsk":5}}
 {"key":7063,"val":{"simplified":"作品","pinyin":"zuò pǐn","pinyinNoTone":"zuo pin","english":["work (of art)","opus","CL:部[bu4],篇[pian1]"],"hsk":5}}
 {"key":7094,"val":{"simplified":"作文","pinyin":"zuò wén","pinyinNoTone":"zuo wen","english":["to write an essay","composition (student essay)","CL:篇[pian1]"],"hsk":5}}
 {"key":7111,"val":{"simplified":"作为","pinyin":"zuò wéi","pinyinNoTone":"zuo wei","english":["one's conduct","deed","activity","accomplishment","achievement","to act as","as (in the capacity of)","qua","to view as","to look upon (sth as)","to take sth to be"],"hsk":5}}
-{"key":7178,"val":{"simplified":"佩服","pinyin":"peì fú","pinyinNoTone":"pei fu","english":["to admire"],"hsk":5}}
+{"key":7178,"val":{"simplified":"佩服","pinyin":"pèi fú","pinyinNoTone":"pei fu","english":["to admire"],"hsk":5}}
 {"key":7255,"val":{"simplified":"使劲儿","pinyin":"shǐ jìn r5","pinyinNoTone":"shi jin r","english":["erhua variant of 使勁|使劲[shi3 jin4]"],"hsk":5}}
 {"key":7526,"val":{"simplified":"依然","pinyin":"yī rán","pinyinNoTone":"yi ran","english":["still","as before"],"hsk":5}}
 {"key":7599,"val":{"simplified":"便","pinyin":"biàn","pinyinNoTone":"bian","english":["plain","informal","suitable","convenient","opportune","to urinate or defecate","equivalent to 就[jiu4]: then","in that case","even if","soon afterwards"],"hsk":5}}
@@ -1585,8 +1585,8 @@
 {"key":10412,"val":{"simplified":"克服","pinyin":"kè fú","pinyinNoTone":"ke fu","english":["(try to) overcome (hardships etc)","to conquer","to put up with","to endure"],"hsk":5}}
 {"key":10476,"val":{"simplified":"兑换","pinyin":"duì huàn","pinyinNoTone":"dui huan","english":["to convert","to exchange"],"hsk":5}}
 {"key":10546,"val":{"simplified":"兔子","pinyin":"tù zi","pinyinNoTone":"tu zi","english":["hare","rabbit","CL:隻|只[zhi1]"],"hsk":5}}
-{"key":10771,"val":{"simplified":"内科","pinyin":"neì kē","pinyinNoTone":"nei ke","english":["internal medicine","general medicine"],"hsk":5}}
-{"key":10816,"val":{"simplified":"内部","pinyin":"neì bù","pinyinNoTone":"nei bu","english":["interior","inside (part, section)","internal"],"hsk":5}}
+{"key":10771,"val":{"simplified":"内科","pinyin":"nèi kē","pinyinNoTone":"nei ke","english":["internal medicine","general medicine"],"hsk":5}}
+{"key":10816,"val":{"simplified":"内部","pinyin":"nèi bù","pinyinNoTone":"nei bu","english":["interior","inside (part, section)","internal"],"hsk":5}}
 {"key":11006,"val":{"simplified":"全面","pinyin":"quán miàn","pinyinNoTone":"quan mian","english":["all-around","comprehensive","total","overall"],"hsk":5}}
 {"key":11249,"val":{"simplified":"公主","pinyin":"gōng zhǔ","pinyinNoTone":"gong zhu","english":["princess"],"hsk":5}}
 {"key":11266,"val":{"simplified":"公布","pinyin":"gōng bù","pinyinNoTone":"gong bu","english":["to announce","to make public","to publish"],"hsk":5}}
@@ -1595,7 +1595,7 @@
 {"key":11370,"val":{"simplified":"公平","pinyin":"gōng píng","pinyinNoTone":"gong ping","english":["fair","impartial"],"hsk":5}}
 {"key":11519,"val":{"simplified":"公开","pinyin":"gōng kāi","pinyinNoTone":"gong kai","english":["public","to publish","to make public"],"hsk":5}}
 {"key":11773,"val":{"simplified":"其余","pinyin":"qí yú","pinyinNoTone":"qi yu","english":["the rest","the others","remaining","remainder","apart from them"],"hsk":5}}
-{"key":11777,"val":{"simplified":"具备","pinyin":"jù beì","pinyinNoTone":"ju bei","english":["to possess","to have","equipped with","able to fulfill (conditions or requirements)"],"hsk":5}}
+{"key":11777,"val":{"simplified":"具备","pinyin":"jù bèi","pinyinNoTone":"ju bei","english":["to possess","to have","equipped with","able to fulfill (conditions or requirements)"],"hsk":5}}
 {"key":11785,"val":{"simplified":"具体","pinyin":"jù tǐ","pinyinNoTone":"ju ti","english":["concrete","definite","specific"],"hsk":5}}
 {"key":11829,"val":{"simplified":"兼职","pinyin":"jiān zhí","pinyinNoTone":"jian zhi","english":["to hold concurrent posts","concurrent job","moonlighting"],"hsk":5}}
 {"key":11849,"val":{"simplified":"册","pinyin":"cè","pinyinNoTone":"ce","english":["book","booklet","classifier for books"],"hsk":5}}
@@ -1615,7 +1615,7 @@
 {"key":12912,"val":{"simplified":"分别","pinyin":"fēn bié","pinyinNoTone":"fen bie","english":["to part or leave each other","to distinguish","difference","in different ways","differently","separately or individually"],"hsk":5}}
 {"key":12961,"val":{"simplified":"分手","pinyin":"fēn shǒu","pinyinNoTone":"fen shou","english":["to part company","to split up","to break up"],"hsk":5}}
 {"key":12990,"val":{"simplified":"分析","pinyin":"fēn xī","pinyinNoTone":"fen xi","english":["to analyze","analysis","CL:個|个[ge4]"],"hsk":5}}
-{"key":13094,"val":{"simplified":"分配","pinyin":"fēn peì","pinyinNoTone":"fen pei","english":["to distribute","to assign","to allocate","to partition (a hard drive)"],"hsk":5}}
+{"key":13094,"val":{"simplified":"分配","pinyin":"fēn pèi","pinyinNoTone":"fen pei","english":["to distribute","to assign","to allocate","to partition (a hard drive)"],"hsk":5}}
 {"key":13133,"val":{"simplified":"切","pinyin":"qiē","pinyinNoTone":"qie","english":["to cut","to slice","tangent (math)"],"hsk":5}}
 {"key":13135,"val":{"simplified":"切","pinyin":"qiè","pinyinNoTone":"qie","english":["definitely","absolutely (not)","(scoffing or dismissive interjection) Yeah, right.","Tut!","to grind","close to","eager","to correspond to","see also 反切[fan3 qie4]"],"hsk":5}}
 {"key":13269,"val":{"simplified":"划","pinyin":"huá","pinyinNoTone":"hua","english":["to row","to paddle","profitable","worth (the effort)","it pays (to do sth)"],"hsk":5}}
@@ -1680,7 +1680,7 @@
 {"key":17809,"val":{"simplified":"反复","pinyin":"fǎn fù","pinyinNoTone":"fan fu","english":["repeatedly","over and over","to upend","unstable","to come and go","(of an illness) to return"],"hsk":5}}
 {"key":17916,"val":{"simplified":"取消","pinyin":"qǔ xiāo","pinyinNoTone":"qu xiao","english":["to cancel","cancellation"],"hsk":5}}
 {"key":17944,"val":{"simplified":"受伤","pinyin":"shòu shāng","pinyinNoTone":"shou shang","english":["to sustain injuries","wounded (in an accident etc)","harmed"],"hsk":5}}
-{"key":18096,"val":{"simplified":"口味","pinyin":"kǒu weì","pinyinNoTone":"kou wei","english":["a person's preferences","tastes (in food)","flavor"],"hsk":5}}
+{"key":18096,"val":{"simplified":"口味","pinyin":"kǒu wèi","pinyinNoTone":"kou wei","english":["a person's preferences","tastes (in food)","flavor"],"hsk":5}}
 {"key":18202,"val":{"simplified":"古代","pinyin":"gǔ dài","pinyinNoTone":"gu dai","english":["ancient times","olden times"],"hsk":5}}
 {"key":18208,"val":{"simplified":"古典","pinyin":"gǔ diǎn","pinyinNoTone":"gu dian","english":["classical"],"hsk":5}}
 {"key":18449,"val":{"simplified":"召开","pinyin":"zhào kāi","pinyinNoTone":"zhao kai","english":["to convene (a conference or meeting)","to convoke","to call together"],"hsk":5}}
@@ -1735,7 +1735,7 @@
 {"key":21788,"val":{"simplified":"善于","pinyin":"shàn yú","pinyinNoTone":"shan yu","english":["to be good at","to be adept at"],"hsk":5}}
 {"key":21805,"val":{"simplified":"善良","pinyin":"shàn liáng","pinyinNoTone":"shan liang","english":["good and honest","kindhearted"],"hsk":5}}
 {"key":21851,"val":{"simplified":"喊","pinyin":"hǎn","pinyinNoTone":"han","english":["to yell","to shout","to call out for (a person)"],"hsk":5}}
-{"key":22087,"val":{"simplified":"单位","pinyin":"dān weì","pinyinNoTone":"dan wei","english":["unit (of measure)","unit (group of people as a whole)","work unit (place of employment, esp. in the PRC prior to economic reform)","CL:個|个[ge4]"],"hsk":5}}
+{"key":22087,"val":{"simplified":"单位","pinyin":"dān wèi","pinyinNoTone":"dan wei","english":["unit (of measure)","unit (group of people as a whole)","work unit (place of employment, esp. in the PRC prior to economic reform)","CL:個|个[ge4]"],"hsk":5}}
 {"key":22100,"val":{"simplified":"单元","pinyin":"dān yuán","pinyinNoTone":"dan yuan","english":["unit (forming an entity)","element","(in a residential building) entrance or staircase"],"hsk":5}}
 {"key":22168,"val":{"simplified":"单独","pinyin":"dān dú","pinyinNoTone":"dan du","english":["alone","by oneself","on one's own"],"hsk":5}}
 {"key":22185,"val":{"simplified":"单纯","pinyin":"dān chún","pinyinNoTone":"dan chun","english":["simple","pure","unsophisticated","merely","purely"],"hsk":5}}
@@ -1766,7 +1766,7 @@
 {"key":24089,"val":{"simplified":"土豆","pinyin":"tǔ dòu","pinyinNoTone":"tu dou","english":["potato","CL:個|个[ge4]","(Tw) peanut","CL:顆|颗[ke1]"],"hsk":5}}
 {"key":24121,"val":{"simplified":"在乎","pinyin":"zài hu","pinyinNoTone":"zai hu","english":["to care about","equivalent of 在於|在于[zai4 yu2]"],"hsk":5}}
 {"key":24152,"val":{"simplified":"在于","pinyin":"zài yú","pinyinNoTone":"zai yu","english":["to be in","to lie in","to consist in","to depend on","to rest with"],"hsk":5}}
-{"key":24211,"val":{"simplified":"地位","pinyin":"dì weì","pinyinNoTone":"di wei","english":["position","status","place","CL:個|个[ge4]"],"hsk":5}}
+{"key":24211,"val":{"simplified":"地位","pinyin":"dì wèi","pinyinNoTone":"di wei","english":["position","status","place","CL:個|个[ge4]"],"hsk":5}}
 {"key":24225,"val":{"simplified":"地区","pinyin":"dì qū","pinyinNoTone":"di qu","english":["local","regional","district (not necessarily formal administrative unit)","region","area","as suffix to city name, means prefecture or county (area administered by a prefecture level city or county level city)","CL:個|个[ge4]"],"hsk":5}}
 {"key":24302,"val":{"simplified":"地毯","pinyin":"dì tǎn","pinyinNoTone":"di tan","english":["carpet","rug"],"hsk":5}}
 {"key":24329,"val":{"simplified":"地理","pinyin":"dì lǐ","pinyinNoTone":"di li","english":["geography"],"hsk":5}}
@@ -1843,7 +1843,7 @@
 {"key":30624,"val":{"simplified":"学问","pinyin":"xué wèn","pinyinNoTone":"xue wen","english":["learning","knowledge","CL:個|个[ge4]"],"hsk":5}}
 {"key":30654,"val":{"simplified":"学历","pinyin":"xué lì","pinyinNoTone":"xue li","english":["educational background","academic qualifications"],"hsk":5}}
 {"key":30685,"val":{"simplified":"学术","pinyin":"xué shù","pinyinNoTone":"xue shu","english":["learning","science","academic","CL:個|个[ge4]"],"hsk":5}}
-{"key":30955,"val":{"simplified":"安慰","pinyin":"ān weì","pinyinNoTone":"an wei","english":["to comfort","to console","CL:個|个[ge4]"],"hsk":5}}
+{"key":30955,"val":{"simplified":"安慰","pinyin":"ān wèi","pinyinNoTone":"an wei","english":["to comfort","to console","CL:個|个[ge4]"],"hsk":5}}
 {"key":31039,"val":{"simplified":"安装","pinyin":"ān zhuāng","pinyinNoTone":"an zhuang","english":["to install","to erect","to fix","to mount","installation"],"hsk":5}}
 {"key":31134,"val":{"simplified":"完善","pinyin":"wán shàn","pinyinNoTone":"wan shan","english":["perfect","to make perfect","to improve"],"hsk":5}}
 {"key":31149,"val":{"simplified":"完整","pinyin":"wán zhěng","pinyinNoTone":"wan zheng","english":["complete","intact"],"hsk":5}}
@@ -1871,7 +1871,7 @@
 {"key":32530,"val":{"simplified":"宽","pinyin":"Kuān","pinyinNoTone":"kuan","english":["surname Kuan"],"hsk":5}}
 {"key":32532,"val":{"simplified":"宽","pinyin":"kuān","pinyinNoTone":"kuan","english":["lenient","wide","broad"],"hsk":5}}
 {"key":32622,"val":{"simplified":"宠物","pinyin":"chǒng wù","pinyinNoTone":"chong wu","english":["house pet"],"hsk":5}}
-{"key":32679,"val":{"simplified":"宝贝","pinyin":"bǎo beì","pinyinNoTone":"bao bei","english":["treasured object","treasure","darling","baby","cowry","good-for-nothing or queer character"],"hsk":5}}
+{"key":32679,"val":{"simplified":"宝贝","pinyin":"bǎo bèi","pinyinNoTone":"bao bei","english":["treasured object","treasure","darling","baby","cowry","good-for-nothing or queer character"],"hsk":5}}
 {"key":32684,"val":{"simplified":"宝贵","pinyin":"bǎo guì","pinyinNoTone":"bao gui","english":["valuable","precious","to value","to treasure","to set store by"],"hsk":5}}
 {"key":32788,"val":{"simplified":"射击","pinyin":"shè jī","pinyinNoTone":"she ji","english":["to shoot","to fire (a gun)"],"hsk":5}}
 {"key":32812,"val":{"simplified":"克","pinyin":"kè","pinyinNoTone":"ke","english":["variant of 剋|克[ke4]"],"hsk":5}}
@@ -1927,7 +1927,7 @@
 {"key":36800,"val":{"simplified":"幻想","pinyin":"huàn xiǎng","pinyinNoTone":"huan xiang","english":["delusion","fantasy"],"hsk":5}}
 {"key":36812,"val":{"simplified":"幼儿园","pinyin":"yòu ér yuán","pinyinNoTone":"you er yuan","english":["kindergarten","nursery school"],"hsk":5}}
 {"key":37058,"val":{"simplified":"度过","pinyin":"dù guò","pinyinNoTone":"du guo","english":["to pass","to spend (time)","to survive","to get through"],"hsk":5}}
-{"key":37358,"val":{"simplified":"废话","pinyin":"feì huà","pinyinNoTone":"fei hua","english":["nonsense","rubbish","superfluous words","You don't say!","No kidding! (gently sarcastic)"],"hsk":5}}
+{"key":37358,"val":{"simplified":"废话","pinyin":"fèi huà","pinyinNoTone":"fei hua","english":["nonsense","rubbish","superfluous words","You don't say!","No kidding! (gently sarcastic)"],"hsk":5}}
 {"key":37389,"val":{"simplified":"广场","pinyin":"guǎng chǎng","pinyinNoTone":"guang chang","english":["public square","plaza"],"hsk":5}}
 {"key":37395,"val":{"simplified":"广大","pinyin":"guǎng dà","pinyinNoTone":"guang da","english":["(of an area) vast or extensive","large-scale","widespread","(of people) numerous"],"hsk":5}}
 {"key":37445,"val":{"simplified":"广泛","pinyin":"guǎng fàn","pinyinNoTone":"guang fan","english":["extensive","wide range"],"hsk":5}}
@@ -1952,7 +1952,7 @@
 {"key":38579,"val":{"simplified":"往返","pinyin":"wǎng fǎn","pinyinNoTone":"wang fan","english":["to go back and forth","to go to and fro","round trip"],"hsk":5}}
 {"key":38633,"val":{"simplified":"待遇","pinyin":"dài yù","pinyinNoTone":"dai yu","english":["treatment","pay","salary","status","rank"],"hsk":5}}
 {"key":38724,"val":{"simplified":"后果","pinyin":"hòu guǒ","pinyinNoTone":"hou guo","english":["consequences","aftermath"],"hsk":5}}
-{"key":38757,"val":{"simplified":"后背","pinyin":"hòu beì","pinyinNoTone":"hou bei","english":["the back (human anatomy)","the back part of sth"],"hsk":5}}
+{"key":38757,"val":{"simplified":"后背","pinyin":"hòu bèi","pinyinNoTone":"hou bei","english":["the back (human anatomy)","the back part of sth"],"hsk":5}}
 {"key":38972,"val":{"simplified":"从事","pinyin":"cóng shì","pinyinNoTone":"cong shi","english":["to go for","to engage in","to undertake","to deal with","to handle","to do"],"hsk":5}}
 {"key":38984,"val":{"simplified":"从前","pinyin":"cóng qián","pinyinNoTone":"cong qian","english":["previously","formerly","once upon a time"],"hsk":5}}
 {"key":39010,"val":{"simplified":"从此","pinyin":"cóng cǐ","pinyinNoTone":"cong ci","english":["from now on","since then","henceforth"],"hsk":5}}
@@ -2188,8 +2188,8 @@
 {"key":53633,"val":{"simplified":"期待","pinyin":"qī dài","pinyinNoTone":"qi dai","english":["to look forward to","to await","expectation"],"hsk":5}}
 {"key":53651,"val":{"simplified":"期间","pinyin":"qī jiān","pinyinNoTone":"qi jian","english":["period of time","time","time period","period","CL:個|个[ge4]"],"hsk":5}}
 {"key":53753,"val":{"simplified":"木头","pinyin":"mù tou","pinyinNoTone":"mu tou","english":["slow-witted","blockhead","log (of wood, timber etc)","CL:塊|块[kuai4],根[gen1]"],"hsk":5}}
-{"key":53766,"val":{"simplified":"未来","pinyin":"weì lái","pinyinNoTone":"wei lai","english":["future","tomorrow","CL:個|个[ge4]","approaching","coming","pending"],"hsk":5}}
-{"key":53804,"val":{"simplified":"未必","pinyin":"weì bì","pinyinNoTone":"wei bi","english":["not necessarily","maybe not"],"hsk":5}}
+{"key":53766,"val":{"simplified":"未来","pinyin":"wèi lái","pinyinNoTone":"wei lai","english":["future","tomorrow","CL:個|个[ge4]","approaching","coming","pending"],"hsk":5}}
+{"key":53804,"val":{"simplified":"未必","pinyin":"wèi bì","pinyinNoTone":"wei bi","english":["not necessarily","maybe not"],"hsk":5}}
 {"key":53980,"val":{"simplified":"本科","pinyin":"běn kē","pinyinNoTone":"ben ke","english":["undergraduate course","undergraduate (attributive)"],"hsk":5}}
 {"key":54000,"val":{"simplified":"本质","pinyin":"běn zhì","pinyinNoTone":"ben zhi","english":["essence","nature","innate character","intrinsic quality"],"hsk":5}}
 {"key":54012,"val":{"simplified":"本领","pinyin":"běn lǐng","pinyinNoTone":"ben ling","english":["skill","ability","capability","CL:項|项[xiang4],個|个[ge4]"],"hsk":5}}
@@ -2260,13 +2260,13 @@
 {"key":62733,"val":{"simplified":"活跃","pinyin":"huó yuè","pinyinNoTone":"huo yue","english":["active","lively","excited","to enliven","to brighten up"],"hsk":5}}
 {"key":62751,"val":{"simplified":"派","pinyin":"pài","pinyinNoTone":"pai","english":["clique","school","group","faction","to dispatch","to send","to assign","to appoint","pi (Greek letter Ππ)","the circular ratio pi = 3.1415926","(loanword) pie"],"hsk":5}}
 {"key":62788,"val":{"simplified":"流传","pinyin":"liú chuán","pinyinNoTone":"liu chuan","english":["to spread","to circulate","to hand down"],"hsk":5}}
-{"key":62856,"val":{"simplified":"流泪","pinyin":"liú leì","pinyinNoTone":"liu lei","english":["to shed tears"],"hsk":5}}
+{"key":62856,"val":{"simplified":"流泪","pinyin":"liú lèi","pinyinNoTone":"liu lei","english":["to shed tears"],"hsk":5}}
 {"key":63386,"val":{"simplified":"海关","pinyin":"hǎi guān","pinyinNoTone":"hai guan","english":["customs (i.e. border crossing inspection)","CL:個|个[ge4]"],"hsk":5}}
 {"key":63410,"val":{"simplified":"海鲜","pinyin":"hǎi xiān","pinyinNoTone":"hai xian","english":["seafood"],"hsk":5}}
 {"key":63468,"val":{"simplified":"消化","pinyin":"xiāo huà","pinyinNoTone":"xiao hua","english":["to digest","digestion","digestive"],"hsk":5}}
 {"key":63483,"val":{"simplified":"消失","pinyin":"xiāo shī","pinyinNoTone":"xiao shi","english":["to disappear","to fade away"],"hsk":5}}
 {"key":63495,"val":{"simplified":"消极","pinyin":"xiāo jí","pinyinNoTone":"xiao ji","english":["negative","passive","inactive"],"hsk":5}}
-{"key":63530,"val":{"simplified":"消费","pinyin":"xiāo feì","pinyinNoTone":"xiao fei","english":["to consume","CL:個|个[ge4]"],"hsk":5}}
+{"key":63530,"val":{"simplified":"消费","pinyin":"xiāo fèi","pinyinNoTone":"xiao fei","english":["to consume","CL:個|个[ge4]"],"hsk":5}}
 {"key":63785,"val":{"simplified":"淘气","pinyin":"táo qì","pinyinNoTone":"tao qi","english":["naughty","mischievous"],"hsk":5}}
 {"key":63820,"val":{"simplified":"淡","pinyin":"dàn","pinyinNoTone":"dan","english":["insipid","diluted","weak","mild","light in color","tasteless","fresh","indifferent","nitrogen"],"hsk":5}}
 {"key":63972,"val":{"simplified":"深刻","pinyin":"shēn kè","pinyinNoTone":"shen ke","english":["profound","deep","deep-going"],"hsk":5}}
@@ -2300,7 +2300,7 @@
 {"key":66937,"val":{"simplified":"灾害","pinyin":"zāi hài","pinyinNoTone":"zai hai","english":["calamity","disaster","CL:個|个[ge4]"],"hsk":5}}
 {"key":66981,"val":{"simplified":"炒","pinyin":"chǎo","pinyinNoTone":"chao","english":["to sauté","to stir-fry","to speculate","to hype","to fire (sb)"],"hsk":5}}
 {"key":67525,"val":{"simplified":"无奈","pinyin":"wú nài","pinyinNoTone":"wu nai","english":["helpless","without choice","for lack of better option","grudgingly","willy-nilly","nolens volens","abbr. for 無可奈何|无可奈何[wu2 ke3 nai4 he2]"],"hsk":5}}
-{"key":67602,"val":{"simplified":"无所谓","pinyin":"wú suǒ weì","pinyinNoTone":"wu suo wei","english":["to be indifferent","not to matter","cannot be said to be"],"hsk":5}}
+{"key":67602,"val":{"simplified":"无所谓","pinyin":"wú suǒ wèi","pinyinNoTone":"wu suo wei","english":["to be indifferent","not to matter","cannot be said to be"],"hsk":5}}
 {"key":67614,"val":{"simplified":"无数","pinyin":"wú shù","pinyinNoTone":"wu shu","english":["countless","numberless","innumerable"],"hsk":5}}
 {"key":67942,"val":{"simplified":"煮","pinyin":"zhǔ","pinyinNoTone":"zhu","english":["variant of 煮[zhu3]"],"hsk":5}}
 {"key":68058,"val":{"simplified":"煤炭","pinyin":"méi tàn","pinyinNoTone":"mei tan","english":["coal"],"hsk":5}}
@@ -2428,7 +2428,7 @@
 {"key":78743,"val":{"simplified":"税","pinyin":"shuì","pinyinNoTone":"shui","english":["taxes","duties"],"hsk":5}}
 {"key":78764,"val":{"simplified":"程序","pinyin":"chéng xù","pinyinNoTone":"cheng xu","english":["procedures","sequence","order","computer program"],"hsk":5}}
 {"key":78771,"val":{"simplified":"程度","pinyin":"chéng dù","pinyinNoTone":"cheng du","english":["degree (level or extent)","level","CL:個|个[ge4]"],"hsk":5}}
-{"key":78886,"val":{"simplified":"种类","pinyin":"zhǒng leì","pinyinNoTone":"zhong lei","english":["kind","genus","type","category","variety","species","sort","class"],"hsk":5}}
+{"key":78886,"val":{"simplified":"种类","pinyin":"zhǒng lèi","pinyinNoTone":"zhong lei","english":["kind","genus","type","category","variety","species","sort","class"],"hsk":5}}
 {"key":78890,"val":{"simplified":"称","pinyin":"chèn","pinyinNoTone":"chen","english":["to fit","balanced","suitable"],"hsk":5}}
 {"key":78892,"val":{"simplified":"称","pinyin":"chēng","pinyinNoTone":"cheng","english":["to weigh","to state","to name","name","appellation","to praise"],"hsk":5}}
 {"key":78894,"val":{"simplified":"称","pinyin":"chèng","pinyinNoTone":"cheng","english":["variant of 秤[cheng4]","steelyard"],"hsk":5}}
@@ -2536,11 +2536,11 @@
 {"key":86805,"val":{"simplified":"股票","pinyin":"gǔ piào","pinyinNoTone":"gu piao","english":["share certificate","stock (finance)"],"hsk":5}}
 {"key":86841,"val":{"simplified":"肥皂","pinyin":"féi zào","pinyinNoTone":"fei zao","english":["soap","CL:塊|块[kuai4],條|条[tiao2]"],"hsk":5}}
 {"key":86871,"val":{"simplified":"肩膀","pinyin":"jiān bǎng","pinyinNoTone":"jian bang","english":["shoulder"],"hsk":5}}
-{"key":86948,"val":{"simplified":"胃","pinyin":"weì","pinyinNoTone":"wei","english":["stomach","CL:個|个[ge4]"],"hsk":5}}
-{"key":86951,"val":{"simplified":"胃口","pinyin":"weì kǒu","pinyinNoTone":"wei kou","english":["appetite","liking"],"hsk":5}}
+{"key":86948,"val":{"simplified":"胃","pinyin":"wèi","pinyinNoTone":"wei","english":["stomach","CL:個|个[ge4]"],"hsk":5}}
+{"key":86951,"val":{"simplified":"胃口","pinyin":"wèi kǒu","pinyinNoTone":"wei kou","english":["appetite","liking"],"hsk":5}}
 {"key":86972,"val":{"simplified":"背","pinyin":"bēi","pinyinNoTone":"bei","english":["to be burdened","to carry on the back or shoulder"],"hsk":5}}
-{"key":86974,"val":{"simplified":"背","pinyin":"beì","pinyinNoTone":"bei","english":["the back of a body or object","to turn one's back","to hide something from","to learn by heart","to recite from memory","unlucky (slang)","hard of hearing"],"hsk":5}}
-{"key":87007,"val":{"simplified":"背景","pinyin":"beì jǐng","pinyinNoTone":"bei jing","english":["background","backdrop","context","(fig.) powerful backer","CL:種|种[zhong3]"],"hsk":5}}
+{"key":86974,"val":{"simplified":"背","pinyin":"bèi","pinyinNoTone":"bei","english":["the back of a body or object","to turn one's back","to hide something from","to learn by heart","to recite from memory","unlucky (slang)","hard of hearing"],"hsk":5}}
+{"key":87007,"val":{"simplified":"背景","pinyin":"bèi jǐng","pinyinNoTone":"bei jing","english":["background","backdrop","context","(fig.) powerful backer","CL:種|种[zhong3]"],"hsk":5}}
 {"key":87105,"val":{"simplified":"胡同","pinyin":"hú tòng","pinyinNoTone":"hu tong","english":["lane","alley","CL:條|条[tiao2]"],"hsk":5}}
 {"key":87165,"val":{"simplified":"胡说","pinyin":"hú shuō","pinyinNoTone":"hu shuo","english":["to talk nonsense","drivel"],"hsk":5}}
 {"key":87221,"val":{"simplified":"胸","pinyin":"xiōng","pinyinNoTone":"xiong","english":["variant of 胸[xiong1]"],"hsk":5}}
@@ -2609,7 +2609,7 @@
 {"key":94786,"val":{"simplified":"表现","pinyin":"biǎo xiàn","pinyinNoTone":"biao xian","english":["to show","to show off","to display","to manifest","expression","manifestation","show","display","performance (at work etc)","behavior"],"hsk":5}}
 {"key":94812,"val":{"simplified":"表达","pinyin":"biǎo dá","pinyinNoTone":"biao da","english":["to express","to convey"],"hsk":5}}
 {"key":94818,"val":{"simplified":"表面","pinyin":"biǎo miàn","pinyinNoTone":"biao mian","english":["surface","face","outside","appearance"],"hsk":5}}
-{"key":94946,"val":{"simplified":"被子","pinyin":"beì zi","pinyinNoTone":"bei zi","english":["quilt","CL:床[chuang2]"],"hsk":5}}
+{"key":94946,"val":{"simplified":"被子","pinyin":"bèi zi","pinyinNoTone":"bei zi","english":["quilt","CL:床[chuang2]"],"hsk":5}}
 {"key":95087,"val":{"simplified":"补充","pinyin":"bǔ chōng","pinyinNoTone":"bu chong","english":["to replenish","to supplement","to complement","additional","supplementary","CL:個|个[ge4]"],"hsk":5}}
 {"key":95157,"val":{"simplified":"装","pinyin":"zhuāng","pinyinNoTone":"zhuang","english":["adornment","to adorn","dress","clothing","costume (of an actor in a play)","to play a role","to pretend","to install","to fix","to wrap (sth in a bag)","to load","to pack"],"hsk":5}}
 {"key":95162,"val":{"simplified":"装修","pinyin":"zhuāng xiū","pinyinNoTone":"zhuang xiu","english":["to decorate","interior decoration","to fit up","to renovate"],"hsk":5}}
@@ -2635,7 +2635,7 @@
 {"key":96795,"val":{"simplified":"训练","pinyin":"xùn liàn","pinyinNoTone":"xun lian","english":["to train","to drill","training","CL:個|个[ge4]"],"hsk":5}}
 {"key":96837,"val":{"simplified":"记忆","pinyin":"jì yì","pinyinNoTone":"ji yi","english":["to remember","to recall","memory","CL:個|个[ge4]"],"hsk":5}}
 {"key":96867,"val":{"simplified":"记录","pinyin":"jì lù","pinyinNoTone":"ji lu","english":["to record","record (written account)","note-taker","record (in sports etc)","CL:個|个[ge4]"],"hsk":5}}
-{"key":96915,"val":{"simplified":"设备","pinyin":"shè beì","pinyinNoTone":"she bei","english":["equipment","facilities","installations","CL:個|个[ge4]"],"hsk":5}}
+{"key":96915,"val":{"simplified":"设备","pinyin":"shè bèi","pinyinNoTone":"she bei","english":["equipment","facilities","installations","CL:個|个[ge4]"],"hsk":5}}
 {"key":96927,"val":{"simplified":"设施","pinyin":"shè shī","pinyinNoTone":"she shi","english":["facilities","installation"],"hsk":5}}
 {"key":96937,"val":{"simplified":"设计","pinyin":"shè jì","pinyinNoTone":"she ji","english":["plan","design","to design","to plan","CL:個|个[ge4]"],"hsk":5}}
 {"key":97000,"val":{"simplified":"诊断","pinyin":"zhěn duàn","pinyinNoTone":"zhen duan","english":["diagnosis","to diagnose"],"hsk":5}}
@@ -2676,7 +2676,7 @@
 {"key":99050,"val":{"simplified":"猪","pinyin":"zhū","pinyinNoTone":"zhu","english":["hog","pig","swine","CL:口[kou3],頭|头[tou2]"],"hsk":5}}
 {"key":99295,"val":{"simplified":"财产","pinyin":"cái chǎn","pinyinNoTone":"cai chan","english":["property","assets","estate","CL:筆|笔[bi3]"],"hsk":5}}
 {"key":99330,"val":{"simplified":"贡献","pinyin":"gòng xiàn","pinyinNoTone":"gong xian","english":["to contribute","to dedicate","to devote","contribution","CL:個|个[ge4]"],"hsk":5}}
-{"key":99501,"val":{"simplified":"责备","pinyin":"zé beì","pinyinNoTone":"ze bei","english":["to blame","to criticize","condemnation","reproach"],"hsk":5}}
+{"key":99501,"val":{"simplified":"责备","pinyin":"zé bèi","pinyinNoTone":"ze bei","english":["to blame","to criticize","condemnation","reproach"],"hsk":5}}
 {"key":99636,"val":{"simplified":"贷款","pinyin":"dài kuǎn","pinyinNoTone":"dai kuan","english":["a loan","CL:筆|笔[bi3]","to provide a loan (e.g. bank)","to raise a loan (from e.g. a bank)"],"hsk":5}}
 {"key":99719,"val":{"simplified":"贸易","pinyin":"mào yì","pinyinNoTone":"mao yi","english":["(commercial) trade","CL:個|个[ge4]"],"hsk":5}}
 {"key":99792,"val":{"simplified":"资料","pinyin":"zī liào","pinyinNoTone":"zi liao","english":["material","resources","data","information","profile (Internet)","CL:份[fen4],個|个[ge4]"],"hsk":5}}
@@ -2761,7 +2761,7 @@
 {"key":105243,"val":{"simplified":"避免","pinyin":"bì miǎn","pinyinNoTone":"bi mian","english":["to avert","to prevent","to avoid","to refrain from"],"hsk":5}}
 {"key":105426,"val":{"simplified":"逻辑","pinyin":"luó ji","pinyinNoTone":"luo ji","english":["logic (loanword)"],"hsk":5}}
 {"key":105669,"val":{"simplified":"部门","pinyin":"bù mén","pinyinNoTone":"bu men","english":["department","branch","section","division","CL:個|个[ge4]"],"hsk":5}}
-{"key":106032,"val":{"simplified":"配合","pinyin":"peì hé","pinyinNoTone":"pei he","english":["matching","fitting in with","compatible with","to correspond","to fit","to conform to","rapport","to coordinate with","to act in concert with","to cooperate","to become man and wife","to combine parts of machine"],"hsk":5}}
+{"key":106032,"val":{"simplified":"配合","pinyin":"pèi hé","pinyinNoTone":"pei he","english":["matching","fitting in with","compatible with","to correspond","to fit","to conform to","rapport","to coordinate with","to act in concert with","to cooperate","to become man and wife","to combine parts of machine"],"hsk":5}}
 {"key":106088,"val":{"simplified":"酒吧","pinyin":"jiǔ bā","pinyinNoTone":"jiu ba","english":["bar","pub","saloon","CL:家[jia1]"],"hsk":5}}
 {"key":106330,"val":{"simplified":"醉","pinyin":"zuì","pinyinNoTone":"zui","english":["intoxicated"],"hsk":5}}
 {"key":106349,"val":{"simplified":"醋","pinyin":"cù","pinyinNoTone":"cu","english":["vinegar","jealousy (in love rivalry)"],"hsk":5}}
@@ -2786,7 +2786,7 @@
 {"key":108203,"val":{"simplified":"锁","pinyin":"suǒ","pinyinNoTone":"suo","english":["to lock up","to lock","lock","CL:把[ba3]"],"hsk":5}}
 {"key":108221,"val":{"simplified":"枪","pinyin":"qiāng","pinyinNoTone":"qiang","english":["variant of 槍|枪[qiang1]","rifle","spear"],"hsk":5}}
 {"key":108311,"val":{"simplified":"锁","pinyin":"suǒ","pinyinNoTone":"suo","english":["old variant of 鎖|锁[suo3]"],"hsk":5}}
-{"key":108956,"val":{"simplified":"长辈","pinyin":"zhǎng beì","pinyinNoTone":"zhang bei","english":["one's elders","older generation"],"hsk":5}}
+{"key":108956,"val":{"simplified":"长辈","pinyin":"zhǎng bèi","pinyinNoTone":"zhang bei","english":["one's elders","older generation"],"hsk":5}}
 {"key":108959,"val":{"simplified":"长途","pinyin":"cháng tú","pinyinNoTone":"chang tu","english":["long distance"],"hsk":5}}
 {"key":109128,"val":{"simplified":"闪电","pinyin":"shǎn diàn","pinyinNoTone":"shan dian","english":["lightning","CL:道[dao4]"],"hsk":5}}
 {"key":109263,"val":{"simplified":"开幕式","pinyin":"kāi mù shì","pinyinNoTone":"kai mu shi","english":["opening ceremony"],"hsk":5}}
@@ -2853,7 +2853,7 @@
 {"key":114645,"val":{"simplified":"颗","pinyin":"kē","pinyinNoTone":"ke","english":["classifier for small spheres, pearls, corn grains, teeth, hearts, satellites etc"],"hsk":5}}
 {"key":114664,"val":{"simplified":"题目","pinyin":"tí mù","pinyinNoTone":"ti mu","english":["subject","title","topic","CL:個|个[ge4]"],"hsk":5}}
 {"key":114737,"val":{"simplified":"愿望","pinyin":"yuàn wàng","pinyinNoTone":"yuan wang","english":["desire","wish"],"hsk":5}}
-{"key":114779,"val":{"simplified":"类型","pinyin":"leì xíng","pinyinNoTone":"lei xing","english":["type","category","genre","form","style"],"hsk":5}}
+{"key":114779,"val":{"simplified":"类型","pinyin":"lèi xíng","pinyinNoTone":"lei xing","english":["type","category","genre","form","style"],"hsk":5}}
 {"key":114853,"val":{"simplified":"显得","pinyin":"xiǎn de","pinyinNoTone":"xian de","english":["to seem","to look","to appear"],"hsk":5}}
 {"key":114870,"val":{"simplified":"显然","pinyin":"xiǎn rán","pinyinNoTone":"xian ran","english":["clear","evident","obvious(ly)"],"hsk":5}}
 {"key":114878,"val":{"simplified":"显示","pinyin":"xiǎn shì","pinyinNoTone":"xian shi","english":["to show","to illustrate","to display","to demonstrate"],"hsk":5}}
@@ -2877,7 +2877,7 @@
 {"key":117033,"val":{"simplified":"体验","pinyin":"tǐ yàn","pinyinNoTone":"ti yan","english":["to experience for oneself"],"hsk":5}}
 {"key":117227,"val":{"simplified":"高档","pinyin":"gāo dàng","pinyinNoTone":"gao dang","english":["superior quality","high grade","top grade"],"hsk":5}}
 {"key":117305,"val":{"simplified":"高级","pinyin":"gāo jí","pinyinNoTone":"gao ji","english":["high level","high grade","advanced","high-ranking"],"hsk":5}}
-{"key":117731,"val":{"simplified":"魅力","pinyin":"meì lì","pinyinNoTone":"mei li","english":["charm","fascination","glamor","charisma"],"hsk":5}}
+{"key":117731,"val":{"simplified":"魅力","pinyin":"mèi lì","pinyinNoTone":"mei li","english":["charm","fascination","glamor","charisma"],"hsk":5}}
 {"key":118001,"val":{"simplified":"鲜艳","pinyin":"xiān yàn","pinyinNoTone":"xian yan","english":["bright-colored","gaily-colored"],"hsk":5}}
 {"key":118843,"val":{"simplified":"麦克风","pinyin":"mài kè fēng","pinyinNoTone":"mai ke feng","english":["microphone (loanword)"],"hsk":5}}
 {"key":119255,"val":{"simplified":"黄金","pinyin":"huáng jīn","pinyinNoTone":"huang jin","english":["gold","golden (opportunity)","prime (time)"],"hsk":5}}
@@ -3002,7 +3002,7 @@
 {"key":6880,"val":{"simplified":"住宅","pinyin":"zhù zhái","pinyinNoTone":"zhu zhai","english":["residence","tenement"],"hsk":6}}
 {"key":6931,"val":{"simplified":"占据","pinyin":"zhàn jù","pinyinNoTone":"zhan ju","english":["to occupy","to hold"],"hsk":6}}
 {"key":6939,"val":{"simplified":"占领","pinyin":"zhàn lǐng","pinyinNoTone":"zhan ling","english":["to occupy (a territory)","to hold"],"hsk":6}}
-{"key":7076,"val":{"simplified":"作废","pinyin":"zuò feì","pinyinNoTone":"zuo fei","english":["to become invalid","to cancel","to delete","to nullify"],"hsk":6}}
+{"key":7076,"val":{"simplified":"作废","pinyin":"zuò fèi","pinyinNoTone":"zuo fei","english":["to become invalid","to cancel","to delete","to nullify"],"hsk":6}}
 {"key":7079,"val":{"simplified":"作弊","pinyin":"zuò bì","pinyinNoTone":"zuo bi","english":["to practice fraud","to cheat","to engage in corrupt practices"],"hsk":6}}
 {"key":7082,"val":{"simplified":"作息","pinyin":"zuò xī","pinyinNoTone":"zuo xi","english":["work and rest"],"hsk":6}}
 {"key":7140,"val":{"simplified":"作风","pinyin":"zuò fēng","pinyinNoTone":"zuo feng","english":["style","style of work","way"],"hsk":6}}
@@ -3032,7 +3032,7 @@
 {"key":7808,"val":{"simplified":"保守","pinyin":"bǎo shǒu","pinyinNoTone":"bao shou","english":["conservative","to guard","to keep"],"hsk":6}}
 {"key":7824,"val":{"simplified":"保密","pinyin":"bǎo mì","pinyinNoTone":"bao mi","english":["to keep sth confidential","to maintain secrecy"],"hsk":6}}
 {"key":7867,"val":{"simplified":"保管","pinyin":"bǎo guǎn","pinyinNoTone":"bao guan","english":["to hold in safekeeping","to have in one's care","to guarantee","certainly","surely","custodian","curator"],"hsk":6}}
-{"key":7876,"val":{"simplified":"保卫","pinyin":"bǎo weì","pinyinNoTone":"bao wei","english":["to defend","to safeguard"],"hsk":6}}
+{"key":7876,"val":{"simplified":"保卫","pinyin":"bǎo wèi","pinyinNoTone":"bao wei","english":["to defend","to safeguard"],"hsk":6}}
 {"key":7904,"val":{"simplified":"保重","pinyin":"bǎo zhòng","pinyinNoTone":"bao zhong","english":["to take care of oneself"],"hsk":6}}
 {"key":7911,"val":{"simplified":"保障","pinyin":"bǎo zhàng","pinyinNoTone":"bao zhang","english":["to ensure","to guarantee","to safeguard"],"hsk":6}}
 {"key":7927,"val":{"simplified":"保养","pinyin":"bǎo yǎng","pinyinNoTone":"bao yang","english":["to take good care of (or conserve) one's health","to keep in good repair","to maintain","maintenance"],"hsk":6}}
@@ -3070,8 +3070,8 @@
 {"key":9036,"val":{"simplified":"偶像","pinyin":"ǒu xiàng","pinyinNoTone":"ou xiang","english":["idol"],"hsk":6}}
 {"key":9119,"val":{"simplified":"伪造","pinyin":"wěi zào","pinyinNoTone":"wei zao","english":["to forge","to fake","to counterfeit"],"hsk":6}}
 {"key":9167,"val":{"simplified":"杰出","pinyin":"jié chū","pinyinNoTone":"jie chu","english":["outstanding","distinguished","remarkable","prominent","illustrious"],"hsk":6}}
-{"key":9207,"val":{"simplified":"备份","pinyin":"beì fèn","pinyinNoTone":"bei fen","english":["backup"],"hsk":6}}
-{"key":9214,"val":{"simplified":"备忘录","pinyin":"beì wàng lù","pinyinNoTone":"bei wang lu","english":["memorandum","aide-memoire","memorandum book"],"hsk":6}}
+{"key":9207,"val":{"simplified":"备份","pinyin":"bèi fèn","pinyinNoTone":"bei fen","english":["backup"],"hsk":6}}
+{"key":9214,"val":{"simplified":"备忘录","pinyin":"bèi wàng lù","pinyinNoTone":"bei wang lu","english":["memorandum","aide-memoire","memorandum book"],"hsk":6}}
 {"key":9241,"val":{"simplified":"家伙","pinyin":"jiā huo","pinyinNoTone":"jia huo","english":["variant of 家伙[jia1 huo5]"],"hsk":6}}
 {"key":9330,"val":{"simplified":"传单","pinyin":"chuán dān","pinyinNoTone":"chuan dan","english":["leaflet","flier","pamphlet"],"hsk":6}}
 {"key":9353,"val":{"simplified":"传授","pinyin":"chuán shòu","pinyinNoTone":"chuan shou","english":["to impart","to pass on","to teach"],"hsk":6}}
@@ -3092,14 +3092,14 @@
 {"key":9840,"val":{"simplified":"优胜劣汰","pinyin":"yōu shèng liè tài","pinyinNoTone":"you sheng lie tai","english":["survival of the fittest (idiom)"],"hsk":6}}
 {"key":9864,"val":{"simplified":"优异","pinyin":"yōu yì","pinyinNoTone":"you yi","english":["exceptional","outstandingly good"],"hsk":6}}
 {"key":9879,"val":{"simplified":"优越","pinyin":"yōu yuè","pinyinNoTone":"you yue","english":["superior","superiority"],"hsk":6}}
-{"key":9894,"val":{"simplified":"储备","pinyin":"chǔ beì","pinyinNoTone":"chu bei","english":["reserves","to store up"],"hsk":6}}
+{"key":9894,"val":{"simplified":"储备","pinyin":"chǔ bèi","pinyinNoTone":"chu bei","english":["reserves","to store up"],"hsk":6}}
 {"key":9900,"val":{"simplified":"储存","pinyin":"chǔ cún","pinyinNoTone":"chu cun","english":["stockpile","to store","to stockpile","storage"],"hsk":6}}
 {"key":9912,"val":{"simplified":"储蓄","pinyin":"chǔ xù","pinyinNoTone":"chu xu","english":["to deposit money","to save","savings"],"hsk":6}}
 {"key":9973,"val":{"simplified":"元宵节","pinyin":"Yuán xiāo jié","pinyinNoTone":"yuan xiao jie","english":["Lantern Festival, the final event of the Spring Festival 春節|春节, on 15th of first month of the lunar calendar"],"hsk":6}}
 {"key":10003,"val":{"simplified":"元素","pinyin":"yuán sù","pinyinNoTone":"yuan su","english":["element","element of a set","chemical element"],"hsk":6}}
 {"key":10026,"val":{"simplified":"元首","pinyin":"yuán shǒu","pinyinNoTone":"yuan shou","english":["head of state"],"hsk":6}}
 {"key":10054,"val":{"simplified":"充实","pinyin":"chōng shí","pinyinNoTone":"chong shi","english":["rich","full","substantial","to enrich","to augment","to substantiate (an argument)"],"hsk":6}}
-{"key":10063,"val":{"simplified":"充沛","pinyin":"chōng peì","pinyinNoTone":"chong pei","english":["abundant","plentiful","vigorous"],"hsk":6}}
+{"key":10063,"val":{"simplified":"充沛","pinyin":"chōng pèi","pinyinNoTone":"chong pei","english":["abundant","plentiful","vigorous"],"hsk":6}}
 {"key":10069,"val":{"simplified":"充当","pinyin":"chōng dāng","pinyinNoTone":"chong dang","english":["to serve as","to act as","to play the role of"],"hsk":6}}
 {"key":10077,"val":{"simplified":"充足","pinyin":"chōng zú","pinyinNoTone":"chong zu","english":["adequate","sufficient","abundant"],"hsk":6}}
 {"key":10104,"val":{"simplified":"凶恶","pinyin":"xiōng è","pinyinNoTone":"xiong e","english":["fierce","ferocious","fiendish","frightening"],"hsk":6}}
@@ -3117,9 +3117,9 @@
 {"key":10566,"val":{"simplified":"兜","pinyin":"dōu","pinyinNoTone":"dou","english":["pocket","bag","to wrap up or hold in a bag","to move in a circle","to canvas or solicit","to take responsibility for","to disclose in detail","combat armor (old)"],"hsk":6}}
 {"key":10587,"val":{"simplified":"兜","pinyin":"dōu","pinyinNoTone":"dou","english":["old variant of 兜[dou1]"],"hsk":6}}
 {"key":10591,"val":{"simplified":"兢兢业业","pinyin":"jīng jīng yè yè","pinyinNoTone":"jing jing ye ye","english":["cautious and conscientious"],"hsk":6}}
-{"key":10691,"val":{"simplified":"内在","pinyin":"neì zài","pinyinNoTone":"nei zai","english":["intrinsic","innate"],"hsk":6}}
-{"key":10717,"val":{"simplified":"内幕","pinyin":"neì mù","pinyinNoTone":"nei mu","english":["inside story","non-public information","behind the scenes","internal"],"hsk":6}}
-{"key":10748,"val":{"simplified":"内涵","pinyin":"neì hán","pinyinNoTone":"nei han","english":["meaningful content","implication","connotation (semantics)","inner qualities (of a person)"],"hsk":6}}
+{"key":10691,"val":{"simplified":"内在","pinyin":"nèi zài","pinyinNoTone":"nei zai","english":["intrinsic","innate"],"hsk":6}}
+{"key":10717,"val":{"simplified":"内幕","pinyin":"nèi mù","pinyinNoTone":"nei mu","english":["inside story","non-public information","behind the scenes","internal"],"hsk":6}}
+{"key":10748,"val":{"simplified":"内涵","pinyin":"nèi hán","pinyinNoTone":"nei han","english":["meaningful content","implication","connotation (semantics)","inner qualities (of a person)"],"hsk":6}}
 {"key":10855,"val":{"simplified":"全力以赴","pinyin":"quán lì yǐ fù","pinyinNoTone":"quan li yi fu","english":["to do at all costs","to make an all-out effort"],"hsk":6}}
 {"key":10886,"val":{"simplified":"全局","pinyin":"quán jú","pinyinNoTone":"quan ju","english":["overall situation"],"hsk":6}}
 {"key":11312,"val":{"simplified":"公务","pinyin":"gōng wù","pinyinNoTone":"gong wu","english":["official business"],"hsk":6}}
@@ -3257,7 +3257,7 @@
 {"key":15918,"val":{"simplified":"区域","pinyin":"qū yù","pinyinNoTone":"qu yu","english":["area","region","district"],"hsk":6}}
 {"key":16032,"val":{"simplified":"十足","pinyin":"shí zú","pinyinNoTone":"shi zu","english":["ample","complete","hundred percent","a pure shade (of some color)"],"hsk":6}}
 {"key":16085,"val":{"simplified":"千方百计","pinyin":"qiān fāng bǎi jì","pinyinNoTone":"qian fang bai ji","english":["lit. thousand ways, a hundred plans (idiom); by every possible means"],"hsk":6}}
-{"key":16315,"val":{"simplified":"半途而废","pinyin":"bàn tú ér feì","pinyinNoTone":"ban tu er fei","english":["to give up halfway (idiom); leave sth unfinished"],"hsk":6}}
+{"key":16315,"val":{"simplified":"半途而废","pinyin":"bàn tú ér fèi","pinyinNoTone":"ban tu er fei","english":["to give up halfway (idiom); leave sth unfinished"],"hsk":6}}
 {"key":16355,"val":{"simplified":"卑鄙","pinyin":"bēi bǐ","pinyinNoTone":"bei bi","english":["base","mean","contemptible","despicable"],"hsk":6}}
 {"key":16383,"val":{"simplified":"卓越","pinyin":"zhuó yuè","pinyinNoTone":"zhuo yue","english":["outstanding","surpassing","distinguished","splendid"],"hsk":6}}
 {"key":16389,"val":{"simplified":"协助","pinyin":"xié zhù","pinyinNoTone":"xie zhu","english":["to provide assistance","to aid"],"hsk":6}}
@@ -3391,7 +3391,7 @@
 {"key":21700,"val":{"simplified":"啦","pinyin":"lā","pinyinNoTone":"la","english":["(onom.) sound of singing, cheering etc","(phonetic)","(dialect) to chat"],"hsk":6}}
 {"key":21702,"val":{"simplified":"啦","pinyin":"la","pinyinNoTone":"la","english":["sentence-final particle, contraction of 了啊, indicating exclamation","particle placed after each item in a list of examples"],"hsk":6}}
 {"key":21762,"val":{"simplified":"喂","pinyin":"wéi","pinyinNoTone":"wei","english":["hello (when answering the phone)"],"hsk":6}}
-{"key":21764,"val":{"simplified":"喂","pinyin":"weì","pinyinNoTone":"wei","english":["hey","to feed (an animal, baby, invalid etc)"],"hsk":6}}
+{"key":21764,"val":{"simplified":"喂","pinyin":"wèi","pinyinNoTone":"wei","english":["hey","to feed (an animal, baby, invalid etc)"],"hsk":6}}
 {"key":21819,"val":{"simplified":"喇叭","pinyin":"lǎ ba","pinyinNoTone":"la ba","english":["horn (automobile etc)","loudspeaker","brass wind instrument","trumpet","suona 鎖吶|锁呐[suo3 na4]"],"hsk":6}}
 {"key":21836,"val":{"simplified":"喉咙","pinyin":"hóu lóng","pinyinNoTone":"hou long","english":["throat","larynx"],"hsk":6}}
 {"key":21878,"val":{"simplified":"喘气","pinyin":"chuǎn qì","pinyinNoTone":"chuan qi","english":["to breathe deeply","to pant"],"hsk":6}}
@@ -3570,7 +3570,7 @@
 {"key":30480,"val":{"simplified":"季军","pinyin":"jì jūn","pinyinNoTone":"ji jun","english":["third in a race","bronze medalist"],"hsk":6}}
 {"key":30509,"val":{"simplified":"孤独","pinyin":"gū dú","pinyinNoTone":"gu du","english":["lonely","solitary"],"hsk":6}}
 {"key":30514,"val":{"simplified":"孤立","pinyin":"gū lì","pinyinNoTone":"gu li","english":["isolate","isolated"],"hsk":6}}
-{"key":30612,"val":{"simplified":"学位","pinyin":"xué weì","pinyinNoTone":"xue wei","english":["academic degree","place in school"],"hsk":6}}
+{"key":30612,"val":{"simplified":"学位","pinyin":"xué wèi","pinyinNoTone":"xue wei","english":["academic degree","place in school"],"hsk":6}}
 {"key":30690,"val":{"simplified":"学说","pinyin":"xué shuō","pinyinNoTone":"xue shuo","english":["theory","doctrine"],"hsk":6}}
 {"key":30736,"val":{"simplified":"宇宙","pinyin":"yǔ zhòu","pinyinNoTone":"yu zhou","english":["universe","cosmos"],"hsk":6}}
 {"key":30800,"val":{"simplified":"守护","pinyin":"shǒu hù","pinyinNoTone":"shou hu","english":["to guard","to protect"],"hsk":6}}
@@ -3578,7 +3578,7 @@
 {"key":30913,"val":{"simplified":"安宁","pinyin":"ān níng","pinyinNoTone":"an ning","english":["peaceful","tranquil","calm","composed","free from worry"],"hsk":6}}
 {"key":31030,"val":{"simplified":"安置","pinyin":"ān zhì","pinyinNoTone":"an zhi","english":["to find a place for","to help settle down","to arrange for","to get into bed","placement"],"hsk":6}}
 {"key":31044,"val":{"simplified":"安详","pinyin":"ān xiáng","pinyinNoTone":"an xiang","english":["serene"],"hsk":6}}
-{"key":31125,"val":{"simplified":"完备","pinyin":"wán beì","pinyinNoTone":"wan bei","english":["faultless","complete","perfect","to leave nothing to be desired"],"hsk":6}}
+{"key":31125,"val":{"simplified":"完备","pinyin":"wán bèi","pinyinNoTone":"wan bei","english":["faultless","complete","perfect","to leave nothing to be desired"],"hsk":6}}
 {"key":31155,"val":{"simplified":"完毕","pinyin":"wán bì","pinyinNoTone":"wan bi","english":["to finish","to end","to complete"],"hsk":6}}
 {"key":31169,"val":{"simplified":"宏伟","pinyin":"hóng wěi","pinyinNoTone":"hong wei","english":["grand","imposing","magnificent"],"hsk":6}}
 {"key":31180,"val":{"simplified":"宏观","pinyin":"hóng guān","pinyinNoTone":"hong guan","english":["macro-","macroscopic","holistic"],"hsk":6}}
@@ -3682,7 +3682,7 @@
 {"key":34833,"val":{"simplified":"崇拜","pinyin":"chóng bài","pinyinNoTone":"chong bai","english":["to worship","adoration"],"hsk":6}}
 {"key":34837,"val":{"simplified":"崇敬","pinyin":"chóng jìng","pinyinNoTone":"chong jing","english":["to revere","to venerate","high esteem"],"hsk":6}}
 {"key":34853,"val":{"simplified":"崇高","pinyin":"chóng gāo","pinyinNoTone":"chong gao","english":["majestic","sublime"],"hsk":6}}
-{"key":34901,"val":{"simplified":"岗位","pinyin":"gǎng weì","pinyinNoTone":"gang wei","english":["a post","a job"],"hsk":6}}
+{"key":34901,"val":{"simplified":"岗位","pinyin":"gǎng wèi","pinyinNoTone":"gang wei","english":["a post","a job"],"hsk":6}}
 {"key":34938,"val":{"simplified":"崩溃","pinyin":"bēng kuì","pinyinNoTone":"beng kui","english":["to collapse","to crumble","to fall apart"],"hsk":6}}
 {"key":35010,"val":{"simplified":"崭新","pinyin":"zhǎn xīn","pinyinNoTone":"zhan xin","english":["brand new"],"hsk":6}}
 {"key":35100,"val":{"simplified":"川流不息","pinyin":"chuān liú bù xī","pinyinNoTone":"chuan liu bu xi","english":["the stream flows without stopping (idiom); unending flow"],"hsk":6}}
@@ -3717,9 +3717,9 @@
 {"key":37068,"val":{"simplified":"座右铭","pinyin":"zuò yòu míng","pinyinNoTone":"zuo you ming","english":["motto","maxim"],"hsk":6}}
 {"key":37211,"val":{"simplified":"庸俗","pinyin":"yōng sú","pinyinNoTone":"yong su","english":["filthy","vulgar","debased"],"hsk":6}}
 {"key":37254,"val":{"simplified":"廉洁","pinyin":"lián jié","pinyinNoTone":"lian jie","english":["honest","not coercive","honesty","integrity","incorruptible"],"hsk":6}}
-{"key":37332,"val":{"simplified":"废墟","pinyin":"feì xū","pinyinNoTone":"fei xu","english":["ruins"],"hsk":6}}
-{"key":37334,"val":{"simplified":"废寝忘食","pinyin":"feì qǐn wàng shí","pinyinNoTone":"fei qin wang shi","english":["to neglect sleep and forget about food (idiom)","to skip one's sleep and meals","to be completely wrapped up in one's work"],"hsk":6}}
-{"key":37364,"val":{"simplified":"废除","pinyin":"feì chú","pinyinNoTone":"fei chu","english":["to abolish","to abrogate","to repeal"],"hsk":6}}
+{"key":37332,"val":{"simplified":"废墟","pinyin":"fèi xū","pinyinNoTone":"fei xu","english":["ruins"],"hsk":6}}
+{"key":37334,"val":{"simplified":"废寝忘食","pinyin":"fèi qǐn wàng shí","pinyinNoTone":"fei qin wang shi","english":["to neglect sleep and forget about food (idiom)","to skip one's sleep and meals","to be completely wrapped up in one's work"],"hsk":6}}
+{"key":37364,"val":{"simplified":"废除","pinyin":"fèi chú","pinyinNoTone":"fei chu","english":["to abolish","to abrogate","to repeal"],"hsk":6}}
 {"key":37471,"val":{"simplified":"广阔","pinyin":"guǎng kuò","pinyinNoTone":"guang kuo","english":["wide","vast"],"hsk":6}}
 {"key":37504,"val":{"simplified":"延伸","pinyin":"yán shēn","pinyinNoTone":"yan shen","english":["to extend","to spread"],"hsk":6}}
 {"key":37533,"val":{"simplified":"延期","pinyin":"yán qī","pinyinNoTone":"yan qi","english":["to delay","to extend","to postpone","to defer"],"hsk":6}}
@@ -3820,12 +3820,12 @@
 {"key":41137,"val":{"simplified":"惹祸","pinyin":"rě huò","pinyinNoTone":"re huo","english":["to stir up trouble","to invite disaster"],"hsk":6}}
 {"key":41164,"val":{"simplified":"愈","pinyin":"yù","pinyinNoTone":"yu","english":["the more...(the more...)","to recover","to heal","better"],"hsk":6}}
 {"key":41187,"val":{"simplified":"意向","pinyin":"yì xiàng","pinyinNoTone":"yi xiang","english":["intention","purpose","intent","inclination","disposition"],"hsk":6}}
-{"key":41192,"val":{"simplified":"意味着","pinyin":"yì weì zhe","pinyinNoTone":"yi wei zhe","english":["to signify","to mean","to imply"],"hsk":6}}
+{"key":41192,"val":{"simplified":"意味着","pinyin":"yì wèi zhe","pinyinNoTone":"yi wei zhe","english":["to signify","to mean","to imply"],"hsk":6}}
 {"key":41194,"val":{"simplified":"意图","pinyin":"yì tú","pinyinNoTone":"yi tu","english":["intent","intention","to intend"],"hsk":6}}
 {"key":41208,"val":{"simplified":"意志","pinyin":"yì zhì","pinyinNoTone":"yi zhi","english":["will","willpower","determination","CL:個|个[ge4]"],"hsk":6}}
 {"key":41218,"val":{"simplified":"意料","pinyin":"yì liào","pinyinNoTone":"yi liao","english":["to anticipate","to expect"],"hsk":6}}
 {"key":41242,"val":{"simplified":"意识","pinyin":"yì shí","pinyinNoTone":"yi shi","english":["consciousness","awareness","to be aware","to realize"],"hsk":6}}
-{"key":41272,"val":{"simplified":"愚昧","pinyin":"yú meì","pinyinNoTone":"yu mei","english":["ignorant","uneducated"],"hsk":6}}
+{"key":41272,"val":{"simplified":"愚昧","pinyin":"yú mèi","pinyinNoTone":"yu mei","english":["ignorant","uneducated"],"hsk":6}}
 {"key":41279,"val":{"simplified":"愚蠢","pinyin":"yú chǔn","pinyinNoTone":"yu chun","english":["silly","stupid"],"hsk":6}}
 {"key":41291,"val":{"simplified":"爱不释手","pinyin":"ài bù shì shǒu","pinyinNoTone":"ai bu shi shou","english":["to love sth too much to part with it (idiom); to fondle admiringly"],"hsk":6}}
 {"key":41347,"val":{"simplified":"爱戴","pinyin":"ài dài","pinyinNoTone":"ai dai","english":["to love and respect","love and respect"],"hsk":6}}
@@ -3837,7 +3837,7 @@
 {"key":41597,"val":{"simplified":"慎重","pinyin":"shèn zhòng","pinyinNoTone":"shen zhong","english":["cautious","careful","prudent"],"hsk":6}}
 {"key":41656,"val":{"simplified":"慢性","pinyin":"màn xìng","pinyinNoTone":"man xing","english":["slow and patient","chronic (disease)","slow to take effect (e.g. a slow poison)"],"hsk":6}}
 {"key":41687,"val":{"simplified":"惯例","pinyin":"guàn lì","pinyinNoTone":"guan li","english":["convention","usual practice"],"hsk":6}}
-{"key":41721,"val":{"simplified":"慰问","pinyin":"weì wèn","pinyinNoTone":"wei wen","english":["to express sympathy, greetings, consolation etc"],"hsk":6}}
+{"key":41721,"val":{"simplified":"慰问","pinyin":"wèi wèn","pinyinNoTone":"wei wen","english":["to express sympathy, greetings, consolation etc"],"hsk":6}}
 {"key":41762,"val":{"simplified":"慷慨","pinyin":"kāng kǎi","pinyinNoTone":"kang kai","english":["vehement","fervent","generous","giving","liberal"],"hsk":6}}
 {"key":41777,"val":{"simplified":"欲望","pinyin":"yù wàng","pinyinNoTone":"yu wang","english":["desire","longing","appetite","craving"],"hsk":6}}
 {"key":41796,"val":{"simplified":"忧郁","pinyin":"yōu yù","pinyinNoTone":"you yu","english":["sullen","depressed","melancholy","dejected"],"hsk":6}}
@@ -3859,7 +3859,7 @@
 {"key":42352,"val":{"simplified":"成心","pinyin":"chéng xīn","pinyinNoTone":"cheng xin","english":["intentional","deliberate","on purpose"],"hsk":6}}
 {"key":42357,"val":{"simplified":"成效","pinyin":"chéng xiào","pinyinNoTone":"cheng xiao","english":["effect","result"],"hsk":6}}
 {"key":42369,"val":{"simplified":"成本","pinyin":"chéng běn","pinyinNoTone":"cheng ben","english":["(manufacturing, production etc) costs"],"hsk":6}}
-{"key":42457,"val":{"simplified":"戒备","pinyin":"jiè beì","pinyinNoTone":"jie bei","english":["to take precautions","to guard against (emergency)"],"hsk":6}}
+{"key":42457,"val":{"simplified":"戒备","pinyin":"jiè bèi","pinyinNoTone":"jie bei","english":["to take precautions","to guard against (emergency)"],"hsk":6}}
 {"key":42540,"val":{"simplified":"截止","pinyin":"jié zhǐ","pinyinNoTone":"jie zhi","english":["to close","to stop","to put a stop to sth","cut-off point","stopping point","deadline"],"hsk":6}}
 {"key":42550,"val":{"simplified":"截至","pinyin":"jié zhì","pinyinNoTone":"jie zhi","english":["up to (a time)","by (a time)"],"hsk":6}}
 {"key":42585,"val":{"simplified":"战役","pinyin":"zhàn yì","pinyinNoTone":"zhan yi","english":["military campaign"],"hsk":6}}
@@ -3961,7 +3961,7 @@
 {"key":45578,"val":{"simplified":"挽回","pinyin":"wǎn huí","pinyinNoTone":"wan hui","english":["to retrieve","to redeem"],"hsk":6}}
 {"key":45581,"val":{"simplified":"挽救","pinyin":"wǎn jiù","pinyinNoTone":"wan jiu","english":["to save","to remedy","to rescue"],"hsk":6}}
 {"key":45611,"val":{"simplified":"捆绑","pinyin":"kǔn bǎng","pinyinNoTone":"kun bang","english":["to bind"],"hsk":6}}
-{"key":45635,"val":{"simplified":"捍卫","pinyin":"hàn weì","pinyinNoTone":"han wei","english":["to defend","to uphold","to safeguard"],"hsk":6}}
+{"key":45635,"val":{"simplified":"捍卫","pinyin":"hàn wèi","pinyinNoTone":"han wei","english":["to defend","to uphold","to safeguard"],"hsk":6}}
 {"key":45638,"val":{"simplified":"捎","pinyin":"shāo","pinyinNoTone":"shao","english":["to bring sth to sb","to deliver"],"hsk":6}}
 {"key":45642,"val":{"simplified":"捏","pinyin":"niē","pinyinNoTone":"nie","english":["to pinch (with one's fingers)","to knead","to make up"],"hsk":6}}
 {"key":45683,"val":{"simplified":"捕捉","pinyin":"bǔ zhuō","pinyinNoTone":"bu zhuo","english":["to catch","to seize","to capture"],"hsk":6}}
@@ -4014,7 +4014,7 @@
 {"key":47023,"val":{"simplified":"捣乱","pinyin":"dǎo luàn","pinyinNoTone":"dao luan","english":["to disturb","to look for trouble","to stir up a row","to bother sb intentionally"],"hsk":6}}
 {"key":47132,"val":{"simplified":"搭","pinyin":"dā","pinyinNoTone":"da","english":["to put up","to build (scaffolding)","to hang (clothes on a pole)","to connect","to join","to arrange in pairs","to match","to add","to throw in (resources)","to take (boat, train)","variant of 褡[da1]"],"hsk":6}}
 {"key":47154,"val":{"simplified":"搭档","pinyin":"dā dàng","pinyinNoTone":"da dang","english":["to cooperate","partner"],"hsk":6}}
-{"key":47182,"val":{"simplified":"搭配","pinyin":"dā peì","pinyinNoTone":"da pei","english":["to pair up","to match","to arrange in pairs","to add sth into a group"],"hsk":6}}
+{"key":47182,"val":{"simplified":"搭配","pinyin":"dā pèi","pinyinNoTone":"da pei","english":["to pair up","to match","to arrange in pairs","to add sth into a group"],"hsk":6}}
 {"key":47186,"val":{"simplified":"掏","pinyin":"tāo","pinyinNoTone":"tao","english":["variant of 掏[tao1]"],"hsk":6}}
 {"key":47207,"val":{"simplified":"抢劫","pinyin":"qiǎng jié","pinyinNoTone":"qiang jie","english":["to rob","looting"],"hsk":6}}
 {"key":47216,"val":{"simplified":"抢救","pinyin":"qiǎng jiù","pinyinNoTone":"qiang jiu","english":["to rescue"],"hsk":6}}
@@ -4071,7 +4071,7 @@
 {"key":48386,"val":{"simplified":"支撑","pinyin":"zhī chēng","pinyinNoTone":"zhi cheng","english":["to prop up","to support","strut","brace"],"hsk":6}}
 {"key":48394,"val":{"simplified":"支柱","pinyin":"zhī zhù","pinyinNoTone":"zhi zhu","english":["mainstay","pillar","prop","backbone"],"hsk":6}}
 {"key":48400,"val":{"simplified":"支流","pinyin":"zhī liú","pinyinNoTone":"zhi liu","english":["tributary (river)"],"hsk":6}}
-{"key":48415,"val":{"simplified":"支配","pinyin":"zhī peì","pinyinNoTone":"zhi pei","english":["to control","to dominate","to allocate"],"hsk":6}}
+{"key":48415,"val":{"simplified":"支配","pinyin":"zhī pèi","pinyinNoTone":"zhi pei","english":["to control","to dominate","to allocate"],"hsk":6}}
 {"key":48502,"val":{"simplified":"收益","pinyin":"shōu yì","pinyinNoTone":"shou yi","english":["earnings","profit"],"hsk":6}}
 {"key":48520,"val":{"simplified":"收缩","pinyin":"shōu suō","pinyinNoTone":"shou suo","english":["to pull back","to shrink","to contract","(physiology) systole"],"hsk":6}}
 {"key":48527,"val":{"simplified":"收藏","pinyin":"shōu cáng","pinyinNoTone":"shou cang","english":["to hoard","to collect","collection","to bookmark (Internet)"],"hsk":6}}
@@ -4116,7 +4116,7 @@
 {"key":50436,"val":{"simplified":"新陈代谢","pinyin":"xīn chén dài xiè","pinyinNoTone":"xin chen dai xie","english":["metabolism (biology)","the new replaces the old (idiom)"],"hsk":6}}
 {"key":50461,"val":{"simplified":"断定","pinyin":"duàn dìng","pinyinNoTone":"duan ding","english":["to conclude","to determine","to come to a judgment"],"hsk":6}}
 {"key":50483,"val":{"simplified":"断绝","pinyin":"duàn jué","pinyinNoTone":"duan jue","english":["to sever","to break off"],"hsk":6}}
-{"key":50517,"val":{"simplified":"方位","pinyin":"fāng weì","pinyinNoTone":"fang wei","english":["direction","points of the compass","bearing","position","azimuth"],"hsk":6}}
+{"key":50517,"val":{"simplified":"方位","pinyin":"fāng wèi","pinyinNoTone":"fang wei","english":["direction","points of the compass","bearing","position","azimuth"],"hsk":6}}
 {"key":50533,"val":{"simplified":"方圆","pinyin":"fāng yuán","pinyinNoTone":"fang yuan","english":["perimeter","range","(within) a radius of ..."],"hsk":6}}
 {"key":50592,"val":{"simplified":"方言","pinyin":"Fāng yán","pinyinNoTone":"fang yan","english":["the first Chinese dialect dictionary, edited by Yang Xiong 揚雄|扬雄[Yang2 Xiong2] in 1st century, containing over 9000 characters"],"hsk":6}}
 {"key":50594,"val":{"simplified":"方言","pinyin":"fāng yán","pinyinNoTone":"fang yan","english":["topolect","dialect"],"hsk":6}}
@@ -4157,7 +4157,7 @@
 {"key":52371,"val":{"simplified":"暂且","pinyin":"zàn qiě","pinyinNoTone":"zan qie","english":["for now","for the time being","temporarily"],"hsk":6}}
 {"key":52403,"val":{"simplified":"暴力","pinyin":"bào lì","pinyinNoTone":"bao li","english":["violence","force","violent"],"hsk":6}}
 {"key":52440,"val":{"simplified":"暴露","pinyin":"bào lù","pinyinNoTone":"bao lu","english":["to expose","to reveal","to lay bare","also pr. [pu4 lu4]"],"hsk":6}}
-{"key":52486,"val":{"simplified":"暧昧","pinyin":"ài meì","pinyinNoTone":"ai mei","english":["vague","ambiguous","equivocal","dubious"],"hsk":6}}
+{"key":52486,"val":{"simplified":"暧昧","pinyin":"ài mèi","pinyinNoTone":"ai mei","english":["vague","ambiguous","equivocal","dubious"],"hsk":6}}
 {"key":52497,"val":{"simplified":"曝光","pinyin":"bào guāng","pinyinNoTone":"bao guang","english":["to expose (photography)","(fig.) to expose (a scandal)","(advertising) exposure","Taiwan pr. [pu4 guang1]"],"hsk":6}}
 {"key":52515,"val":{"simplified":"旷课","pinyin":"kuàng kè","pinyinNoTone":"kuang ke","english":["to play truant","to cut classes"],"hsk":6}}
 {"key":52549,"val":{"simplified":"曲子","pinyin":"qǔ zi","pinyinNoTone":"qu zi","english":["poem for singing","tune","music","CL:支[zhi1]"],"hsk":6}}
@@ -4176,7 +4176,7 @@
 {"key":53575,"val":{"simplified":"朝气蓬勃","pinyin":"zhāo qì péng bó","pinyinNoTone":"zhao qi peng bo","english":["full of youthful energy (idiom); vigorous","energetic","a bright spark"],"hsk":6}}
 {"key":53636,"val":{"simplified":"期望","pinyin":"qī wàng","pinyinNoTone":"qi wang","english":["to have expectations","to earnestly hope","expectation","hope"],"hsk":6}}
 {"key":53653,"val":{"simplified":"期限","pinyin":"qī xiàn","pinyinNoTone":"qi xian","english":["time limit","deadline","allotted time"],"hsk":6}}
-{"key":53774,"val":{"simplified":"未免","pinyin":"weì miǎn","pinyinNoTone":"wei mian","english":["unavoidably","can't help","really","rather"],"hsk":6}}
+{"key":53774,"val":{"simplified":"未免","pinyin":"wèi miǎn","pinyinNoTone":"wei mian","english":["unavoidably","can't help","really","rather"],"hsk":6}}
 {"key":53892,"val":{"simplified":"本事","pinyin":"běn shì","pinyinNoTone":"ben shi","english":["source material","original story"],"hsk":6}}
 {"key":53894,"val":{"simplified":"本事","pinyin":"běn shi","pinyinNoTone":"ben shi","english":["ability","skill"],"hsk":6}}
 {"key":53896,"val":{"simplified":"本人","pinyin":"běn rén","pinyinNoTone":"ben ren","english":["the person himself","I (humble form used in speeches)","oneself","myself","in person","personal"],"hsk":6}}
@@ -4261,11 +4261,11 @@
 {"key":58054,"val":{"simplified":"权衡","pinyin":"quán héng","pinyinNoTone":"quan heng","english":["to consider","to weigh (a matter)","to balance (pros and cons)"],"hsk":6}}
 {"key":58105,"val":{"simplified":"次品","pinyin":"cì pǐn","pinyinNoTone":"ci pin","english":["substandard products","defective","seconds"],"hsk":6}}
 {"key":58111,"val":{"simplified":"次序","pinyin":"cì xù","pinyinNoTone":"ci xu","english":["sequence","order"],"hsk":6}}
-{"key":58146,"val":{"simplified":"欣慰","pinyin":"xīn weì","pinyinNoTone":"xin wei","english":["to be gratified"],"hsk":6}}
+{"key":58146,"val":{"simplified":"欣慰","pinyin":"xīn wèi","pinyinNoTone":"xin wei","english":["to be gratified"],"hsk":6}}
 {"key":58148,"val":{"simplified":"欣欣向荣","pinyin":"xīn xīn xiàng róng","pinyinNoTone":"xin xin xiang rong","english":["luxuriant growth (idiom); flourishing","thriving"],"hsk":6}}
 {"key":58198,"val":{"simplified":"欺负","pinyin":"qī fu","pinyinNoTone":"qi fu","english":["to bully"],"hsk":6}}
 {"key":58201,"val":{"simplified":"欺骗","pinyin":"qī piàn","pinyinNoTone":"qi pian","english":["to deceive","to cheat"],"hsk":6}}
-{"key":58209,"val":{"simplified":"钦佩","pinyin":"qīn peì","pinyinNoTone":"qin pei","english":["to admire","to look up to","to respect sb greatly"],"hsk":6}}
+{"key":58209,"val":{"simplified":"钦佩","pinyin":"qīn pèi","pinyinNoTone":"qin pei","english":["to admire","to look up to","to respect sb greatly"],"hsk":6}}
 {"key":58230,"val":{"simplified":"款式","pinyin":"kuǎn shì","pinyinNoTone":"kuan shi","english":["pattern","style","design","CL:種|种[zhong3]"],"hsk":6}}
 {"key":58232,"val":{"simplified":"款式","pinyin":"kuǎn shi","pinyinNoTone":"kuan shi","english":["elegant","elegance","good taste"],"hsk":6}}
 {"key":58234,"val":{"simplified":"款待","pinyin":"kuǎn dài","pinyinNoTone":"kuan dai","english":["to entertain","to be hospitable to"],"hsk":6}}
@@ -4313,7 +4313,7 @@
 {"key":59950,"val":{"simplified":"民间","pinyin":"mín jiān","pinyinNoTone":"min jian","english":["among the people","popular","folk","non-governmental","involving people rather than governments"],"hsk":6}}
 {"key":60005,"val":{"simplified":"气功","pinyin":"qì gōng","pinyinNoTone":"qi gong","english":["qigong, a system of deep breathing exercises"],"hsk":6}}
 {"key":60015,"val":{"simplified":"气势","pinyin":"qì shì","pinyinNoTone":"qi shi","english":["imposing manner","loftiness","grandeur","energetic looks","vigor"],"hsk":6}}
-{"key":60024,"val":{"simplified":"气味","pinyin":"qì weì","pinyinNoTone":"qi wei","english":["odor","scent"],"hsk":6}}
+{"key":60024,"val":{"simplified":"气味","pinyin":"qì wèi","pinyinNoTone":"qi wei","english":["odor","scent"],"hsk":6}}
 {"key":60041,"val":{"simplified":"气压","pinyin":"qì yā","pinyinNoTone":"qi ya","english":["atmospheric pressure","barometric pressure"],"hsk":6}}
 {"key":60062,"val":{"simplified":"气概","pinyin":"qì gài","pinyinNoTone":"qi gai","english":["lofty quality","mettle","spirit"],"hsk":6}}
 {"key":60101,"val":{"simplified":"气色","pinyin":"qì sè","pinyinNoTone":"qi se","english":["complexion"],"hsk":6}}
@@ -4335,7 +4335,7 @@
 {"key":61145,"val":{"simplified":"沉重","pinyin":"chén zhòng","pinyinNoTone":"chen zhong","english":["heavy","hard","serious","critical"],"hsk":6}}
 {"key":61166,"val":{"simplified":"沐浴","pinyin":"mù yù","pinyinNoTone":"mu yu","english":["to take a bath","to bathe","to immerse"],"hsk":6}}
 {"key":61443,"val":{"simplified":"沮丧","pinyin":"jǔ sàng","pinyinNoTone":"ju sang","english":["dispirited","dejected","dismayed"],"hsk":6}}
-{"key":61535,"val":{"simplified":"沸腾","pinyin":"feì téng","pinyinNoTone":"fei teng","english":["(of a liquid) to boil","(of sentiments etc) to boil over","to flare up","to be impassioned"],"hsk":6}}
+{"key":61535,"val":{"simplified":"沸腾","pinyin":"fèi téng","pinyinNoTone":"fei teng","english":["(of a liquid) to boil","(of sentiments etc) to boil over","to flare up","to be impassioned"],"hsk":6}}
 {"key":61577,"val":{"simplified":"油漆","pinyin":"yóu qī","pinyinNoTone":"you qi","english":["oil paints","lacquer","to paint","CL:層|层[ceng2]"],"hsk":6}}
 {"key":61598,"val":{"simplified":"油腻","pinyin":"yóu nì","pinyinNoTone":"you ni","english":["grease","greasy food","oily","rich (of food)","fatty","greasy and dirty","a slippery character"],"hsk":6}}
 {"key":61629,"val":{"simplified":"治安","pinyin":"zhì ān","pinyinNoTone":"zhi an","english":["law and order","public security"],"hsk":6}}
@@ -4355,7 +4355,7 @@
 {"key":62180,"val":{"simplified":"注释","pinyin":"zhù shì","pinyinNoTone":"zhu shi","english":["marginal notes","annotation","to annotate","to add comments to text"],"hsk":6}}
 {"key":62182,"val":{"simplified":"注重","pinyin":"zhù zhòng","pinyinNoTone":"zhu zhong","english":["to pay attention to","to emphasize"],"hsk":6}}
 {"key":62229,"val":{"simplified":"泰斗","pinyin":"tài dǒu","pinyinNoTone":"tai dou","english":["leading scholar of his time","magnate"],"hsk":6}}
-{"key":62549,"val":{"simplified":"津津有味","pinyin":"jīn jīn yǒu weì","pinyinNoTone":"jin jin you wei","english":["with keen interest pleasure (idiom); with gusto","to relish","eagerly","with great interest"],"hsk":6}}
+{"key":62549,"val":{"simplified":"津津有味","pinyin":"jīn jīn yǒu wèi","pinyinNoTone":"jin jin you wei","english":["with keen interest pleasure (idiom); with gusto","to relish","eagerly","with great interest"],"hsk":6}}
 {"key":62571,"val":{"simplified":"泄气","pinyin":"xiè qì","pinyinNoTone":"xie qi","english":["to leak (gas)","to be discouraged","to despair","(disparaging) pathetic","to vent one's anger","(of a tire) to be flat"],"hsk":6}}
 {"key":62592,"val":{"simplified":"洪水","pinyin":"hóng shuǐ","pinyinNoTone":"hong shui","english":["deluge","flood"],"hsk":6}}
 {"key":62642,"val":{"simplified":"汹涌","pinyin":"xiōng yǒng","pinyinNoTone":"xiong yong","english":["to surge up violently (of ocean, river, lake etc)","turbulent"],"hsk":6}}
@@ -4422,7 +4422,7 @@
 {"key":65049,"val":{"simplified":"温带","pinyin":"wēn dài","pinyinNoTone":"wen dai","english":["temperate zone"],"hsk":6}}
 {"key":65122,"val":{"simplified":"溶解","pinyin":"róng jiě","pinyinNoTone":"rong jie","english":["to dissolve"],"hsk":6}}
 {"key":65164,"val":{"simplified":"灭亡","pinyin":"miè wáng","pinyinNoTone":"mie wang","english":["to be destroyed","to become extinct","to perish","to die out","to destroy","to exterminate"],"hsk":6}}
-{"key":65199,"val":{"simplified":"滋味","pinyin":"zī weì","pinyinNoTone":"zi wei","english":["taste","flavor","feeling"],"hsk":6}}
+{"key":65199,"val":{"simplified":"滋味","pinyin":"zī wèi","pinyinNoTone":"zi wei","english":["taste","flavor","feeling"],"hsk":6}}
 {"key":65202,"val":{"simplified":"滋润","pinyin":"zī rùn","pinyinNoTone":"zi run","english":["moist","humid","to moisten","to provide moisture","comfortably off"],"hsk":6}}
 {"key":65291,"val":{"simplified":"滔滔不绝","pinyin":"tāo tāo bù jué","pinyinNoTone":"tao tao bu jue","english":["unceasing torrent (idiom)","talking non-stop","gabbling forty to the dozen"],"hsk":6}}
 {"key":65321,"val":{"simplified":"滞留","pinyin":"zhì liú","pinyinNoTone":"zhi liu","english":["to detain","retention"],"hsk":6}}
@@ -4488,7 +4488,7 @@
 {"key":68313,"val":{"simplified":"熨","pinyin":"yùn","pinyinNoTone":"yun","english":["an iron","to iron"],"hsk":6}}
 {"key":68318,"val":{"simplified":"熬","pinyin":"āo","pinyinNoTone":"ao","english":["to boil","to simmer"],"hsk":6}}
 {"key":68320,"val":{"simplified":"熬","pinyin":"áo","pinyinNoTone":"ao","english":["to cook on a slow fire","to extract by heating","to decoct","to endure"],"hsk":6}}
-{"key":68405,"val":{"simplified":"热泪盈眶","pinyin":"rè leì yíng kuàng","pinyinNoTone":"re lei ying kuang","english":["eyes brimming with tears of excitement (idiom)","extremely moved"],"hsk":6}}
+{"key":68405,"val":{"simplified":"热泪盈眶","pinyin":"rè lèi yíng kuàng","pinyinNoTone":"re lei ying kuang","english":["eyes brimming with tears of excitement (idiom)","extremely moved"],"hsk":6}}
 {"key":68450,"val":{"simplified":"热门","pinyin":"rè mén","pinyinNoTone":"re men","english":["popular","hot","in vogue"],"hsk":6}}
 {"key":68528,"val":{"simplified":"灯笼","pinyin":"dēng lóng","pinyinNoTone":"deng long","english":["lantern"],"hsk":6}}
 {"key":68704,"val":{"simplified":"灿烂","pinyin":"càn làn","pinyinNoTone":"can lan","english":["to glitter","brilliant","splendid"],"hsk":6}}
@@ -4522,7 +4522,7 @@
 {"key":69855,"val":{"simplified":"狭窄","pinyin":"xiá zhǎi","pinyinNoTone":"xia zhai","english":["narrow"],"hsk":6}}
 {"key":69863,"val":{"simplified":"狭隘","pinyin":"xiá ài","pinyinNoTone":"xia ai","english":["narrow","tight","narrow minded","lacking in experience"],"hsk":6}}
 {"key":69871,"val":{"simplified":"狼吞虎咽","pinyin":"láng tūn hǔ yàn","pinyinNoTone":"lang tun hu yan","english":["to wolf down one's food (idiom); to devour ravenously","to gorge oneself"],"hsk":6}}
-{"key":69885,"val":{"simplified":"狼狈","pinyin":"láng beì","pinyinNoTone":"lang bei","english":["in a difficult situation","to cut a sorry figure","scoundrel! (derog.)"],"hsk":6}}
+{"key":69885,"val":{"simplified":"狼狈","pinyin":"láng bèi","pinyinNoTone":"lang bei","english":["in a difficult situation","to cut a sorry figure","scoundrel! (derog.)"],"hsk":6}}
 {"key":69938,"val":{"simplified":"猛烈","pinyin":"měng liè","pinyinNoTone":"meng lie","english":["fierce","violent (criticism etc)"],"hsk":6}}
 {"key":70032,"val":{"simplified":"犹如","pinyin":"yóu rú","pinyinNoTone":"you ru","english":["similar to","appearing to be"],"hsk":6}}
 {"key":70089,"val":{"simplified":"奖励","pinyin":"jiǎng lì","pinyinNoTone":"jiang li","english":["to reward","reward (as encouragement)"],"hsk":6}}
@@ -4565,7 +4565,7 @@
 {"key":72216,"val":{"simplified":"田野","pinyin":"tián yě","pinyinNoTone":"tian ye","english":["field","open land","CL:片[pian4]"],"hsk":6}}
 {"key":72321,"val":{"simplified":"申报","pinyin":"shēn bào","pinyinNoTone":"shen bao","english":["to report (to the authorities)","to declare (to customs)"],"hsk":6}}
 {"key":72465,"val":{"simplified":"界限","pinyin":"jiè xiàn","pinyinNoTone":"jie xian","english":["boundary","marginal"],"hsk":6}}
-{"key":72474,"val":{"simplified":"畏惧","pinyin":"weì jù","pinyinNoTone":"wei ju","english":["to fear","to dread","foreboding"],"hsk":6}}
+{"key":72474,"val":{"simplified":"畏惧","pinyin":"wèi jù","pinyinNoTone":"wei ju","english":["to fear","to dread","foreboding"],"hsk":6}}
 {"key":72486,"val":{"simplified":"畔","pinyin":"pàn","pinyinNoTone":"pan","english":["edge","side","boundary","bank (of a river etc)","shore"],"hsk":6}}
 {"key":72521,"val":{"simplified":"留念","pinyin":"liú niàn","pinyinNoTone":"liu nian","english":["to keep as a souvenir","to recall fondly"],"hsk":6}}
 {"key":72525,"val":{"simplified":"留恋","pinyin":"liú liàn","pinyinNoTone":"liu lian","english":["reluctant to leave","to hate to have to go","to recall fondly"],"hsk":6}}
@@ -4589,7 +4589,7 @@
 {"key":73060,"val":{"simplified":"疙瘩","pinyin":"gē da","pinyinNoTone":"ge da","english":["swelling or lump on skin","pimple","knot","preoccupation","problem"],"hsk":6}}
 {"key":73071,"val":{"simplified":"疤","pinyin":"bā","pinyinNoTone":"ba","english":["scar","scab"],"hsk":6}}
 {"key":73084,"val":{"simplified":"疲倦","pinyin":"pí juàn","pinyinNoTone":"pi juan","english":["to tire","tired"],"hsk":6}}
-{"key":73093,"val":{"simplified":"疲惫","pinyin":"pí beì","pinyinNoTone":"pi bei","english":["beaten","exhausted","tired"],"hsk":6}}
+{"key":73093,"val":{"simplified":"疲惫","pinyin":"pí bèi","pinyinNoTone":"pi bei","english":["beaten","exhausted","tired"],"hsk":6}}
 {"key":73119,"val":{"simplified":"疾病","pinyin":"jí bìng","pinyinNoTone":"ji bing","english":["disease","sickness","ailment"],"hsk":6}}
 {"key":73238,"val":{"simplified":"症状","pinyin":"zhèng zhuàng","pinyinNoTone":"zheng zhuang","english":["symptom (of an illness)"],"hsk":6}}
 {"key":73253,"val":{"simplified":"痕迹","pinyin":"hén jì","pinyinNoTone":"hen ji","english":["vestige","mark","trace"],"hsk":6}}
@@ -4756,7 +4756,7 @@
 {"key":80746,"val":{"simplified":"简陋","pinyin":"jiǎn lòu","pinyinNoTone":"jian lou","english":["simple and crude"],"hsk":6}}
 {"key":80751,"val":{"simplified":"简体字","pinyin":"jiǎn tǐ zì","pinyinNoTone":"jian ti zi","english":["simplified Chinese character, as opposed to traditional Chinese character 繁體字|繁体字[fan2 ti3 zi4]"],"hsk":6}}
 {"key":80797,"val":{"simplified":"签署","pinyin":"qiān shǔ","pinyinNoTone":"qian shu","english":["to sign (an agreement)"],"hsk":6}}
-{"key":80828,"val":{"simplified":"筹备","pinyin":"chóu beì","pinyinNoTone":"chou bei","english":["preparations","to get ready for sth"],"hsk":6}}
+{"key":80828,"val":{"simplified":"筹备","pinyin":"chóu bèi","pinyinNoTone":"chou bei","english":["preparations","to get ready for sth"],"hsk":6}}
 {"key":80855,"val":{"simplified":"籍贯","pinyin":"jí guàn","pinyinNoTone":"ji guan","english":["one's native place","place of ancestry","registered birthplace"],"hsk":6}}
 {"key":80879,"val":{"simplified":"笼罩","pinyin":"lǒng zhào","pinyinNoTone":"long zhao","english":["to envelop","to shroud"],"hsk":6}}
 {"key":80984,"val":{"simplified":"粉末","pinyin":"fěn mò","pinyinNoTone":"fen mo","english":["fine powder","dust"],"hsk":6}}
@@ -4815,7 +4815,7 @@
 {"key":82906,"val":{"simplified":"绑架","pinyin":"bǎng jià","pinyinNoTone":"bang jia","english":["to kidnap","to abduct","to hijack","a kidnapping","abduction","staking"],"hsk":6}}
 {"key":82921,"val":{"simplified":"绣","pinyin":"xiù","pinyinNoTone":"xiu","english":["variant of 繡|绣[xiu4]"],"hsk":6}}
 {"key":83050,"val":{"simplified":"经纬","pinyin":"jīng wěi","pinyinNoTone":"jing wei","english":["warp and woof","longitude and latitude","main points"],"hsk":6}}
-{"key":83056,"val":{"simplified":"经费","pinyin":"jīng feì","pinyinNoTone":"jing fei","english":["funds","expenditure","CL:筆|笔[bi3]"],"hsk":6}}
+{"key":83056,"val":{"simplified":"经费","pinyin":"jīng fèi","pinyinNoTone":"jing fei","english":["funds","expenditure","CL:筆|笔[bi3]"],"hsk":6}}
 {"key":83238,"val":{"simplified":"维持","pinyin":"wéi chí","pinyinNoTone":"wei chi","english":["to keep","to maintain","to preserve"],"hsk":6}}
 {"key":83261,"val":{"simplified":"维生素","pinyin":"wéi shēng sù","pinyinNoTone":"wei sheng su","english":["vitamin"],"hsk":6}}
 {"key":83275,"val":{"simplified":"维护","pinyin":"wéi hù","pinyinNoTone":"wei hu","english":["to defend","to safeguard","to protect","to uphold","to maintain"],"hsk":6}}
@@ -4866,7 +4866,7 @@
 {"key":85810,"val":{"simplified":"耐用","pinyin":"nài yòng","pinyinNoTone":"nai yong","english":["durable"],"hsk":6}}
 {"key":85823,"val":{"simplified":"端","pinyin":"duān","pinyinNoTone":"duan","english":["old variant of 端[duan1]","start","origin"],"hsk":6}}
 {"key":85832,"val":{"simplified":"耕地","pinyin":"gēng dì","pinyinNoTone":"geng di","english":["arable land","to plow land"],"hsk":6}}
-{"key":85856,"val":{"simplified":"耗费","pinyin":"hào feì","pinyinNoTone":"hao fei","english":["to waste","to spend","to consume","to squander"],"hsk":6}}
+{"key":85856,"val":{"simplified":"耗费","pinyin":"hào fèi","pinyinNoTone":"hao fei","english":["to waste","to spend","to consume","to squander"],"hsk":6}}
 {"key":86210,"val":{"simplified":"聚精会神","pinyin":"jù jīng huì shén","pinyinNoTone":"ju jing hui shen","english":["to concentrate one's attention (idiom)"],"hsk":6}}
 {"key":86310,"val":{"simplified":"联想","pinyin":"Lián xiǎng","pinyinNoTone":"lian xiang","english":["abbr. for 聯想集團|联想集团[Lian2 xiang3 Ji2 tuan2]"],"hsk":6}}
 {"key":86312,"val":{"simplified":"联想","pinyin":"lián xiǎng","pinyinNoTone":"lian xiang","english":["to associate (cognitively)","to make an associative connection","mental association","word prediction and auto-complete functions of input method editing programs"],"hsk":6}}
@@ -4877,7 +4877,7 @@
 {"key":86419,"val":{"simplified":"声明","pinyin":"shēng míng","pinyinNoTone":"sheng ming","english":["to state","to declare","statement","declaration","CL:項|项[xiang4],份[fen4]"],"hsk":6}}
 {"key":86446,"val":{"simplified":"声誉","pinyin":"shēng yù","pinyinNoTone":"sheng yu","english":["reputation","fame"],"hsk":6}}
 {"key":86458,"val":{"simplified":"耸","pinyin":"sǒng","pinyinNoTone":"song","english":["to excite","to raise up","to shrug","high","lofty","towering"],"hsk":6}}
-{"key":86476,"val":{"simplified":"职位","pinyin":"zhí weì","pinyinNoTone":"zhi wei","english":["post","office","position"],"hsk":6}}
+{"key":86476,"val":{"simplified":"职位","pinyin":"zhí wèi","pinyinNoTone":"zhi wei","english":["post","office","position"],"hsk":6}}
 {"key":86479,"val":{"simplified":"职务","pinyin":"zhí wù","pinyinNoTone":"zhi wu","english":["post","position","job","duties"],"hsk":6}}
 {"key":86501,"val":{"simplified":"职能","pinyin":"zhí néng","pinyinNoTone":"zhi neng","english":["function","role"],"hsk":6}}
 {"key":86580,"val":{"simplified":"聋哑","pinyin":"lóng yǎ","pinyinNoTone":"long ya","english":["deaf and dumb"],"hsk":6}}
@@ -4886,9 +4886,9 @@
 {"key":86779,"val":{"simplified":"股份","pinyin":"gǔ fèn","pinyinNoTone":"gu fen","english":["a share (in a company)","stock"],"hsk":6}}
 {"key":86795,"val":{"simplified":"股东","pinyin":"gǔ dōng","pinyinNoTone":"gu dong","english":["shareholder","stockholder"],"hsk":6}}
 {"key":86835,"val":{"simplified":"肥沃","pinyin":"féi wò","pinyinNoTone":"fei wo","english":["fertile"],"hsk":6}}
-{"key":86918,"val":{"simplified":"肺","pinyin":"feì","pinyinNoTone":"fei","english":["lung","CL:個|个[ge4]"],"hsk":6}}
-{"key":86986,"val":{"simplified":"背叛","pinyin":"beì pàn","pinyinNoTone":"bei pan","english":["to betray"],"hsk":6}}
-{"key":87022,"val":{"simplified":"背诵","pinyin":"beì sòng","pinyinNoTone":"bei song","english":["to recite","to repeat from memory"],"hsk":6}}
+{"key":86918,"val":{"simplified":"肺","pinyin":"fèi","pinyinNoTone":"fei","english":["lung","CL:個|个[ge4]"],"hsk":6}}
+{"key":86986,"val":{"simplified":"背叛","pinyin":"bèi pàn","pinyinNoTone":"bei pan","english":["to betray"],"hsk":6}}
+{"key":87022,"val":{"simplified":"背诵","pinyin":"bèi sòng","pinyinNoTone":"bei song","english":["to recite","to repeat from memory"],"hsk":6}}
 {"key":87094,"val":{"simplified":"胡乱","pinyin":"hú luàn","pinyinNoTone":"hu luan","english":["careless","reckless","casually","absent-mindedly","at will","at random","any old how"],"hsk":6}}
 {"key":87237,"val":{"simplified":"胸怀","pinyin":"xiōng huái","pinyinNoTone":"xiong huai","english":["one's bosom (the seat of emotions)","breast","broad-minded and open","to think about","to cherish"],"hsk":6}}
 {"key":87262,"val":{"simplified":"胸膛","pinyin":"xiōng táng","pinyinNoTone":"xiong tang","english":["chest"],"hsk":6}}
@@ -4980,7 +4980,7 @@
 {"key":92058,"val":{"simplified":"盖章","pinyin":"gài zhāng","pinyinNoTone":"gai zhang","english":["to affix a seal","to stamp (a document)","to sign off on sth"],"hsk":6}}
 {"key":92168,"val":{"simplified":"蔑视","pinyin":"miè shì","pinyinNoTone":"mie shi","english":["to loathe","to despise","contempt"],"hsk":6}}
 {"key":92172,"val":{"simplified":"蔓延","pinyin":"màn yán","pinyinNoTone":"man yan","english":["to extend","to spread"],"hsk":6}}
-{"key":92200,"val":{"simplified":"蔚蓝","pinyin":"weì lán","pinyinNoTone":"wei lan","english":["azure","sky blue"],"hsk":6}}
+{"key":92200,"val":{"simplified":"蔚蓝","pinyin":"wèi lán","pinyinNoTone":"wei lan","english":["azure","sky blue"],"hsk":6}}
 {"key":92396,"val":{"simplified":"薄弱","pinyin":"bó ruò","pinyinNoTone":"bo ruo","english":["weak","frail"],"hsk":6}}
 {"key":92577,"val":{"simplified":"薪水","pinyin":"xīn shuǐ","pinyinNoTone":"xin shui","english":["salary","wage"],"hsk":6}}
 {"key":92596,"val":{"simplified":"熏陶","pinyin":"xūn táo","pinyinNoTone":"xun tao","english":["to seep in","to influence","to nurture","influence","training"],"hsk":6}}
@@ -5004,7 +5004,7 @@
 {"key":94233,"val":{"simplified":"血压","pinyin":"xuè yā","pinyinNoTone":"xue ya","english":["blood pressure"],"hsk":6}}
 {"key":94378,"val":{"simplified":"行列","pinyin":"háng liè","pinyinNoTone":"hang lie","english":["ranks","procession"],"hsk":6}}
 {"key":94414,"val":{"simplified":"行政","pinyin":"xíng zhèng","pinyinNoTone":"xing zheng","english":["administrative","executive (attributive)"],"hsk":6}}
-{"key":94579,"val":{"simplified":"卫星","pinyin":"weì xīng","pinyinNoTone":"wei xing","english":["satellite","moon","CL:顆|颗[ke1]"],"hsk":6}}
+{"key":94579,"val":{"simplified":"卫星","pinyin":"wèi xīng","pinyinNoTone":"wei xing","english":["satellite","moon","CL:顆|颗[ke1]"],"hsk":6}}
 {"key":94636,"val":{"simplified":"冲动","pinyin":"chōng dòng","pinyinNoTone":"chong dong","english":["to have an urge","to be impetuous","impulse","urge"],"hsk":6}}
 {"key":94643,"val":{"simplified":"冲击","pinyin":"chōng jī","pinyinNoTone":"chong ji","english":["to attack","to batter","(of waves) to pound against","shock","impact"],"hsk":6}}
 {"key":94656,"val":{"simplified":"冲突","pinyin":"chōng tū","pinyinNoTone":"chong tu","english":["conflict","to conflict","clash of opposing forces","collision (of interests)","contention"],"hsk":6}}
@@ -5015,15 +5015,15 @@
 {"key":94842,"val":{"simplified":"衰老","pinyin":"shuāi lǎo","pinyinNoTone":"shuai lao","english":["to age","to deteriorate with age","old and weak"],"hsk":6}}
 {"key":94849,"val":{"simplified":"衰退","pinyin":"shuāi tuì","pinyinNoTone":"shuai tui","english":["to decline","to fall","to drop","to falter","a decline","recession (in economics)"],"hsk":6}}
 {"key":94858,"val":{"simplified":"衷心","pinyin":"zhōng xīn","pinyinNoTone":"zhong xin","english":["heartfelt","wholehearted","cordial"],"hsk":6}}
-{"key":94936,"val":{"simplified":"被动","pinyin":"beì dòng","pinyinNoTone":"bei dong","english":["passive"],"hsk":6}}
-{"key":94940,"val":{"simplified":"被告","pinyin":"beì gào","pinyinNoTone":"bei gao","english":["defendant"],"hsk":6}}
+{"key":94936,"val":{"simplified":"被动","pinyin":"bèi dòng","pinyinNoTone":"bei dong","english":["passive"],"hsk":6}}
+{"key":94940,"val":{"simplified":"被告","pinyin":"bèi gào","pinyinNoTone":"bei gao","english":["defendant"],"hsk":6}}
 {"key":94988,"val":{"simplified":"裁判","pinyin":"cái pàn","pinyinNoTone":"cai pan","english":["judgment","to referee","umpire","judge","referee","CL:個|个[ge4],位[wei4],名[ming2]"],"hsk":6}}
 {"key":94994,"val":{"simplified":"裁员","pinyin":"cái yuán","pinyinNoTone":"cai yuan","english":["to cut staff","to lay off employees"],"hsk":6}}
 {"key":95007,"val":{"simplified":"裁缝","pinyin":"cái féng","pinyinNoTone":"cai feng","english":["tailor","dressmaker"],"hsk":6}}
 {"key":95084,"val":{"simplified":"补偿","pinyin":"bǔ cháng","pinyinNoTone":"bu chang","english":["to compensate","to make up"],"hsk":6}}
 {"key":95098,"val":{"simplified":"补救","pinyin":"bǔ jiù","pinyinNoTone":"bu jiu","english":["to remedy"],"hsk":6}}
 {"key":95141,"val":{"simplified":"补贴","pinyin":"bǔ tiē","pinyinNoTone":"bu tie","english":["to subsidize","subsidy","allowance","to supplement (one's salary etc)","benefit"],"hsk":6}}
-{"key":95164,"val":{"simplified":"装备","pinyin":"zhuāng beì","pinyinNoTone":"zhuang bei","english":["equipment","to equip","to outfit"],"hsk":6}}
+{"key":95164,"val":{"simplified":"装备","pinyin":"zhuāng bèi","pinyinNoTone":"zhuang bei","english":["equipment","to equip","to outfit"],"hsk":6}}
 {"key":95169,"val":{"simplified":"装卸","pinyin":"zhuāng xiè","pinyinNoTone":"zhuang xie","english":["to load or unload","to transfer","to assemble and disassemble"],"hsk":6}}
 {"key":95572,"val":{"simplified":"衬托","pinyin":"chèn tuō","pinyinNoTone":"chen tuo","english":["to set off"],"hsk":6}}
 {"key":95582,"val":{"simplified":"袭击","pinyin":"xí jī","pinyinNoTone":"xi ji","english":["attack (esp. surprise attack)","raid","to attack"],"hsk":6}}
@@ -5098,7 +5098,7 @@
 {"key":97987,"val":{"simplified":"谅解","pinyin":"liàng jiě","pinyinNoTone":"liang jie","english":["to understand","to make allowances for","understanding"],"hsk":6}}
 {"key":97994,"val":{"simplified":"论坛","pinyin":"lùn tán","pinyinNoTone":"lun tan","english":["forum (for discussion)"],"hsk":6}}
 {"key":98009,"val":{"simplified":"论证","pinyin":"lùn zhèng","pinyinNoTone":"lun zheng","english":["to prove a point","to expound on","to demonstrate or prove (through argument)","proof"],"hsk":6}}
-{"key":98081,"val":{"simplified":"诸位","pinyin":"zhū weì","pinyinNoTone":"zhu wei","english":["(pron) everyone","Ladies and Gentlemen","Sirs"],"hsk":6}}
+{"key":98081,"val":{"simplified":"诸位","pinyin":"zhū wèi","pinyinNoTone":"zhu wei","english":["(pron) everyone","Ladies and Gentlemen","Sirs"],"hsk":6}}
 {"key":98154,"val":{"simplified":"谋求","pinyin":"móu qiú","pinyinNoTone":"mou qiu","english":["to seek","to strive for"],"hsk":6}}
 {"key":98195,"val":{"simplified":"谜语","pinyin":"mí yǔ","pinyinNoTone":"mi yu","english":["riddle","conundrum","CL:條|条[tiao2]"],"hsk":6}}
 {"key":98222,"val":{"simplified":"谦逊","pinyin":"qiān xùn","pinyinNoTone":"qian xun","english":["humble","modest","unpretentious","modesty"],"hsk":6}}
@@ -5125,7 +5125,7 @@
 {"key":98941,"val":{"simplified":"丰满","pinyin":"fēng mǎn","pinyinNoTone":"feng man","english":["ample","well developed","fully rounded"],"hsk":6}}
 {"key":98954,"val":{"simplified":"丰盛","pinyin":"fēng shèng","pinyinNoTone":"feng sheng","english":["rich","sumptuous"],"hsk":6}}
 {"key":99042,"val":{"simplified":"豪迈","pinyin":"háo mài","pinyinNoTone":"hao mai","english":["bold","open-minded","heroic"],"hsk":6}}
-{"key":99186,"val":{"simplified":"贝壳","pinyin":"beì ké","pinyinNoTone":"bei ke","english":["shell","conch","cowry","mother of pearl","hard outer skin","also pr. [bei4 qiao4]"],"hsk":6}}
+{"key":99186,"val":{"simplified":"贝壳","pinyin":"bèi ké","pinyinNoTone":"bei ke","english":["shell","conch","cowry","mother of pearl","hard outer skin","also pr. [bei4 qiao4]"],"hsk":6}}
 {"key":99235,"val":{"simplified":"负担","pinyin":"fù dān","pinyinNoTone":"fu dan","english":["burden","to bear a burden"],"hsk":6}}
 {"key":99268,"val":{"simplified":"财务","pinyin":"cái wù","pinyinNoTone":"cai wu","english":["financial affairs"],"hsk":6}}
 {"key":99278,"val":{"simplified":"财富","pinyin":"cái fù","pinyinNoTone":"cai fu","english":["wealth","riches"],"hsk":6}}
@@ -5164,7 +5164,7 @@
 {"key":100613,"val":{"simplified":"起草","pinyin":"qǐ cǎo","pinyinNoTone":"qi cao","english":["to make a draft","to draw up (plans)"],"hsk":6}}
 {"key":100646,"val":{"simplified":"起哄","pinyin":"qǐ hòng","pinyinNoTone":"qi hong","english":["to heckle","rowdy jeering","to create a disturbance"],"hsk":6}}
 {"key":100751,"val":{"simplified":"超越","pinyin":"chāo yuè","pinyinNoTone":"chao yue","english":["to surpass","to exceed","to transcend"],"hsk":6}}
-{"key":100908,"val":{"simplified":"趣味","pinyin":"qù weì","pinyinNoTone":"qu wei","english":["fun","interest","delight","taste","liking","preference"],"hsk":6}}
+{"key":100908,"val":{"simplified":"趣味","pinyin":"qù wèi","pinyinNoTone":"qu wei","english":["fun","interest","delight","taste","liking","preference"],"hsk":6}}
 {"key":100941,"val":{"simplified":"足以","pinyin":"zú yǐ","pinyinNoTone":"zu yi","english":["sufficient to...","so much so that","so that"],"hsk":6}}
 {"key":100981,"val":{"simplified":"趴","pinyin":"pā","pinyinNoTone":"pa","english":["to lie on one's stomach","to lean forward, resting one's upper body (on a desktop etc)","(Taiwan) percent"],"hsk":6}}
 {"key":101021,"val":{"simplified":"跌","pinyin":"diē","pinyinNoTone":"die","english":["to drop","to fall","to tumble","Taiwan pr. [die2]"],"hsk":6}}
@@ -5253,7 +5253,7 @@
 {"key":104540,"val":{"simplified":"过瘾","pinyin":"guò yǐn","pinyinNoTone":"guo yin","english":["to satisfy a craving","to get a kick out of sth","gratifying","immensely enjoyable","satisfying","fulfilling"],"hsk":6}}
 {"key":104575,"val":{"simplified":"遏制","pinyin":"è zhì","pinyinNoTone":"e zhi","english":["to check","to contain","to hold back","to keep within limits","to constrain","to restrain"],"hsk":6}}
 {"key":104713,"val":{"simplified":"达成","pinyin":"dá chéng","pinyinNoTone":"da cheng","english":["to reach (an agreement)","to accomplish"],"hsk":6}}
-{"key":104795,"val":{"simplified":"违背","pinyin":"wéi beì","pinyinNoTone":"wei bei","english":["to go against","to be contrary to","to violate"],"hsk":6}}
+{"key":104795,"val":{"simplified":"违背","pinyin":"wéi bèi","pinyinNoTone":"wei bei","english":["to go against","to be contrary to","to violate"],"hsk":6}}
 {"key":104805,"val":{"simplified":"遥控","pinyin":"yáo kòng","pinyinNoTone":"yao kong","english":["remote control"],"hsk":6}}
 {"key":104815,"val":{"simplified":"遥远","pinyin":"yáo yuǎn","pinyinNoTone":"yao yuan","english":["distant","remote"],"hsk":6}}
 {"key":104835,"val":{"simplified":"递增","pinyin":"dì zēng","pinyinNoTone":"di zeng","english":["to increase by degrees","in increasing order","incremental","progressive"],"hsk":6}}
@@ -5282,14 +5282,14 @@
 {"key":105384,"val":{"simplified":"边界","pinyin":"biān jiè","pinyinNoTone":"bian jie","english":["boundary","border"],"hsk":6}}
 {"key":105388,"val":{"simplified":"边疆","pinyin":"biān jiāng","pinyinNoTone":"bian jiang","english":["border area","borderland","frontier","frontier region"],"hsk":6}}
 {"key":105392,"val":{"simplified":"边缘","pinyin":"biān yuán","pinyinNoTone":"bian yuan","english":["edge","fringe","verge","brink","periphery","marginal","borderline"],"hsk":6}}
-{"key":105650,"val":{"simplified":"部位","pinyin":"bù weì","pinyinNoTone":"bu wei","english":["position","place"],"hsk":6}}
+{"key":105650,"val":{"simplified":"部位","pinyin":"bù wèi","pinyinNoTone":"bu wei","english":["position","place"],"hsk":6}}
 {"key":105658,"val":{"simplified":"部署","pinyin":"bù shǔ","pinyinNoTone":"bu shu","english":["to dispose","to deploy","deployment"],"hsk":6}}
 {"key":105844,"val":{"simplified":"乡镇","pinyin":"xiāng zhèn","pinyinNoTone":"xiang zhen","english":["village","township"],"hsk":6}}
 {"key":105887,"val":{"simplified":"鄙视","pinyin":"bǐ shì","pinyinNoTone":"bi shi","english":["to despise","to disdain","to look down upon"],"hsk":6}}
 {"key":105939,"val":{"simplified":"郑重","pinyin":"zhèng zhòng","pinyinNoTone":"zheng zhong","english":["serious","solemn"],"hsk":6}}
-{"key":106027,"val":{"simplified":"配偶","pinyin":"peì ǒu","pinyinNoTone":"pei ou","english":["consort","mate","spouse"],"hsk":6}}
-{"key":106029,"val":{"simplified":"配备","pinyin":"peì beì","pinyinNoTone":"pei bei","english":["to allocate","to provide","to outfit with"],"hsk":6}}
-{"key":106035,"val":{"simplified":"配套","pinyin":"peì tào","pinyinNoTone":"pei tao","english":["to form a complete set","coherent"],"hsk":6}}
+{"key":106027,"val":{"simplified":"配偶","pinyin":"pèi ǒu","pinyinNoTone":"pei ou","english":["consort","mate","spouse"],"hsk":6}}
+{"key":106029,"val":{"simplified":"配备","pinyin":"pèi bèi","pinyinNoTone":"pei bei","english":["to allocate","to provide","to outfit with"],"hsk":6}}
+{"key":106035,"val":{"simplified":"配套","pinyin":"pèi tào","pinyinNoTone":"pei tao","english":["to form a complete set","coherent"],"hsk":6}}
 {"key":106136,"val":{"simplified":"酒精","pinyin":"jiǔ jīng","pinyinNoTone":"jiu jing","english":["alcohol","ethanol CH3CH2OH","ethyl alcohol","also written 乙醇","grain alcohol"],"hsk":6}}
 {"key":106185,"val":{"simplified":"酗酒","pinyin":"xù jiǔ","pinyinNoTone":"xu jiu","english":["heavy drinking","to get drunk","to drink to excess"],"hsk":6}}
 {"key":106393,"val":{"simplified":"丑恶","pinyin":"chǒu è","pinyinNoTone":"chou e","english":["ugly","repulsive"],"hsk":6}}
@@ -5448,13 +5448,13 @@
 {"key":114675,"val":{"simplified":"额外","pinyin":"é wài","pinyinNoTone":"e wai","english":["extra","added","additional"],"hsk":6}}
 {"key":114746,"val":{"simplified":"颠倒","pinyin":"diān dǎo","pinyinNoTone":"dian dao","english":["to turn upside down","to reverse","back to front","confused","deranged","crazy"],"hsk":6}}
 {"key":114757,"val":{"simplified":"颠簸","pinyin":"diān bǒ","pinyinNoTone":"dian bo","english":["to shake","to jolt","to bump"],"hsk":6}}
-{"key":114772,"val":{"simplified":"类似","pinyin":"leì sì","pinyinNoTone":"lei si","english":["similar","analogous"],"hsk":6}}
+{"key":114772,"val":{"simplified":"类似","pinyin":"lèi sì","pinyinNoTone":"lei si","english":["similar","analogous"],"hsk":6}}
 {"key":114811,"val":{"simplified":"顾问","pinyin":"gù wèn","pinyinNoTone":"gu wen","english":["adviser","consultant"],"hsk":6}}
 {"key":114821,"val":{"simplified":"顾虑","pinyin":"gù lu:4","pinyinNoTone":"gu lu:","english":["misgivings","apprehensions"],"hsk":6}}
 {"key":114834,"val":{"simplified":"颤抖","pinyin":"chàn dǒu","pinyinNoTone":"chan dou","english":["to shudder","to shiver","to shake","to tremble"],"hsk":6}}
 {"key":114891,"val":{"simplified":"显著","pinyin":"xiǎn zhù","pinyinNoTone":"xian zhu","english":["outstanding","notable","remarkable","statistically significant"],"hsk":6}}
 {"key":114924,"val":{"simplified":"风光","pinyin":"fēng guāng","pinyinNoTone":"feng guang","english":["scene","view","sight","landscape","to be well-regarded","to be well-off","grand (dialect)","impressive (dialect)"],"hsk":6}}
-{"key":114938,"val":{"simplified":"风味","pinyin":"fēng weì","pinyinNoTone":"feng wei","english":["distinctive flavor","distinctive style"],"hsk":6}}
+{"key":114938,"val":{"simplified":"风味","pinyin":"fēng wèi","pinyinNoTone":"feng wei","english":["distinctive flavor","distinctive style"],"hsk":6}}
 {"key":114946,"val":{"simplified":"风土人情","pinyin":"fēng tǔ rén qíng","pinyinNoTone":"feng tu ren qing","english":["local conditions and customs (idiom)"],"hsk":6}}
 {"key":114957,"val":{"simplified":"风度","pinyin":"fēng dù","pinyinNoTone":"feng du","english":["elegance (for men)","elegant demeanor","grace","poise"],"hsk":6}}
 {"key":114966,"val":{"simplified":"风暴","pinyin":"fēng bào","pinyinNoTone":"feng bao","english":["storm","violent commotion","fig. crisis (e.g. revolution, uprising, financial crisis etc)"],"hsk":6}}
@@ -5471,8 +5471,8 @@
 {"key":115405,"val":{"simplified":"饱和","pinyin":"bǎo hé","pinyinNoTone":"bao he","english":["saturation"],"hsk":6}}
 {"key":115418,"val":{"simplified":"饱经沧桑","pinyin":"bǎo jīng cāng sāng","pinyinNoTone":"bao jing cang sang","english":["having lived through many changes"],"hsk":6}}
 {"key":115641,"val":{"simplified":"馅儿","pinyin":"xiàn r5","pinyinNoTone":"xian r","english":["erhua variant of 餡|馅[xian4]"],"hsk":6}}
-{"key":115646,"val":{"simplified":"喂","pinyin":"weì","pinyinNoTone":"wei","english":["variant of 餵|喂[wei4]"],"hsk":6}}
-{"key":115666,"val":{"simplified":"喂","pinyin":"weì","pinyinNoTone":"wei","english":["to feed"],"hsk":6}}
+{"key":115646,"val":{"simplified":"喂","pinyin":"wèi","pinyinNoTone":"wei","english":["variant of 餵|喂[wei4]"],"hsk":6}}
+{"key":115666,"val":{"simplified":"喂","pinyin":"wèi","pinyinNoTone":"wei","english":["to feed"],"hsk":6}}
 {"key":115715,"val":{"simplified":"饶恕","pinyin":"ráo shù","pinyinNoTone":"rao shu","english":["to forgive","to pardon","to spare"],"hsk":6}}
 {"key":115746,"val":{"simplified":"馋","pinyin":"chán","pinyinNoTone":"chan","english":["gluttonous","greedy","to have a craving"],"hsk":6}}
 {"key":115822,"val":{"simplified":"首要","pinyin":"shǒu yào","pinyinNoTone":"shou yao","english":["the most important","of chief importance"],"hsk":6}}
