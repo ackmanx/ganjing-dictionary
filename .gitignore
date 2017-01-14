@@ -3,3 +3,4 @@
 .idea/*
 /.junk/
 node_modules
+hsk*.db
