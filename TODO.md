@@ -1,27 +1,17 @@
 #Left Off
 * 3 Favorite search entries
     * Requires... Star icon. New view. Local storage.
-* Duplicate entry for search
-    * shen me shi hou (is this not an HSK?)
-
-#Future Fun
-* 4 Migrate to MongoDB
-* 3 Paging (dependent on MongoDB)
-* 3 DB generate script incorrect for HSK
-    * Some characters have multiple entries, where not all of the entries are HSK
-        * 号 as an example has a HSK 1 entry and a HSK nothing entry
-        * My HSK list is character only, so I need to add to that for comparison somehow
-* 3 More frequently used characters/words should have higher relevence
-* 2 Highlight search hits
-* 2 Allow whitelisted 1 letter words
-    * Only English needs to be whitelisted for 1 letter
-* 1 Allow idiom searches because edit distance doesn't work there
-* 1 HSK css animation stalls with large result sets
-    * It appears that the animation waits for the response to come back, by then it's too late and it just jumps instead
 * 1 About page
     * Credits
     * Contact
     * Total searches count
+
+#Future Fun
+* 4 Migrate to MongoDB
+* 3 Paging (dependent on MongoDB)
+* 3 More frequently used characters/words should have higher relevence
+* 2 Highlight search hits
+* 1 Allow idiom searches because edit distance doesn't work there
 
 #Dev Setup
 * Need Node 6.9.1
