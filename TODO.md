@@ -5,6 +5,10 @@
     * Credits
     * Contact
     * Total searches count
+    
+* 4 Search not finding result
+    * T恤
+    * Search for just 恤 though and it is a result
 
 #Future Fun
 * 4 Migrate to MongoDB
