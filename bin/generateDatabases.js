@@ -15,6 +15,7 @@ const fs = require('fs')
 const readline = require('readline')
 const dirty = require('dirty')
 const concat = require('concat-files')
+const pinyin = require('./pinyin.js')
 
 //ID generator function globally scoped so it doesn't reset
 const id = (function* idMaker() {
@@ -152,7 +153,7 @@ function addToDatabase(line) {
 
     const simplified = chineseHalf.split(' ', 2)[1]
     const pinyinWithNumbers = chineseHalf.split('[')[1].replace('] ', '')
-    const pinyinWithAccents = convertToneNumbersToAccents(pinyinWithNumbers)
+    const pinyinWithAccents = pinyin.convertToneNumbersToAccents(pinyinWithNumbers)
 
     const hskLevel = determineHSK(simplified)
 
@@ -186,110 +187,7 @@ function determineHSK(simplified) {
 
     for (let level in hsk) {
         if (hsk[level].includes(simplified)) hskForCharacter = level
-        }
+    }
 
     return parseInt(hskForCharacter) || null
-}
-
-
-//----------------//----------------//----------------//----------------//----------------
-// Converts from tone numbers to accents for readability
-//----------------//----------------//----------------//----------------//----------------
-function convertToneNumbersToAccents(pinyin) {
-
-    //Replace numbers with tone marks... but there will be some mistakes to correct later in the chain
-    return pinyin
-        .replace(/a1/g, "ā")
-        .replace(/a2/g, "á")
-        .replace(/a3/g, "ǎ")
-        .replace(/a4/g, "à")
-        .replace(/a5/g, "a")
-        .replace(/e1/g, "ē")
-        .replace(/e2/g, "é")
-        .replace(/e3/g, "ě")
-        .replace(/e4/g, "è")
-        .replace(/e5/g, "e")
-        .replace(/i1/g, "ī")
-        .replace(/i2/g, "í")
-        .replace(/i3/g, "ǐ")
-        .replace(/i4/g, "ì")
-        .replace(/i5/g, "i")
-        .replace(/o1/g, "ō")
-        .replace(/o2/g, "ó")
-        .replace(/o3/g, "ǒ")
-        .replace(/o4/g, "ò")
-        .replace(/o5/g, "o")
-        .replace(/u1/g, "ū")
-        .replace(/u2/g, "ú")
-        .replace(/u3/g, "ǔ")
-        .replace(/u4/g, "ù")
-        .replace(/u5/g, "u")
-        .replace(/ü1/g, "ǖ")
-        .replace(/ü2/g, "ǘ")
-        .replace(/ü3/g, "ǚ")
-        .replace(/ü4/g, "ǜ")
-        .replace(/ü5/g, "ü")
-        .replace(/an1/g, "ān")
-        .replace(/an2/g, "án")
-        .replace(/an3/g, "ǎn")
-        .replace(/an4/g, "àn")
-        .replace(/an5/g, "an")
-        .replace(/ang1/g, "āng")
-        .replace(/ang2/g, "áng")
-        .replace(/ang3/g, "ǎng")
-        .replace(/ang4/g, "àng")
-        .replace(/ang5/g, "ang")
-        .replace(/en1/g, "ēn")
-        .replace(/en2/g, "én")
-        .replace(/en3/g, "ěn")
-        .replace(/en4/g, "èn")
-        .replace(/en5/g, "en")
-        .replace(/eng1/g, "ēng")
-        .replace(/eng2/g, "éng")
-        .replace(/eng3/g, "ěng")
-        .replace(/eng4/g, "èng")
-        .replace(/eng5/g, "eng")
-        .replace(/in1/g, "īn")
-        .replace(/in2/g, "ín")
-        .replace(/in3/g, "ǐn")
-        .replace(/in4/g, "ìn")
-        .replace(/in5/g, "in")
-        .replace(/ing1/g, "īng")
-        .replace(/ing2/g, "íng")
-        .replace(/ing3/g, "ǐng")
-        .replace(/ing4/g, "ìng")
-        .replace(/ing5/g, "ing")
-        .replace(/ong1/g, "ōng")
-        .replace(/ong2/g, "óng")
-        .replace(/ong3/g, "ǒng")
-        .replace(/ong4/g, "òng")
-        .replace(/ong5/g, "ong")
-        .replace(/uv/g, "ǚ")
-        .replace(/un1/g, "ūn")
-        .replace(/un2/g, "ún")
-        .replace(/un3/g, "ǔn")
-        .replace(/un4/g, "ùn")
-        .replace(/un5/g, "un")
-        .replace(/er1/g, "ēr")
-        .replace(/er2/g, "ér")
-        .replace(/er3/g, "ěr")
-        .replace(/er4/g, "èr")
-        .replace(/er5/g, "er")
-        //Correct mistakes from above... example wei4 becomes weì, which is invalid pinyin
-        .replace(/aō/g, "āo")
-        .replace(/aó/g, "áo")
-        .replace(/aǒ/g, "ǎo")
-        .replace(/aò/g, "ào")
-        .replace(/oū/g, "ōu")
-        .replace(/oú/g, "óu")
-        .replace(/oǔ/g, "ǒu")
-        .replace(/où/g, "òu")
-        .replace(/aī/g, "āi")
-        .replace(/aí/g, "ái")
-        .replace(/aǐ/g, "ǎi")
-        .replace(/aì/g, "ài")
-        .replace(/eī/g, "ēi")
-        .replace(/eí/g, "éi")
-        .replace(/eǐ/g, "ěi")
-        .replace(/eì/g, "èi")
 }

@@ -9,9 +9,7 @@
 * 4 Search not finding result
     * T恤
     * Search for just 恤 though and it is a result
-    
-* 3 Tone wrong in dictionary
-    * 玩儿 has r5
+
 
 #Future Fun
 * 4 Migrate to MongoDB
