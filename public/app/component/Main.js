@@ -17,12 +17,17 @@ define(function (require) {
         },
         view: (ctrl) =>
             m('div.application-container',
-                m('header',
-                    m('a[href=/]', m('h1', '干净 gānjìng'))
+                m('div.not-the-footer-container',
+                    m('header',
+                        m('a[href=/]', m('h1', '干净 gānjìng'))
+                    ),
+                    m('main',
+                        m(ActionBar, {am: ctrl.am}),
+                        m(Results, {am: ctrl.am})
+                    )
                 ),
-                m('main',
-                    m(ActionBar, {am: ctrl.am}),
-                    m(Results, {am: ctrl.am})
+                m('footer',
+                    'I... am... TEXT!'
                 )
             )
     }

@@ -9,6 +9,10 @@
     margin: 0;
 }
 
+html, body, .application-container {
+    height: 100%;
+}
+
 body {
     background-color: rgba(244, 244, 244, 1.00);
     font: 14px 'Open Sans', sans-serif;
@@ -155,6 +159,26 @@ main {
     .hsk-col {
         white-space: nowrap;
     }
+}
+
+//http://codepen.io/chriscoyier/pen/uwJjr?editors=1100#0
+
+.not-the-footer-container {
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+
+.not-the-footer-container:after {
+    content: "";
+    display: block;
+}
+
+footer, .not-the-footer-container:after {
+    height: 50px;
+}
+
+footer {
+    background: orange;
 }
 
 //The above rules trump the responsive media queries if they are loaded first
