@@ -67,7 +67,7 @@ function search(query, entry) {
 function searchSimplified(query, entry) {
     let result
 
-    if (entry.simplified.includes(query)) {
+    if (entry.simplified.toLowerCase().includes(query)) {
         const distance = levenshtein.get(query, entry.simplified)
         if (distance <= 10) {
             entry.distance = distance
@@ -83,7 +83,7 @@ function searchSimplified(query, entry) {
 function searchPinyin(query, entry) {
     let result
 
-    if (entry.pinyinNoTone.includes(query)) {
+    if (entry.pinyinNoTone.toLowerCase().includes(query)) {
         const distance = levenshtein.get(query, entry.pinyinNoTone)
         if (distance <= 10) {
             entry.distance = distance
