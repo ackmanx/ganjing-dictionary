@@ -10,14 +10,14 @@ define(function (require) {
         view: (ctrl) =>
             m('select.button.recent-searches',
                 {
-                    title: 'zuìjìn sōusuǒ',
-                    onchange: event => m.route('/' + event.target.value)
+                    title: 'lì shǐ',
+                    onchange: event => m.route('/search/' + event.target.value)
                 },
                 m('option', {
                     disabled: true,
                     selected: true,
                     hidden: true
-                }, '最近搜索'),
+                }, '历史'),
                 ctrl.recentSearches().reverse().map(search =>
                     m('option', {value: search}, search)
                 )

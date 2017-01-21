@@ -53,6 +53,6 @@ define(function (require) {
     m.route(document.body, '/', {
         '/': App,
         '/about': About,
-        '/:searchQuery': App
+        '/search/:searchQuery': App
     })
 })

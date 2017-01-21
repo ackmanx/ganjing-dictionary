@@ -43,12 +43,12 @@ define(function (require) {
                         if (event.keyCode === ESC)
                             ctrl.am.query('')
                         else if (event.keyCode === ENTER)
-                            m.route('/' + ctrl.am.query())
+                            m.route('/search/' + ctrl.am.query())
                     },
                     value: ctrl.am.query()
                 }),
                 m('div.button-container',
-                    m('button.button.search', {onclick: () => m.route('/' + ctrl.am.query())}, '中文'),
+                    m('button.button.search', {onclick: () => m.route('/search/' + ctrl.am.query())}, '中文'),
                     m(RecentSearches),
                     m(Hsk, {am: ctrl.am})
                 )
