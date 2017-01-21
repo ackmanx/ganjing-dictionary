@@ -1,10 +1,12 @@
 define(function (require) {
 
     const m = require('mithril')
+
     const storage = require('localStorage')
     const Entry = require('model/Entry')
-    const Hsk = require('component/Hsk')
-    const RecentSearches = require('component/RecentSearches')
+
+    const Hsk = require('component/actionBar/Hsk')
+    const RecentSearches = require('component/actionBar/RecentSearches')
 
     return {
         controller: function (args) {
