@@ -5,6 +5,8 @@ window.GANJING_TITLE_PREFIX = '干净 gānjìng'
 define(function (require) {
 
     const m = require('mithril')
+    const Header = require('component/Header')
+    const Footer = require('component/Footer')
     const ActionBar = require('component/ActionBar')
     const Results = require('component/Results')
     const AppModel = require('model/AppModel')
@@ -18,35 +20,25 @@ define(function (require) {
         view: (ctrl) =>
             m('div.application-container',
                 m('div.not-the-footer-container',
-                    m('header',
-                        m('a[href=/]', m('h1', '干净 gānjìng'))
-                    ),
+                    m(Header),
                     m('main',
                         m(ActionBar, {am: ctrl.am}),
                         m(Results, {am: ctrl.am})
                     )
                 ),
-                m('footer',
-                    m('a[href="?/about"]', 'About')
-                )
+                m(Footer)
             )
     }
 
     const About = {
-        controller: function () {
-        },
         view: (ctrl) =>
             m('div.application-container',
                 m('div.not-the-footer-container',
-                    m('header',
-                        m('a[href=/]', m('h1', '干净 gānjìng'))
-                    ),
+                    m(Header),
                     m('main', 'hello'
                     )
                 ),
-                m('footer',
-                    m('a[href="about"]', 'About')
-                )
+                m(Footer)
             )
     }
 
