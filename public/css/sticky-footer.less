@@ -1,0 +1,21 @@
+html, body, .application-container {
+    height: 100%;
+}
+
+.not-the-footer-container {
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+
+.not-the-footer-container:after {
+    content: "";
+    display: block;
+}
+
+footer, .not-the-footer-container:after {
+    height: 50px;
+}
+
+footer {
+    background: orange;
+}

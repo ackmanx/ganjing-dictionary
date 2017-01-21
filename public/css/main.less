@@ -1,16 +1,13 @@
 @charset "UTF-8";
 
 @import "colors";
+@import "sticky-footer";
 @import "../lib/normalize";
 @import "../lib/single-element-css-loader";
 @import "../lib/toggle-switch";
 
 * {
     margin: 0;
-}
-
-html, body, .application-container {
-    height: 100%;
 }
 
 body {
@@ -159,26 +156,6 @@ main {
     .hsk-col {
         white-space: nowrap;
     }
-}
-
-//http://codepen.io/chriscoyier/pen/uwJjr?editors=1100#0
-
-.not-the-footer-container {
-    min-height: 100%;
-    margin-bottom: -50px;
-}
-
-.not-the-footer-container:after {
-    content: "";
-    display: block;
-}
-
-footer, .not-the-footer-container:after {
-    height: 50px;
-}
-
-footer {
-    background: orange;
 }
 
 //The above rules trump the responsive media queries if they are loaded first
