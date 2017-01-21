@@ -27,6 +27,24 @@ define(function (require) {
                     )
                 ),
                 m('footer',
+                    m('a[href="?/about"]', 'About')
+                )
+            )
+    }
+
+    const About = {
+        controller: function () {
+        },
+        view: (ctrl) =>
+            m('div.application-container',
+                m('div.not-the-footer-container',
+                    m('header',
+                        m('a[href=/]', m('h1', '干净 gānjìng'))
+                    ),
+                    m('main', 'hello'
+                    )
+                ),
+                m('footer',
                     m('a[href="about"]', 'About')
                 )
             )
@@ -34,6 +52,7 @@ define(function (require) {
 
     m.route(document.body, '/', {
         '/': App,
+        '/about': About,
         '/:searchQuery': App
     })
 })
