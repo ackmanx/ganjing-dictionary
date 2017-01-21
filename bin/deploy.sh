@@ -26,6 +26,7 @@ printf "$branch#$version#$date" > ../VERSION
 git reset HEAD --
 git add ../VERSION
 git commit -m "Version++"
+git tag -a version_${version} -m version_${version}
 
 echo ''
 
