@@ -1,0 +1,36 @@
+@footerHeight: 50px;
+
+//
+//Start sticky
+//
+html, body, .application-container {
+    height: 100%;
+}
+
+.not-the-footer-container {
+    min-height: 100%;
+    margin-bottom: -@footerHeight;
+}
+
+//This is the "padding" at the bottom so the content doesn't go under the footer
+.not-the-footer-container:after {
+    content: "";
+    display: block;
+    height: @footerHeight;
+}
+
+footer {
+    height: @footerHeight;
+    text-align: center;
+}
+//
+//End sticky
+//
+
+footer {
+    line-height: @footerHeight;
+
+    a {
+        color: @primaryBlue;
+    }
+}

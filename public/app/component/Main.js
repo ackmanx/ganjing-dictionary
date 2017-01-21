@@ -27,7 +27,7 @@ define(function (require) {
                     )
                 ),
                 m('footer',
-                    'I... am... TEXT!'
+                    m('a[href="about"]', 'About')
                 )
             )
     }
