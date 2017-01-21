@@ -6,7 +6,7 @@ define(function (require) {
         controller: function (args) {
             this.entry = args.entry
         },
-        view: (ctrl) =>
+        view: ctrl =>
             m('div.listing',
                 m('div.simplified-col', ctrl.entry.simplified()),
                 m('div.pinyin-col', ctrl.entry.pinyin()),

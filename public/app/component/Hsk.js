@@ -26,7 +26,7 @@ define(function (require) {
                 })
             }
         },
-        view: (ctrl) =>
+        view: ctrl =>
             m('label.switch', {
                     onchange: ctrl.hskSearch
                 },

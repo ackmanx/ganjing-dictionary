@@ -7,7 +7,7 @@ define(function (require) {
         controller: function (args) {
             this.recentSearches = storage.getRecents
         },
-        view: (ctrl) =>
+        view: ctrl =>
             m('select.button.recent-searches',
                 {
                     title: 'lì shǐ',

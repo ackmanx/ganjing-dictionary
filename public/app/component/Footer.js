@@ -3,7 +3,7 @@ define(function (require) {
     const m = require('mithril')
 
     return {
-        view: (ctrl) =>
+        view: ctrl =>
             m('footer',
                 m('a[href="?/about"]', 'About')
             )

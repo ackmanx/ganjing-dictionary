@@ -7,7 +7,7 @@ define(function (require) {
         controller: function (args) {
             this.am = args.am
         },
-        view: (ctrl) =>
+        view: ctrl =>
             ctrl.am.loading() ?
                 m('div.loader', 'Loading') :
                 m('section.results-list',

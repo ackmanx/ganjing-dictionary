@@ -34,7 +34,7 @@ define(function (require) {
                 this.performSearch()
             }
         },
-        view: (ctrl) =>
+        view: ctrl =>
             m('div.action-bar',
                 m('input[type=text]#searchBar.search-bar', {
                     autofocus: true,

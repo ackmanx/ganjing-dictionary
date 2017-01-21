@@ -17,7 +17,7 @@ define(function (require) {
                 query: m.route.param('searchQuery')
             })
         },
-        view: (ctrl) =>
+        view: ctrl =>
             m('div.application-container',
                 m('div.not-the-footer-container',
                     m(Header),
@@ -31,7 +31,7 @@ define(function (require) {
     }
 
     const About = {
-        view: (ctrl) =>
+        view: ctrl =>
             m('div.application-container',
                 m('div.not-the-footer-container',
                     m(Header),
