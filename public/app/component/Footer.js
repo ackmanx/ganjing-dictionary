@@ -5,7 +5,7 @@ define(function (require) {
     return {
         view: ctrl =>
             m('footer',
-                m('a[href="?/about"]', 'About')
+                m('a[href="/about"]', {config: m.route}, 'About')
             )
     }
 })
