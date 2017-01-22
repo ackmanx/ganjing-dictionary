@@ -1,3 +1,4 @@
+//mithril 0.2.5
 ;(function (global, factory) { // eslint-disable-line
     "use strict"
     /* eslint-disable no-undef */
@@ -5,9 +6,7 @@
     if (typeof module === "object" && module != null && module.exports) {
         module.exports = m
     } else if (typeof define === "function" && define.amd) {
-        define(function () {
-            return m
-        })
+        define(function () { return m })
     } else {
         global.m = m
     }
@@ -38,8 +37,7 @@
             return type.call(object) === "[object Array]"
         }
 
-    function noop() {
-    }
+    function noop() {}
 
     var voidElements = {
         AREA: 1,
@@ -157,7 +155,8 @@
                 "be a string")
         }
 
-        var hasAttrs = pairs != null && isObject(pairs) && !("tag" in pairs || "view" in pairs || "subtree" in pairs)
+        var hasAttrs = pairs != null && isObject(pairs) &&
+            !("tag" in pairs || "view" in pairs || "subtree" in pairs)
 
         var attrs = hasAttrs ? pairs : {}
         var cell = {
@@ -183,7 +182,6 @@
                 f(attrs, i)
         })
     }
-
     // This function was causing deopts in Chrome.
     function dataToString(data) {
         // data.toString() might throw or return null if data is the return
@@ -392,9 +390,7 @@
     }
 
     var pendingRequests = 0
-    m.startComputation = function () {
-        pendingRequests++
-    }
+    m.startComputation = function () { pendingRequests++ }
     m.endComputation = function () {
         if (pendingRequests > 1) {
             pendingRequests--
@@ -436,14 +432,16 @@
         }
     }
 
-    function buildUpdatedNode(cached,
-                              data,
-                              editable,
-                              hasKeys,
-                              namespace,
-                              views,
-                              configs,
-                              controllers) {
+    function buildUpdatedNode(
+        cached,
+        data,
+        editable,
+        hasKeys,
+        namespace,
+        views,
+        configs,
+        controllers
+    ) {
         var node = cached.nodes[0]
 
         if (hasKeys) {
@@ -499,12 +497,14 @@
         return cached
     }
 
-    function reattachNodes(data,
-                           cached,
-                           parentElement,
-                           editable,
-                           index,
-                           parentTag) {
+    function reattachNodes(
+        data,
+        cached,
+        parentElement,
+        editable,
+        index,
+        parentTag
+    ) {
         var nodes = cached.nodes
         if (!editable || editable !== $document.activeElement) {
             if (data.$trusted) {
@@ -519,7 +519,8 @@
             } else {
                 // was a trusted string
                 if (nodes[0].nodeType === 1 || nodes.length > 1 ||
-                    (nodes[0].nodeValue.trim && !nodes[0].nodeValue.trim())) {
+                    (nodes[0].nodeValue.trim &&
+                    !nodes[0].nodeValue.trim())) {
                     clear(cached.nodes, cached)
                     nodes = [$document.createTextNode(data)]
                 }
@@ -532,13 +533,15 @@
         return cached
     }
 
-    function handleTextNode(cached,
-                            data,
-                            index,
-                            parentElement,
-                            shouldReattach,
-                            editable,
-                            parentTag) {
+    function handleTextNode(
+        cached,
+        data,
+        index,
+        parentElement,
+        shouldReattach,
+        editable,
+        parentTag
+    ) {
         if (!cached.nodes.length) {
             return handleNonexistentNodes(data, parentElement, index)
         } else if (cached.valueOf() !== data.valueOf() || shouldReattach) {
@@ -563,15 +566,17 @@
         return 1
     }
 
-    function buildArray(data,
-                        cached,
-                        parentElement,
-                        index,
-                        parentTag,
-                        shouldReattach,
-                        editable,
-                        namespace,
-                        configs) {
+    function buildArray(
+        data,
+        cached,
+        parentElement,
+        index,
+        parentTag,
+        shouldReattach,
+        editable,
+        namespace,
+        configs
+    ) {
         data = flatten(data)
         var nodes = []
         var intact = cached.length === data.length
@@ -674,12 +679,14 @@
         }
     }
 
-    function constructChildren(data,
-                               node,
-                               cached,
-                               editable,
-                               namespace,
-                               configs) {
+    function constructChildren(
+        data,
+        node,
+        cached,
+        editable,
+        namespace,
+        configs
+    ) {
         if (data.children != null && data.children.length > 0) {
             return build(
                 node,
@@ -698,13 +705,15 @@
         }
     }
 
-    function reconstructCached(data,
-                               attrs,
-                               children,
-                               node,
-                               namespace,
-                               views,
-                               controllers) {
+    function reconstructCached(
+        data,
+        attrs,
+        children,
+        node,
+        namespace,
+        views,
+        controllers
+    ) {
         var cached = {
             tag: data.tag,
             attrs: attrs,
@@ -750,9 +759,7 @@
 
     function updateLists(views, controllers, view, controller) {
         if (controller.onunload != null &&
-            unloaders.map(function (u) {
-                return u.handler
-            })
+            unloaders.map(function (u) { return u.handler })
                 .indexOf(controller.onunload) < 0) {
             unloaders.push({
                 controller: controller,
@@ -765,13 +772,14 @@
     }
 
     var forcing = false
-
-    function checkView(data,
-                       view,
-                       cached,
-                       cachedControllers,
-                       controllers,
-                       views) {
+    function checkView(
+        data,
+        view,
+        cached,
+        cachedControllers,
+        controllers,
+        views
+    ) {
         var controller = getController(
             cached.views,
             view,
@@ -820,7 +828,8 @@
         index,
         shouldReattach,
         namespace,
-        configs) {
+        configs
+    ) {
         var views = []
         var controllers = []
 
@@ -889,17 +898,19 @@
         return cached
     }
 
-    function build(parentElement,
-                   parentTag,
-                   parentCache,
-                   parentIndex,
-                   data,
-                   cached,
-                   shouldReattach,
-                   index,
-                   editable,
-                   namespace,
-                   configs) {
+    function build(
+        parentElement,
+        parentTag,
+        parentCache,
+        parentIndex,
+        data,
+        cached,
+        shouldReattach,
+        index,
+        editable,
+        namespace,
+        configs
+    ) {
         /*
          * `build` is a recursive function that manages creation/diffing/removal
          * of DOM elements based on comparison between `data` and `cached` the
@@ -1020,12 +1031,14 @@
         height: 1
     }
 
-    function setSingleAttr(node,
-                           attrName,
-                           dataAttr,
-                           cachedAttr,
-                           tag,
-                           namespace) {
+    function setSingleAttr(
+        node,
+        attrName,
+        dataAttr,
+        cachedAttr,
+        tag,
+        namespace
+    ) {
         if (attrName === "config" || attrName === "key") {
             // `config` isn't a real attribute, so ignore it
             return true
@@ -1069,13 +1082,15 @@
         else node.setAttribute(attrName, dataAttr)
     }
 
-    function trySetAttr(node,
-                        attrName,
-                        dataAttr,
-                        cachedAttr,
-                        cachedAttrs,
-                        tag,
-                        namespace) {
+    function trySetAttr(
+        node,
+        attrName,
+        dataAttr,
+        cachedAttr,
+        cachedAttrs,
+        tag,
+        namespace
+    ) {
         if (!(attrName in cachedAttrs) || (cachedAttr !== dataAttr) || ($document.activeElement === node)) {
             cachedAttrs[attrName] = dataAttr
             try {
@@ -1185,7 +1200,7 @@
     }
 
     // Replace script element with one whose contents are executable.
-    function buildExecutableNode(node) {
+    function buildExecutableNode(node){
         var scriptEl = document.createElement("script")
         var attrs = node.attributes
 
@@ -1296,9 +1311,7 @@
             undefined,
             configs)
 
-        forEach(configs, function (config) {
-            config()
-        })
+        forEach(configs, function (config) { config() })
     }
 
     function getCellCacheKey(element) {
@@ -1690,7 +1703,7 @@
         var keys = Object.keys(router)
         var index = keys.indexOf(path)
 
-        if (index !== -1) {
+        if (index !== -1){
             m.mount(root, router[keys [index]])
             return true
         }
@@ -1843,7 +1856,6 @@
         prop.catch = prop.then.bind(null, null)
         return prop
     }
-
     // Promiz.mithril.js | Zolmeister | MIT
     // a modified version of Promiz.js, which does not conform to Promises/A+
     // for two reasons:
@@ -1992,7 +2004,8 @@
     }
 
     m.deferred.onerror = function (e) {
-        if (type.call(e) === "[object Error]" && !/ Error/.test(e.constructor.toString())) {
+        if (type.call(e) === "[object Error]" &&
+            !/ Error/.test(e.constructor.toString())) {
             pendingRequests = 0
             throw e
         }
@@ -2027,9 +2040,7 @@
         return deferred.promise
     }
 
-    function identity(value) {
-        return value
-    }
+    function identity(value) { return value }
 
     function handleJsonp(options) {
         var callbackKey = options.callbackName || "mithril_callback_" +
@@ -2141,7 +2152,7 @@
 
     function parameterizeUrl(url, data) {
         if (data) {
-            url = url.replace(/:[a-z]\w+/gi, function (token) {
+            url = url.replace(/:[a-z]\w+/gi, function (token){
                 var key = token.slice(1)
                 var value = data[key] || token
                 delete data[key]
@@ -2163,9 +2174,7 @@
             serialize = options.serialize =
                 deserialize = options.deserialize = identity
 
-            extract = function (jsonp) {
-                return jsonp.responseText
-            }
+            extract = function (jsonp) { return jsonp.responseText }
         } else {
             serialize = options.serialize = options.serialize || JSON.stringify
 
