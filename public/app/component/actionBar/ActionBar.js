@@ -39,13 +39,19 @@ define(function (require) {
         view: ctrl =>
             m('div.action-bar',
                 m('input[type=text]#searchBar.search-bar', {
-                    autofocus: true,
                     oninput: m.withAttr('value', ctrl.am.query),
                     onkeyup: event => {
                         if (event.keyCode === ESC)
                             ctrl.am.query('')
                         else if (event.keyCode === ENTER)
                             m.route('/search/' + ctrl.am.query())
+                    },
+                    config: function (el) {
+                        //We don't focus the input if on small view
+                        //It is likely the user is on a mobile device and the keyboard gets in the way of results
+                        if (!window.IS_SMALL_VIEW) {
+                            el.focus()
+                        }
                     },
                     value: ctrl.am.query()
                 }),
