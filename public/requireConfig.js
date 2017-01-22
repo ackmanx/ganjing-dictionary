@@ -5,7 +5,6 @@ require.config({
      * Paths are relative to the baseUrl
      */
     paths: {
-        moment: '../lib/moment-min',
         mithril: '../lib/mithril'
     }
 })

@@ -1,6 +1,8 @@
 #Left Off
 * 3 Favorite search entries
     * Requires... Star icon. New view. Local storage.
+* 3 Recent Searches dropdown is ugly since I renamed it
+    * Safari and FF suck with it in general
 
 #Future Fun
 * 4 Migrate to MongoDB

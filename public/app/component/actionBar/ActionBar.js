@@ -46,7 +46,7 @@ define(function (require) {
                         else if (event.keyCode === ENTER)
                             m.route('/search/' + ctrl.am.query())
                     },
-                    config: function (el) {
+                    config: el => {
                         //We don't focus the input if on small view
                         //It is likely the user is on a mobile device and the keyboard gets in the way of results
                         if (!window.IS_SMALL_VIEW) {
