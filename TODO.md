@@ -1,11 +1,8 @@
 #Left Off
 * 3 Favorite search entries
     * Requires... Star icon. New view. Local storage.
-* 1 About page
-    * Credits
-    * Contact
-    * Total searches count
-    
+* 5 Page flickers when searching or going to about page
+    * Taylor's app does not do this when changing routes
 
 #Future Fun
 * 4 Migrate to MongoDB
