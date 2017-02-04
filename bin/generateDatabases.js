@@ -95,6 +95,15 @@ rl.on('close', () => {
         //callback after concat is finished
         () => {
             console.log('finished creating uber-hsk')
+
+            fs.unlinkSync('../resources/hsk1')
+            fs.unlinkSync('../resources/hsk1.db')
+            fs.unlinkSync('../resources/hsk2.db')
+            fs.unlinkSync('../resources/hsk3.db')
+            fs.unlinkSync('../resources/hsk4.db')
+            fs.unlinkSync('../resources/hsk5.db')
+            fs.unlinkSync('../resources/hsk6.db')
+
             process.exit()
         }
     )
