@@ -1,150 +1,150 @@
-﻿爱
-八
-爸爸
-杯子
-北京
-本
-不
-不客气
-菜
-茶
-吃
-出租车
-打电话
-大
-的
-点
-电脑
-电视
-电影
-东西
-都
-读
-对不起
-多
-多少
-儿子
-二
-饭店
-飞机
-分钟
-高兴
-个
-工作
-狗
-汉语
-好
-号
-喝
-和
-很
-后面
-回
-会
-几
-家
-叫
-今天
-九
-开
-看
-看见
-块
-来
-老师
-了
-冷
-里
-六
-妈妈
-吗
-买
-猫
-没关系
-没有
-米饭
-名字
-明天
-哪
-哪儿
-那
-呢
-能
-你
-年
-女儿
-朋友
-漂亮
-苹果
-七
-前面
-钱
-请
-去
-热
-人
-认识
-三
-商店
-上
-上午
-少
-谁
-什么
-十
-时候
-是
-书
-水
-水果
-睡觉
-说
-四
-岁
-他
-她
-太
-天气
-听
-同学
-喂
-我
-我们
-五
-喜欢
-下
-下午
-下雨
-先生
-现在
-想
-小
-小姐
-些
-写
-谢谢
-星期
-学生
-学习
-学校
-一
-一点儿
-衣服
-医生
-医院
-椅子
-有
-月
-再见
-在
-怎么
-怎么样
-这
-中国
-中午
-住
-桌子
-字
-昨天
-坐
-做
+﻿爱	love
+八	eight
+爸爸	Dad; father
+杯子	cup; glass
+北京	Beijing
+本	measure word for books
+不客气	you're welcome; don't be polite
+不	no; not
+菜	dish (type of food); vegetables
+茶	tea
+吃	eat
+出租车	taxi; cab
+打电话	make a phone call
+大	big; large
+的	indicates possession, like adding 's to a noun
+点	a dot; a little; o'clock
+电脑	computer
+电视	television; TV
+电影	movie; film
+东西	things; stuff
+都	all; both
+读	to read; to study
+对不起	sorry
+多	many
+多少	how much?; how many?
+儿子	son
+二	two
+饭店	restaurant; hotel
+飞机	airplane
+分钟	minute; (measure word for time)
+高兴	happy; glad
+个	general measure word
+工作	work; a job
+狗	dog
+汉语	Chinese language
+好	good
+号	number; day of a month
+喝	to drink
+和	and; with
+很	very; quite
+后面	back; behind
+回	to return; to reply; to go back
+会	know how to
+几	how many; several; a few
+家	family; home
+叫	to be called
+今天	today
+九	nine
+开	to open; to start; to operate (a vehicle)
+看	see; look at; to watch
+看见	see; catch sight of
+块	lump; piece; sum of money
+来	come; arrive; ever since; next
+老师	teacher
+了	indicates a completed or finished action
+冷	cold
+里	inside; Chinese mile (~.5 km)
+六	six
+妈妈	mom; mum; mother
+吗	indicates a yes/no question (added to a statement)
+买	to buy
+猫	cat
+没关系	it doesn't matter; never mind
+没有	not have; there is not
+米饭	(cooked) rice
+明天	tomorrow
+名字	name
+哪	which; how
+哪儿	where? (Beijing accent)
+那	that; then
+呢	indicates a question; how about...?;
+能	can; be able
+你	you (singular)
+年	year
+女儿	daughter
+朋友	friend
+漂亮	pretty; beautiful
+苹果	apple
+七	seven
+钱	money; coin
+前面	in front
+请	please; invite; to treat someone to something
+去	go; to leave
+热	heat; hot
+人	person; man; people
+认识	recognize; know (a person)
+三	three
+商店	shop; store
+上	above; up
+上午	late morning (before noon)
+少	few; little
+谁	who
+什么	what? (replaces the noun to turn a statement into a question)
+十	ten
+时候	time
+是	be; is; are; am
+书	book; letter
+水	water
+水果	fruit
+睡觉	to sleep; go to bed
+说	speak
+四	four
+岁	years old; age
+他	he; him
+她	she
+太	too (much)
+天气	weather
+听	listen; hear
+同学	fellow student; schoolmate
+喂	hello (on the phone)
+我	I; me
+我们	we; us
+五	five
+喜欢	to like
+下	fall; below
+下午	afternoon
+下雨	to rain
+先生	Mr.; Sir
+现在	now
+想	think; believe; suppose; would like to
+小	small; young
+小姐	young lady; miss; Ms.
+些	some; few; several
+写	to write; to compose
+谢谢	thank you
+星期	week
+学生	student
+学习	learn; to study
+学校	school
+一	one; once; a
+衣服	clothes
+医生	doctor
+医院	hospital
+椅子	chair
+一点	a bit; a few
+有	have
+月	moon; month
+在	at; on; in; indicates an action in progress
+再见	goodbye; see you later
+怎么	how?
+怎么样	how about?; how is/was it?
+这	this
+中国	China
+中午	noon; midday
+住	to live; reside; to stop
+桌子	table; desk
+字	letter; character
+昨天	yesterday
+做	do; make
+坐	sit

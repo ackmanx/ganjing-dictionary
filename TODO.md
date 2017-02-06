@@ -1,8 +1,15 @@
 #Left Off
 * 3 Favorite search entries
     * Requires... Star icon. New view. Local storage.
+
 * 3 Recent Searches dropdown is ugly since I renamed it
     * Safari and FF suck with it in general
+
+* 5 Update About section to include notes about HSK accuracy
+
+* 5 HSK fix attempt five
+    * 1-4 will use English tokenization to remove dupes
+    * 5-6 will use exact match and blacklist of English
 
 #Future Fun
 * 4 Migrate to MongoDB

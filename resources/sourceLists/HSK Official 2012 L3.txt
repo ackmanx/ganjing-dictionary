@@ -1,302 +1,300 @@
-﻿阿姨
-啊
-矮
-爱好
-安静
-把
-班
-搬
-办法
-办公室
-半
-帮忙
-包
-饱
-北方
-被
-鼻子
-比较
-比赛
-笔记本
-必须
-变化
-别人
-冰箱
-不但
-而且
-菜单
-参加
-草
-层
-差
-超市
-衬衫
-成绩
-城市
-迟到
-除了
-船
-春
-词典
-聪明
-打扫
-打算
-带
-担心
-蛋糕
-当然
-地
-灯
-地方
-地铁
-地图
-电梯
-电子邮件
-东
-冬
-动物
-短
-段
-锻炼
-多么
-饿
-耳朵
-发
-发烧
-发现
-方便
-放
-放心
-分
-附近
-复习
-干净
-感冒
-感兴趣
-刚才
-个子
-根据
-跟
-更
-公斤
-公园
-故事
-刮风
-关
-关系
-关心
-关于
-国家
-过
-过去
-还是
-害怕
-黑板
-后来
-护照
-花
-花
-画
-坏
-欢迎
-还
-环境
-换
-黄河
-回答
-会议
-或者
-几乎
-机会
-极
-记得
-季节
-检查
-简单
-见面
-健康
-讲
-教
-角
-脚
-接
-街道
-节目
-节日
-结婚
-结束
-解决
-借
-经常
-经过
-经理
-久
-旧
-句子
-决定
-可爱
-渴
-刻
-客人
-空调
-口
-哭
-裤子
-筷子
-蓝
-老
-离开
-礼物
-历史
-脸
-练习
-辆
-聊天
-了解
-邻居
-留学
-楼
-绿
-马
-马上
-满意
-帽子
-米
-面包
-明白
-拿
-奶奶
-南
-难
-难过
-年级
-年轻
-鸟
-努力
-爬山
-盘子
-胖
-皮鞋
-啤酒
-瓶子
-其实
-其他
-奇怪
-骑
-起飞
-起来
-清楚
-请假
-秋
-裙子
-然后
-热情
-认为
-认真
-容易
-如果
-伞
-上网
-生气
-声音
-世界
-试
-瘦
-叔叔
-舒服
-树
-数学
-刷牙
-双
-水平
-司机
-太阳
-特别
-疼
-提高
-体育
-甜
-条
-同事
-同意
-头发
-突然
-图书馆
-腿
-完成
-碗
-万
-忘记
-为
-为了
-位
-文化
-西
-习惯
-洗手间
-洗澡
-夏
-先
-相信
-香蕉
-向
-像
-小心
-校长
-新闻
-新鲜
-信用卡
-行李箱
-熊猫
-需要
-选择
-要求
-爷爷
-一般
-一边
-一定
-一共
-一会儿
-一样
-一直
-以前
-音乐
-银行
-饮料
-应该
-影响
-用
-游戏
-有名
-又
-遇到
-元
-愿意
-月亮
-越
-站
-张
-长
-着急
-照顾
-照片
-照相机
-只
-只
-只有
-才
-中间
-中文
-终于
-种
-重要
-周末
-主要
-注意
-自己
-自行车
-总是
-嘴
-最后
-最近
-作业
+﻿阿姨	auntie; step-mother; mother's younger sister
+啊	ah; (particle showing elation, doubt, puzzled surprise, or approval)
+矮	short; low
+爱好	hobby; fond of; to like; interest
+安静	quiet; peaceful; calm
+把	(mw for things with handles); (pretransitive particle); to hold
+班	team; class; squad
+搬	to move; to transport
+办法	method; way (of doing something)
+办公室	office
+半	half; semi-; incomplete
+帮忙	to help
+包	to cover; to wrap; to hold; include; (mw for containers, packages, etc.)
+饱	eat until full; satisfied
+北方	north; the northern part of the country
+被	by (indicates passive voice sentences); a quilt/blanket
+鼻子	nose
+比较	compare; contrast; relatively
+比赛	(sports) match; competition
+笔记本	notebook
+必须	must; have to
+变化	change
+别人	other people; others
+冰箱	refrigerator
+不但	not only
+而且	moreover; in addition; as well as
+菜单	menu
+参加	participate; join; take part in
+草	grass; straw; draft (of a document)
+层	(mw for layers, floors of buildings)
+差	differ from; fall short of; poor; inferior
+超市	supermarket
+衬衫	shirt; blouse
+成绩	achievement; success; results (of work or study)
+城市	city or town
+迟到	arrive late
+除了	besides; except for; aside from; in addition to
+船	a boat; vessel; ship
+春	spring (season); joyful
+词典	dictionary
+聪明	intelligent; clever; bright; smart
+打扫	to clean; to sweep
+打算	to plan; intend
+带	band; belt; ribbon; carry; bring; take along; bring up (kids)
+担心	to worry; feel anxious
+蛋糕	cake
+当然	of course; naturally
+地	earth; ground; (adverbial particle)
+灯	lamp; light
+地方	place; space; room; part, (fāng: local; regional)
+地铁	subway
+地图	map
+电梯	elevator
+电子邮件	email
+东	East
+冬	winter
+动物	animal
+短	short (in length, duration, or height); lack
+段	paragraph; segment; section
+锻炼	to exercise; work out; toughen; to temper
+多么	how (wonderful, etc.); what (a great idea)
+饿	hungry
+耳朵	ear
+发	send out; to issue; to show (one's feelings)
+发烧	have a fever
+发现	discover; to find
+方便	convenient
+放	put; to place; to release; to free
+放心	relax; feel relieved; rest assured
+分	divide; part; minute; cent; component; share; ingredient
+附近	(in the) vicinity; nearby; neighboring
+复习	revise; to review
+干净	clean; neat and tidy
+感冒	catch cold; (common) cold
+感兴趣	be interested in
+刚才	just now; a moment ago
+个子	height; stature; build
+根据	according to; based on; basis
+跟	to follow; go with; heel
+更	more; even more
+公斤	kilogram
+公园	public park
+故事	story; tale
+刮风	windy; to blow (wind)
+关	to close; shut; concern; relationship; turn off; mountain pass
+关系	relation; to concern
+关心	concerned about/with
+关于	about; regarding; concerning
+国家	country; state; nation
+过	to pass; to cross; go over; (indicates a past experience)
+过去	in the past; formerly
+还是	or; still; nevertheless; had better
+害怕	afraid of; to fear
+黑板	blackboard
+后来	afterwards; after; later
+护照	passport
+花	flower; blossom; spend money; cost
+画	draw; picture; painting
+坏	bad; broken
+欢迎	to welcome; greet
+还	still; yet; in addition; even
+环境	environment; surroundings
+换	change; to exchange; to barter; to trade
+黄河	Yellow River
+回答	to reply; to answer
+会议	meeting; conference
+或者	or; possible; maybe; perhaps
+几乎	almost
+机会	opportunity; chance; occasion
+极	an extreme; pole; very
+记得	remember
+季节	season; time; period
+检查	to check; examine; inspect
+简单	simple; not complicated
+见面	meet somebody; see somebody; meeting
+健康	health; healthy
+讲	to talk; to lecture; to explain; a speech
+教	teach; instruct; religion; teaching
+角	horn; angle; unit of money (1/10 yuan); corner; role (theater)
+脚	foot (body part)
+接	connect; to meet; to pick up (somebody); to receive
+街道	street
+节目	program; item (on a program)
+节日	holiday; festival
+结婚	get married
+结束	to end; to finish; conclude
+解决	settle (a dispute); resolve; solve
+借	lend; borrow; excuse
+经常	often; frequently; daily
+经过	to pass; go through; as a result of
+经理	manager; director
+久	long (time)
+旧	old; past; used
+句子	sentence
+决定	decide; resolve
+可爱	cute; lovely
+渴	thirsty
+刻	quarter (hour); (mw for short time intervals); carve; to cut
+客人	guest; customer
+空调	air conditioning
+口	mouth
+哭	cry; weep
+裤子	pants; trousers
+筷子	chopsticks
+蓝	blue
+老	old; aged; tough; often
+离开	leave; depart
+礼物	gift; present
+历史	history
+脸	face
+练习	practice; exercise
+辆	(mw for vehicles)
+聊天	to chat
+了解	comprehend; understand; know; find out
+邻居	neighbor
+留学	study abroad
+楼	story; floor; (multi-story) building
+绿	green
+马	horse
+马上	at once; immediately; right away
+满意	satisfied; pleased
+帽子	hat; cap
+米	rice; meter
+面包	bread
+明白	clear; obvious; understand; explicit
+拿	carry in your hand; seize; to catch
+奶奶	grandma; (informal) paternal grandmother
+南	South
+难	difficult
+难过	be grieved; be sad; have a hard time
+年级	grade; year (in school)
+年轻	young
+鸟	bird
+努力	to work hard; to strive
+爬山	mountain climbing
+盘子	plate; dish; tray
+胖	fat; plump
+皮鞋	leather shoes
+啤酒	beer
+瓶子	bottle
+其实	actually; in fact
+其他	other; else
+奇怪	strange; odd
+骑	to ride (an animal or bike); to sit astride
+起飞	take off (in an airplane); liftoff
+起来	(beginning or continuing an action); to rise; get up (from bed)
+清楚	clear; distinct; be clear about
+请假	to ask for time off
+秋	autumn; fall; harvest time
+裙子	skirt
+然后	then; afterwards
+热情	cordial; warm; enthusiastic
+认为	believe; think that
+认真	serious; earnest; take seriously
+容易	easy; likely; liable (to)
+如果	if; in the event that
+伞	umbrella; parasol
+上网	to surf the web; to go online
+生气	angry; mad
+声音	sound; voice
+世界	world
+试	to try; to test; examination
+瘦	thin; tight; lean
+叔叔	(informal) father's younger brother; uncle
+舒服	comfortable; feeling well
+树	tree
+数学	mathematics
+刷牙	brush one's teeth
+双	two; double; (mw for pairs)
+水平	level; standard; horizontal
+司机	driver; chauffeur
+太阳	the sun
+特别	special; especially; particular
+疼	ache; sore; (it) hurts; love fondly
+提高	to raise; heighten; improve
+体育	physical training; sports
+甜	sweet
+条	strip; (mw for long thin objects); item
+同事	colleague; co-worker
+同意	agree; to consent; approve
+头发	hair (on the head)
+突然	sudden; abrupt
+图书馆	library
+腿	leg
+完成	to complete; accomplish; to fulfill
+碗	bowl; cup
+万	ten thousand
+忘记	forget
+为	for; because of; to; for the sake of
+为了	in order to; for the sake of; for the purpose of
+位	position; location; (polite mw for people)
+文化	culture; civilization
+西	West
+习惯	habit; be accustomed to; usual practice
+洗手间	toilet; lavatory; washroom
+洗澡	bathe; take a bath or shower; bath or shower
+夏	summer
+先	first; early; before
+相信	believe (sb.); be convinced of
+香蕉	banana
+向	direction; towards; to turn; to face
+像	be like; resemble; appearance; appear
+小心	be careful
+校长	principal (of school, college or university); president; headmaster
+新闻	news
+新鲜	fresh (experience, food, etc.); new; novel
+信用卡	credit card
+行李箱	trunk; suitcase
+熊猫	panda
+需要	to need; to want; to demand
+选择	select; to pick; choose
+要求	to request; to demand; requirement
+爷爷	(informal) father's father; paternal grandfather
+一般	general; ordinary; common; same
+一边	one side; on the one hand; at the same time
+一定	surely; certainly; necessarily; definite
+一共	altogether; in total
+一会儿	a while; a moment
+一样	the same; alike; equal to
+一直	always; all along; straight (in a straight line)
+以前	before; formerly; previous
+音乐	music
+银行	bank
+饮料	beverage; drink
+应该	should; ought to; must
+影响	influence; affect; effect
+用	to use
+游戏	game; play; recreation
+有名	famous; well-known
+又	(once) again; also; both
+遇到	to meet; run into; come across
+元	Chinese monetary unit; dollar; first; principal
+愿意	be willing; want to; be ready
+月亮	the moon
+越	even more; the more; exceed
+站	stand; a station; be on one's feet; service center
+张	(mw for flat objects); to spread out
+长	chief
+着急	to worry; feel anxious
+照顾	take care of; look after; give consideration
+照片	picture; photograph
+照相机	camera
+只	but; only; merely; just
+只有	only
+才	ability; talent; just now; not until
+中间	center; middle; between; among
+中文	Chinese (language)
+终于	at last; in the end; finally
+种	type; breed; race; seed
+重要	important; significant; major
+周末	weekend
+主要	main; principal; major
+注意	pay attention to; take notice of; be careful
+自己	oneself; self
+自行车	bike; bicycle
+总是	always; eventually
+嘴	mouth
+最后	last; final; ultimately
+最近	recently; lately; these days
+作业	school assignment; homework; task
