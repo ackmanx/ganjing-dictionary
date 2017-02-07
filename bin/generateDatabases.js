@@ -193,7 +193,6 @@ function determineHSK(proposedSimplified, proposedEnglishList) {
     let hskForCharacter
 
     for (let level in hsk) {
-        const level = 1
         const hskEntry = hsk[level][proposedSimplified]
 
         if (!hskEntry) {
