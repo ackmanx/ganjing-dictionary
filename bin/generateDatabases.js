@@ -96,7 +96,6 @@ rl.on('close', () => {
         () => {
             console.log('finished creating uber-hsk')
 
-            fs.unlinkSync('../resources/hsk1')
             fs.unlinkSync('../resources/hsk1.db')
             fs.unlinkSync('../resources/hsk2.db')
             fs.unlinkSync('../resources/hsk3.db')
@@ -115,12 +114,16 @@ rl.on('close', () => {
 // Compile HSK object for comparisons later
 //----------------//----------------//----------------//----------------//----------------
 function loadHSK() {
-    const hsk = {}
+    const hsk = {1: [], 2: [], 3: [], 4: [], 5: [], 6: []}
 
     for (let level = 1; level <= 6; level++) {
         let levelPath = SOURCE_HSK_LIST_PATH.replace('<#>', level)
-        const characters = fs.readFileSync(levelPath, 'utf8')
-        hsk[level] = characters.split('\r\n')
+        const fileContents = fs.readFileSync(levelPath, 'utf8')
+
+        fileContents.split('\r\n').forEach(entry => {
+            const [simplified, english] = entry.split('\t')
+            hsk[level].push({simplified, english})
+        })
     }
 
     return hsk
@@ -157,20 +160,20 @@ function addToDatabase(line) {
      * Format:
      * Traditional Simplified [pin1 yin1] /English equivalent 1/equivalent 2/
      */
-    const [chineseHalf, ...englishHalves] = line.split('/')
-    englishHalves.pop() //throw away the empty element from the split
+    const [chineseHalf, ...englishList] = line.split('/')
+    englishList.pop() //throw away the empty element from the split
 
     const simplified = chineseHalf.split(' ', 2)[1]
     const pinyinWithNumbers = chineseHalf.split('[')[1].replace('] ', '')
     const pinyinWithAccents = pinyin.convertToneNumbersToAccents(pinyinWithNumbers)
 
-    const hskLevel = determineHSK(simplified)
+    const hskLevel = determineHSK(simplified, englishList)
 
     const entry = {
         simplified: simplified,
         pinyin: pinyinWithAccents,
         pinyinNoTone: pinyinWithNumbers.replace(/\d/g, '').toLocaleLowerCase(),
-        english: englishHalves,
+        english: englishList,
         hsk: hskLevel
     }
 
@@ -184,19 +187,60 @@ function addToDatabase(line) {
 
 //----------------//----------------//----------------//----------------//----------------
 // Check passed in character against HSK lists
-// There are many cases where a character is on the HSK list, but that character may have multiple definitions and only one definition is HSK
-// We need to check both the character and the pinyin to make sure we have the correct definition
-//      BUT! AHH HHAHAHAA it's not easy.
-//      Comparing an HSK list against MDBG entries introduces a host of new problems...
-//      Spaces in one list but not the other, tone change rules with 一 and 不 in one but not the other, skipping 2nd tone in a "word" sometimes, yīdiǎner vs yīdiǎnr
-//      Finding these unique cases in all 6,000+ HSK entries is not worth not it
 //----------------//----------------//----------------//----------------//----------------
-function determineHSK(simplified) {
+function determineHSK(proposedSimplified, proposedEnglishList) {
     let hskForCharacter
 
     for (let level in hsk) {
-        if (hsk[level].includes(simplified)) hskForCharacter = level
+        const levelEntries = hsk[level]
+
+        //todo: change this to a map hanzi: english so we don't have the performance hit of another loop
+        for (const index in levelEntries) {
+            const hskEntry = levelEntries[index]
+
+            if (hskEntry.simplified !== proposedSimplified) {
+                continue
+            }
+
+            const removeSymbolsRegex = new RegExp(/[!@#$%^&*\[\]():,.;"\n]/, 'g')
+            const proposedEnglishAsString = proposedEnglishList.join(' ').toLowerCase().replace(removeSymbolsRegex, '')
+
+            //HSK Levels 1-4: Tokenize and compare English definitions for similarities
+            if (level <= 4) {
+                const tokenizedProposedEnglish = proposedEnglishAsString.split(' ')
+
+                const blacklist = ['surname', 'variant', 'to']
+                const tokenizedHskEntryEnglish = hskEntry.english
+                    .toLowerCase()
+                    .replace(removeSymbolsRegex, '')
+                    .split(' ')
+                    .filter(word => blacklist.indexOf(word) === -1)
+
+                const englishSimilarities = intersect(tokenizedProposedEnglish, tokenizedHskEntryEnglish)
+
+                if (!englishSimilarities.length) {
+                    continue
+                }
+            }
+            //HSK Levels 5-6: Blacklist
+            else {
+                const blacklist = ['surname', 'variant']
+                const blacklistSimilarities = blacklist.filter(word => proposedEnglishAsString.includes(word))
+
+                if (blacklistSimilarities.length) continue
+            }
+
+
+            hskForCharacter = level
+        }
+
     }
 
     return parseInt(hskForCharacter) || null
+}
+
+function intersect(array1, array2) {
+    return array1.filter(function (n) {
+        return array2.indexOf(n) !== -1
+    })
 }
