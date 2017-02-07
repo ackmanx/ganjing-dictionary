@@ -114,15 +114,16 @@ rl.on('close', () => {
 // Compile HSK object for comparisons later
 //----------------//----------------//----------------//----------------//----------------
 function loadHSK() {
-    const hsk = {1: [], 2: [], 3: [], 4: [], 5: [], 6: []}
+    const hsk = {1: {}, 2: {}, 3: {}, 4: {}, 5: {}, 6: {}}
 
+    //Go through each HSK source file and populate above map
     for (let level = 1; level <= 6; level++) {
         let levelPath = SOURCE_HSK_LIST_PATH.replace('<#>', level)
         const fileContents = fs.readFileSync(levelPath, 'utf8')
 
         fileContents.split('\r\n').forEach(entry => {
             const [simplified, english] = entry.split('\t')
-            hsk[level].push({simplified, english})
+            hsk[level][simplified] = english
         })
     }
 
@@ -192,48 +193,42 @@ function determineHSK(proposedSimplified, proposedEnglishList) {
     let hskForCharacter
 
     for (let level in hsk) {
-        const levelEntries = hsk[level]
+        const level = 1
+        const hskEntry = hsk[level][proposedSimplified]
 
-        //todo: change this to a map hanzi: english so we don't have the performance hit of another loop
-        for (const index in levelEntries) {
-            const hskEntry = levelEntries[index]
-
-            if (hskEntry.simplified !== proposedSimplified) {
-                continue
-            }
-
-            const removeSymbolsRegex = new RegExp(/[!@#$%^&*\[\]():,.;"\n]/, 'g')
-            const proposedEnglishAsString = proposedEnglishList.join(' ').toLowerCase().replace(removeSymbolsRegex, '')
-
-            //HSK Levels 1-4: Tokenize and compare English definitions for similarities
-            if (level <= 4) {
-                const tokenizedProposedEnglish = proposedEnglishAsString.split(' ')
-
-                const blacklist = ['surname', 'variant', 'to']
-                const tokenizedHskEntryEnglish = hskEntry.english
-                    .toLowerCase()
-                    .replace(removeSymbolsRegex, '')
-                    .split(' ')
-                    .filter(word => blacklist.indexOf(word) === -1)
-
-                const englishSimilarities = intersect(tokenizedProposedEnglish, tokenizedHskEntryEnglish)
-
-                if (!englishSimilarities.length) {
-                    continue
-                }
-            }
-            //HSK Levels 5-6: Blacklist
-            else {
-                const blacklist = ['surname', 'variant']
-                const blacklistSimilarities = blacklist.filter(word => proposedEnglishAsString.includes(word))
-
-                if (blacklistSimilarities.length) continue
-            }
-
-
-            hskForCharacter = level
+        if (!hskEntry) {
+            continue
         }
 
+        const removeSymbolsRegex = new RegExp(/[!@#$%^&*\[\]():,.;"\n]/, 'g')
+        const proposedEnglishAsString = proposedEnglishList.join(' ').toLowerCase().replace(removeSymbolsRegex, '')
+
+        //HSK Levels 1-4: Tokenize and compare English definitions for similarities
+        if (level <= 4) {
+            const tokenizedProposedEnglish = proposedEnglishAsString.split(' ')
+
+            const blacklist = ['surname', 'variant', 'to']
+            const tokenizedHskEntryEnglish = hskEntry
+                .toLowerCase()
+                .replace(removeSymbolsRegex, '')
+                .split(' ')
+                .filter(word => blacklist.indexOf(word) === -1)
+
+            const englishSimilarities = intersect(tokenizedProposedEnglish, tokenizedHskEntryEnglish)
+
+            if (!englishSimilarities.length) {
+                continue
+            }
+        }
+        //HSK Levels 5-6: Blacklist
+        else {
+            const blacklist = ['surname', 'variant']
+            const blacklistSimilarities = blacklist.filter(word => proposedEnglishAsString.includes(word))
+
+            if (blacklistSimilarities.length) continue
+        }
+
+        hskForCharacter = level
     }
 
     return parseInt(hskForCharacter) || null
