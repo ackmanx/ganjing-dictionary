@@ -19,7 +19,7 @@ define(function (require) {
             m('div.application-container',
                 m('div.not-the-footer-container',
                     m(Header),
-                    m('main',
+                    m('main.search-page',
                         m(ActionBar, {am: ctrl.am}),
                         m(Results, {am: ctrl.am})
                     )

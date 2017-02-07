@@ -5,8 +5,6 @@
 * 3 Recent Searches dropdown is ugly since I renamed it
     * Safari and FF suck with it in general
 
-* 5 Update About section to include notes about HSK accuracy
-
 
 #Future Fun
 * 4 Migrate to MongoDB

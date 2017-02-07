@@ -2,6 +2,7 @@
 
 @import "colors";
 @import "footer";
+@import "about-page";
 @import "../lib/normalize";
 @import "../lib/single-element-css-loader";
 @import "../lib/toggle-switch";
@@ -168,6 +169,8 @@ a {
 }
 
 //The above rules trump the responsive media queries if they are loaded first
+//These LESS files are mostly specific to .search-page
+//They were made before any additional page was introduced
 @import "responsive-full";
 @import "responsive-large";
 @import "responsive-medium";
