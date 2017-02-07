@@ -7,9 +7,6 @@
 
 * 5 Update About section to include notes about HSK accuracy
 
-* 5 HSK fix attempt five
-    * 1-4 will use English tokenization to remove dupes
-    * 5-6 will use exact match and blacklist of English
 
 #Future Fun
 * 4 Migrate to MongoDB
