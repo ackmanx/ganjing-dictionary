@@ -1,9 +1,11 @@
 {
-    "name": "chinese",
+    "name": "ganjing",
     "version": "0.0.0",
     "private": true,
     "scripts": {
-        "start": "node ./bin/www.js"
+        "start": "node ./bin/www.js",
+        "pack-the-web": "webpack public/app/index.js public/webpack-bundle.js --watch",
+        "heroku-postbuild": "webpack public/app/index.js public/webpack-bundle.js"
     },
     "engines": {
         "node": "6.9.1"
@@ -19,7 +21,9 @@
         "express-less": "^0.1.0",
         "fast-levenshtein": "latest",
         "hbs": "~4.0.1",
+        "mithril": "^0.2.5",
         "morgan": "~1.7.0",
-        "serve-favicon": "~2.3.0"
+        "serve-favicon": "~2.3.0",
+        "webpack": "^2.2.1"
     }
 }

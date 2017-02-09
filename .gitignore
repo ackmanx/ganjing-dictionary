@@ -4,3 +4,5 @@
 /.junk/
 node_modules
 hsk*.db
+npm-debug.log
+webpack-bundle.js

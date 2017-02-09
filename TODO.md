@@ -30,11 +30,18 @@
 * MongoDB 3
     * If install via brew, MUST have brew version 1.0 or greater
 
+#To Start
+* Start webpack so a bundle is generated
+    * npm run-script pack-the-web
+* Run bin/www.js with node
+    * Pass in environment variable: DEBUG=Chinese:*
+    * This is required for debug node module to work
+
 #Heroku Setup
 * Need environment variable, which Heroku calls Config Variables
     * DEBUG=Chinese:*
     * NODE_ENV=production
-* MongoDB add on
+* package.json needs heroku npm script to generate the webpack-bundle
 * Custom Domain
     * Domain Name: ganjing-hoho.com
     * DNS Target: ganjing.herokuapp.com
