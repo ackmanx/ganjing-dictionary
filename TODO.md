@@ -1,7 +1,4 @@
 #Left Off
-* 3 Favorite search entries
-    * Requires... Star icon. New view. Local storage.
-
 * 3 Recent Searches dropdown is ugly since I renamed it
     * Safari and FF suck with it in general
 
@@ -17,7 +14,6 @@
         * Blow away and start over?
 * 3 Paging (dependent on MongoDB)
 * 3 More frequently used characters/words should have higher relevence
-* 2 Highlight search hits
 * 1 Allow idiom searches because edit distance doesn't work there
 
 #Dev Setup
