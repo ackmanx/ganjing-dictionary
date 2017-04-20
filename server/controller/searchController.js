@@ -101,7 +101,9 @@ function searchEnglish(query, entry) {
     let result
 
     entry.english.forEach(it => {
-        if (it.toLowerCase().includes(query)) {
+        //The front-end replaces special characters in query with spaces
+        //So, we need to do the same so that comparing the query against the potential entry works
+        if (it.toLowerCase().replace(/[!@^&-=_\[\]|;`\/\\#,+()$~%.'":*?<>{}]/g, ' ').includes(query)) {
             const distance = levenshtein.get(query, it)
             if (distance <= 30) {
                 if (distance < entry.distance) entry.distance = distance

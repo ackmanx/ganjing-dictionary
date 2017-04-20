@@ -10,7 +10,9 @@ const Entry = function (data) {
 }
 
 Entry.search = function (appModel) {
-    let query = appModel.query().replace(/[!@^&-=_\[\]|;`\/\\#,+()$~%.'":*?<>{}]/g, '').trim()
+    //The back-end replaces special characters in query with spaces
+    //So, we need to do the same so that comparing the query against a potential entry works
+    let query = appModel.query().replace(/[!@^&-=_\[\]|;`\/\\#,+()$~%.'":*?<>{}]/g, ' ').trim()
 
     //Cheat to get no results instead of a 404 because I don't know to use Express
     query = query || 'XemptyX'
