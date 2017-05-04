@@ -6,6 +6,10 @@ router.get('/', function (req, res, next) {
     res.render('index', {title: '干净 gānjìng'})
 })
 
+router.get('/type-pinyin', function (req, res, next) {
+    res.render('type-pinyin', {title: '干净 gānjìng - Type Pinyin'})
+})
+
 router.get('/app-info', function (req, res, next) {
     fs.readFile('VERSION', 'utf8', (err, data) => {
         if (err) throw err;
@@ -19,7 +23,7 @@ router.get('/app-info', function (req, res, next) {
         }
 
         res.render('app-info', {
-            title: '干净 gānjìng',
+            title: '干净 gānjìng - App Info',
             version: `${split[0]}-${split[1]}`,
             date: split[2],
             dbs: dbs
