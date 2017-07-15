@@ -8,7 +8,7 @@
         "heroku-postbuild": "webpack public/app/index.js public/webpack-bundle.js"
     },
     "engines": {
-        "node": "6.9.1"
+        "node": "6.11.1"
     },
     "dependencies": {
         "body-parser": "~1.15.2",
