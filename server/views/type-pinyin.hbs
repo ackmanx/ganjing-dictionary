@@ -54,10 +54,18 @@
 
 <script>
     const storageHelper = {
+        getSelectedTab: function () {
+            return localStorage.getItem('type-pinyin__selected-tab') || 0
+        },
+        setSelectedTab: function (index) {
+            localStorage.setItem('type-pinyin__selected-tab', index)
+        },
+        getTab: function (index) {
+            return storageHelper.getTabs()[index]
+        },
         getTabs: function () {
             try {
                 let recents = localStorage.getItem('type-pinyin__tabs') || '[]'
-                console.log(recents)
                 return JSON.parse(recents)
             }
             catch (err) {
@@ -225,8 +233,10 @@
     }
 
     document.addEventListener('DOMContentLoaded', function () {
+        const selectedTab = storageHelper.getSelectedTab()
+
         const textarea = document.getElementById('textarea')
-        const savedText = storageHelper.getTabs()
+        const savedText = storageHelper.getTab(selectedTab)
         if (savedText) {
             textarea.value = savedText
         }
