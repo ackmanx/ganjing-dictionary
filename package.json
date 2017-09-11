@@ -4,8 +4,9 @@
     "private": true,
     "scripts": {
         "start": "node ./bin/www.js",
-        "pack-the-web": "webpack public/app/index.js public/webpack-bundle.js --watch",
-        "heroku-postbuild": "webpack public/app/index.js public/webpack-bundle.js"
+        "pack-the-dictionary": "webpack public/app/index.js public/webpack-bundle-dictionary.js --watch",
+        "pack-the-type-pinyin": "webpack public/type-pinyin/index.js public/webpack-bundle-type-pinyin.js --watch",
+        "heroku-postbuild": "webpack public/app/index.js public/webpack-bundle-dictionary.js; webpack public/type-pinyin/index.js public/webpack-bundle-type-pinyin.js"
     },
     "engines": {
         "node": "6.11.1"

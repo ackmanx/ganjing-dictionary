@@ -7,7 +7,7 @@ router.get('/', function (req, res, next) {
 })
 
 router.get('/type-pinyin', function (req, res, next) {
-    res.render('type-pinyin', {title: '干净 gānjìng - Type Pinyin'})
+    res.render('type-pinyin')
 })
 
 router.get('/app-info', function (req, res, next) {

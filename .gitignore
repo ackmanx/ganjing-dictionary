@@ -5,4 +5,5 @@
 node_modules
 hsk*.db
 npm-debug.log
-webpack-bundle.js
+webpack-bundle-dictionary.js
+webpack-bundle-type-pinyin.js
