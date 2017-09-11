@@ -46,9 +46,6 @@
 </head>
 <body>
 <nav class="tab-container">
-    <nav class="tab-1 selected-tab">Tab 1</nav>
-    <nav class="tab-2">Tab 2</nav>
-    <nav class="add-tab">+</nav>
 </nav>
 <textarea id="textarea"></textarea>
 
@@ -62,6 +59,9 @@
         },
         getTab: function (index) {
             return storageHelper.getTabs()[index]
+        },
+        getNumberTabs: function () {
+            return storageHelper.getTabs().length
         },
         getTabs: function () {
             try {
@@ -234,6 +234,21 @@
 
     document.addEventListener('DOMContentLoaded', function () {
         const selectedTab = storageHelper.getSelectedTab()
+        const num = storageHelper.getNumberTabs()
+
+        for (let i = 0; i < num; i++) {
+            const nav = document.createElement('nav')
+            nav.appendChild(document.createTextNode('Tab ' + (i + 1)))
+            if (i === selectedTab) {
+                nav.classList.add('selected-tab')
+            }
+            document.querySelector('.tab-container').appendChild(nav)
+        }
+
+        const navAddTab = document.createElement('nav')
+        navAddTab.appendChild(document.createTextNode('+'))
+        navAddTab.classList.add('add-tab')
+        document.querySelector('.tab-container').appendChild(navAddTab)
 
         const textarea = document.getElementById('textarea')
         const savedText = storageHelper.getTab(selectedTab)
