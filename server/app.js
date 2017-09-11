@@ -94,6 +94,7 @@ function bootstrap() {
     else
         app.use(favicon(path.join(__dirname, '..', 'public', 'favicon-128-dev.png')))
 
+    //Allows JIT compiling of LESS files during server response
     app.use('/css', expressLess(path.join(__dirname, '..', 'public', 'css')))
 
 
