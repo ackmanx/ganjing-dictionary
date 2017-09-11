@@ -51,6 +51,31 @@
     <nav class="add-tab">+</nav>
 </nav>
 <textarea id="textarea"></textarea>
+
+<script>
+    const storageHelper = {
+        getTabs: function () {
+            try {
+                let recents = localStorage.getItem('type-pinyin__tabs') || '[]'
+                console.log(recents)
+                return JSON.parse(recents)
+            }
+            catch (err) {
+                console.error(err)
+                return []
+            }
+        },
+        getTabIndex: function () {
+            return localStorage.getItem('type-pinyin__index') || 0
+        },
+        updateTab: function (index, text) {
+            const allTabs = storageHelper.getTabs()
+            allTabs[index] = text
+            localStorage.setItem('type-pinyin__tabs', JSON.stringify(allTabs))
+        }
+    }
+</script>
+
 <script>
     function convertToneNumbersToAccents(pinyin) {
 
@@ -199,21 +224,20 @@
         return pinyin
     }
 
-
     document.addEventListener('DOMContentLoaded', function () {
-        var textarea = document.getElementById('textarea');
-        var savedText = localStorage.getItem('text');
+        const textarea = document.getElementById('textarea')
+        const savedText = storageHelper.getTabs()
         if (savedText) {
-            textarea.value = savedText;
+            textarea.value = savedText
         }
-        textarea.focus();
-    });
+        textarea.focus()
+    })
 
     document.getElementById('textarea').addEventListener('keyup', function () {
-        var textarea = document.getElementById('textarea');
-        textarea.value = convertToneNumbersToAccents(textarea.value);
-        localStorage.setItem('text', textarea.value);
-    });
+        const textarea = document.getElementById('textarea')
+        textarea.value = convertToneNumbersToAccents(textarea.value)
+        storageHelper.updateTab(storageHelper.getTabIndex(), textarea.value)
+    })
 </script>
 </body>
 </html>
