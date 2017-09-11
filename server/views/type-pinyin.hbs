@@ -3,11 +3,32 @@
 <head>
     <title>{{title}}</title>
     <style>
-        /* Reset */
         html, body, textarea {
             height: 100%;
             margin: 0;
             padding: 0;
+            font-family: sans-serif;
+        }
+
+        .tab-container {
+            border-bottom: 2px solid black;
+        }
+
+        .tab-container nav {
+            height: 30px;
+            padding: 10px 10px 10px 10px;
+            font-size: 24px;
+            display: inline-block;
+            cursor: pointer;
+        }
+
+        .tab-container nav:hover {
+            background-color: red;
+            color: yellow;
+        }
+
+        .selected-tab {
+            background-color: lightcoral;
         }
 
         textarea {
@@ -24,6 +45,11 @@
     </style>
 </head>
 <body>
+<nav class="tab-container">
+    <nav class="tab-1 selected-tab">Tab 1</nav>
+    <nav class="tab-2">Tab 2</nav>
+    <nav class="add-tab">+</nav>
+</nav>
 <textarea id="textarea"></textarea>
 <script>
     function convertToneNumbersToAccents(pinyin) {
