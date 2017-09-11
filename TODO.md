@@ -3,6 +3,8 @@
     * Safari and FF suck with it in general
 
 #Future Fun
+* ? Move build files to /dist and don't expose /public
+* ? Create different webpack bundles for each "page"
 * 4 Migrate to MongoDB
    * MongoDB add on for Heroku
         * Any configuration settings for that
