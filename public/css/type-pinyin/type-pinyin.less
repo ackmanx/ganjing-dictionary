@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+html, body, textarea {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.tab-container {
+    border-bottom: 2px solid black;
+}
+
+.tab-container nav {
+    height: 30px;
+    padding: 10px 10px 10px 10px;
+    font-size: 24px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.tab-container nav:hover {
+    background-color: red;
+    color: yellow;
+}
+
+.selected-tab {
+    background-color: lightcoral;
+}
+
+textarea {
+    width: 100%;
+    font-size: 32px;
+    border: 0;
+    outline: none;
+    float: left;
+    padding-top: 10px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    caret-color: red;
+}
