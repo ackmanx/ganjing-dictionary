@@ -11,6 +11,9 @@
     "engines": {
         "node": "6.11.1"
     },
+    "devDependencies": {
+        "webpack": "^2.2.1"
+    },
     "dependencies": {
         "body-parser": "~1.15.2",
         "compression": "^1.6.2",
@@ -24,7 +27,6 @@
         "hbs": "~4.0.1",
         "mithril": "^0.2.5",
         "morgan": "~1.7.0",
-        "serve-favicon": "~2.3.0",
-        "webpack": "^2.2.1"
+        "serve-favicon": "~2.3.0"
     }
 }
