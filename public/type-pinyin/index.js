@@ -1,30 +1,29 @@
 const storage = require('./storage')
 const convertToneNumbersToAccents = require('./convert-accents')
+const jQuery = require('jquery')
+
+let $tabContainer
 
 document.addEventListener('DOMContentLoaded', () => {
     const selectedTab = storage.getSelectedTab()
-    const num = storage.getNumberTabs()
+    const tabsCount = storage.getNumberTabs()
+    $tabContainer = jQuery('.tab-container')
 
-    for (let i = 0; i < num; i++) {
-        const nav = document.createElement('nav')
-        nav.appendChild(document.createTextNode('Tab ' + (i + 1)))
+    for (let i = 0; i < tabsCount; i++) {
+        const $nav = jQuery('<nav>').text(`Tab ${i + 1}`)
         if (i === selectedTab) {
-            nav.classList.add('selected-tab')
+            $nav.addClass('selected-tab')
         }
-        document.querySelector('.tab-container').appendChild(nav)
+        $tabContainer.append($nav)
     }
 
-    const navAddTab = document.createElement('nav')
-    navAddTab.appendChild(document.createTextNode('+'))
-    navAddTab.classList.add('add-tab')
-    document.querySelector('.tab-container').appendChild(navAddTab)
+    const $addTab = jQuery('<nav>').text('+').addClass('add-tab')
+    $addTab.on('click', createNewTab)
+    $tabContainer.append($addTab)
 
-    const textarea = document.getElementById('textarea')
-    const savedText = storage.getTab(selectedTab)
-    if (savedText) {
-        textarea.value = savedText
-    }
-    textarea.focus()
+    const $textarea = jQuery('textarea')
+    $textarea.val(storage.getTab(selectedTab))
+    $textarea.focus()
 })
 
 document.getElementById('textarea').addEventListener('keyup', () => {
@@ -32,3 +31,12 @@ document.getElementById('textarea').addEventListener('keyup', () => {
     textarea.value = convertToneNumbersToAccents(textarea.value)
     storage.updateTab(storage.getTabIndex(), textarea.value)
 })
+
+function createNewTab(event, title, active) {
+    const $nav = jQuery('<nav>').text(title || 'Tab X')
+    if (active) {
+        jQuery('.selected-tab').removeClass('selected-tab')
+        $nav.addClass('selected-tab')
+    }
+    $tabContainer.append($nav)
+}
