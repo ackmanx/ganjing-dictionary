@@ -10,14 +10,16 @@ document.addEventListener('DOMContentLoaded', () => {
     $tabContainer = jQuery('.tab-container')
 
     for (let i = 0; i < tabsCount; i++) {
-        const $nav = jQuery('<nav>').text(`Tab ${i + 1}`)
+        const $nav = jQuery('<nav>').addClass('nav').text(`Tab ${i + 1}`)
         if (i === selectedTab) {
             $nav.addClass('selected-tab')
+            storage.setSelectedTab(i)
         }
+        $nav.on('click', selectTab)
         $tabContainer.append($nav)
     }
 
-    const $addTab = jQuery('<nav>').text('+').addClass('add-tab')
+    const $addTab = jQuery('<nav>').addClass('add-tab nav').text('+')
     $addTab.on('click', createNewTab)
     $tabContainer.append($addTab)
 
@@ -32,11 +34,14 @@ document.getElementById('textarea').addEventListener('keyup', () => {
     storage.updateTab(storage.getTabIndex(), textarea.value)
 })
 
-function createNewTab(event, title, active) {
-    const $nav = jQuery('<nav>').text(title || 'Tab X')
-    if (active) {
-        jQuery('.selected-tab').removeClass('selected-tab')
-        $nav.addClass('selected-tab')
-    }
+function createNewTab(event, title) {
+    const $nav = jQuery('<nav>').addClass('nav').text(title || 'Tab X')
+    $nav.on('click', selectTab)
     $tabContainer.append($nav)
+}
+
+function selectTab(event) {
+    const $nav = jQuery(event.target)
+    jQuery('.selected-tab').removeClass('selected-tab')
+    $nav.addClass('selected-tab')
 }

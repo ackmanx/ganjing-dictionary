@@ -4,19 +4,25 @@ html, body, textarea {
     height: 100%;
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font: 14px 'Open Sans', sans-serif;
 }
 
 .tab-container {
+    margin-top: 5px;
     border-bottom: 2px solid black;
 }
 
-.tab-container nav {
-    height: 30px;
+.nav {
+    height: 20px;
+    width: 50px;
     padding: 10px 10px 10px 10px;
-    font-size: 24px;
+    font-size: 18px;
     display: inline-block;
     cursor: pointer;
+    margin: 0 5px;
+    background-color: lightgray;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 10px;
 }
 
 .tab-container nav:hover {
@@ -25,7 +31,8 @@ html, body, textarea {
 }
 
 .selected-tab {
-    background-color: lightcoral;
+    background-color: red;
+    color: yellow;
 }
 
 .add-tab {

@@ -1,7 +1,7 @@
 const BASE = 'type-pinyin'
 
 const storageHelper = {
-    getSelectedTab: () => localStorage.getItem(`${BASE}__selected-tab`) || 0,
+    getSelectedTab: () => Number.parseInt(localStorage.getItem(`${BASE}__selected-tab`)) || 0,
 
     setSelectedTab: (index) => localStorage.setItem(`${BASE}__selected-tab`, index),
 
