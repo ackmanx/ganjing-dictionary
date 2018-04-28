@@ -5,6 +5,8 @@ const jQuery = require('jquery')
 let $tabContainer
 
 document.addEventListener('DOMContentLoaded', () => {
+    storage.syncWithServer()
+
     const selectedTab = storage.getSelectedTab()
     const tabsCount = storage.getNumberTabs()
     $tabContainer = jQuery('.tab-container')
